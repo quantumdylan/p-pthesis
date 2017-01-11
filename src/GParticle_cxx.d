@@ -1,0 +1,53 @@
+
+# DO NOT DELETE
+
+./src/GParticle_cxx.so: /usr/local/include/root/TMath.h
+./src/GParticle_cxx.so: /usr/local/include/root/Rtypes.h
+./src/GParticle_cxx.so: /usr/local/include/root/RtypesCore.h
+./src/GParticle_cxx.so: /usr/local/include/root/RConfig.h
+./src/GParticle_cxx.so: /usr/local/include/root/RVersion.h
+./src/GParticle_cxx.so: /usr/local/include/root/DllImport.h
+./src/GParticle_cxx.so: /usr/local/include/root/Rtypeinfo.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/typeinfo
+./src/GParticle_cxx.so: /usr/local/include/root/snprintf.h
+./src/GParticle_cxx.so: /usr/local/include/root/strlcpy.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/atomic
+./src/GParticle_cxx.so: /usr/local/include/root/TGenericClassInfo.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/vector
+./src/GParticle_cxx.so: /usr/local/include/root/TSchemaHelper.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/string
+./src/GParticle_cxx.so: /usr/local/include/root/TMathBase.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/cstdlib
+./src/GParticle_cxx.so: /usr/include/c++/4.8/cmath
+./src/GParticle_cxx.so: /usr/local/include/root/TError.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/algorithm
+./src/GParticle_cxx.so: /usr/include/c++/4.8/limits
+./src/GParticle_cxx.so: /usr/local/include/root/TDirectory.h
+./src/GParticle_cxx.so: /usr/local/include/root/TNamed.h
+./src/GParticle_cxx.so: /usr/local/include/root/TObject.h
+./src/GParticle_cxx.so: /usr/local/include/root/TStorage.h
+./src/GParticle_cxx.so: /usr/local/include/root/TVersionCheck.h
+./src/GParticle_cxx.so: /usr/local/include/root/Riosfwd.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/iosfwd
+./src/GParticle_cxx.so: /usr/local/include/root/TBuffer.h
+./src/GParticle_cxx.so: /usr/local/include/root/TString.h
+./src/GParticle_cxx.so: /usr/local/include/root/RStringView.h
+./src/GParticle_cxx.so: /usr/local/include/root/RConfigure.h
+./src/GParticle_cxx.so: /usr/local/include/root/RWrap_libcpp_string_view.h
+./src/GParticle_cxx.so: /usr/include/c++/4.8/iterator
+./src/GParticle_cxx.so: /usr/include/c++/4.8/ostream
+./src/GParticle_cxx.so: /usr/include/c++/4.8/iomanip
+./src/GParticle_cxx.so: /usr/include/c++/4.8/stdexcept
+./src/GParticle_cxx.so: /usr/local/include/root/libcpp_string_view.h
+./src/GParticle_cxx.so: /usr/local/include/root/TList.h
+./src/GParticle_cxx.so: /usr/local/include/root/TSeqCollection.h
+./src/GParticle_cxx.so: /usr/local/include/root/TCollection.h
+./src/GParticle_cxx.so: /usr/local/include/root/TIterator.h
+./src/GParticle_cxx.so: /usr/local/include/root/TDatime.h
+./src/GParticle_cxx.so: /usr/local/include/root/TUUID.h
+./src/GParticle_cxx.so: /usr/local/include/root/TProcessID.h
+./src/GParticle_cxx.so: /usr/local/include/root/TObjArray.h
+./src/GParticle_cxx.so: /home/packard/Dropbox/packard_SeniorProj/moschelli/SemesterTwoFork/./src/GParticle.h
+./src/GParticle_cxx.so: /usr/local/include/root/TClonesArray.h
+./src/GParticle_cxx.so: /usr/local/include/root/RVersion.h /usr/local/include/root/RConfig.h /usr/local/include/root/TClass.h /usr/local/include/root/TDictAttributeMap.h /usr/local/include/root/TInterpreter.h /usr/local/include/root/TROOT.h /usr/local/include/root/TBuffer.h /usr/local/include/root/TMemberInspector.h /usr/local/include/root/TError.h /usr/local/include/root/RtypesImp.h /usr/local/include/root/TIsAProxy.h /usr/local/include/root/TFileMergeInfo.h /usr/local/include/root/TCollectionProxyInfo.h
+GParticle_cxx__ROOTBUILDVERSION= 6.06/08

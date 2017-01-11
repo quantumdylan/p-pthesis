@@ -1,0 +1,459 @@
+File path: /media/scratch/packard/db/
+Output path: /media/scratch/packard/db/
+Title prefix: TESTING_FORK_R1_R4_R6_R8
+
+Index: 1   File: R1pp10mEv_7TeV_ptHatMin0GeV_COMBINED
+Index: 2   File: R2pp10mEv_7TeV_ptHatMin0GeV_COMBINED
+Index: 3   File: R3pp10mEv_7TeV_ptHatMin0GeV_COMBINED
+Index: 4   File: R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED
+Index: 5   File: testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED
+Index: 6   File: testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED
+Total files: 6
+
+
+-----------------------------------------------------------------------------------
+
+
+File /media/scratch/packard/db/R1pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root is opened, yaaaaay
+
+
+Performing test for histograms...
+TFile**		/media/scratch/packard/db/R1pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+ TFile*		/media/scratch/packard/db/R1pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+  KEY: TCanvas	cNev_Nch;1	cNev_Nch
+  KEY: TCanvas	cpt_Nch;1	cpt_Nch
+  KEY: TCanvas	cVarN_Nch;1	cVarN_Nch
+  KEY: TCanvas	cN_Nch;1	cN_Nch
+  KEY: TCanvas	cNsq_Nch;1	cNsq_Nch
+  KEY: TCanvas	cptVarN_Nch;1	cptVarN_Nch
+  KEY: TCanvas	cCovPtN_Nch;1	cCovPtN_Nch
+  KEY: TCanvas	cD_Nch;1	cD_Nch
+  KEY: TCanvas	cR_Nch;1	cR_Nch
+  KEY: TH1D	Everything_N_eve_hist;1	Everything_N_eve_hist
+  KEY: TH1D	NumJets0_N_eve_hist;1	NumJets0_N_eve_hist
+  KEY: TH1D	NumJets2_N_eve_hist;1	NumJets2_N_eve_hist
+  KEY: TH1D	NumJets4_N_eve_hist;1	NumJets4_N_eve_hist
+  KEY: TH1D	NumJets6_N_eve_hist;1	NumJets6_N_eve_hist
+  KEY: TH1D	Everything_pt_avg_hist;1	Everything_pt_avg_hist
+  KEY: TH1D	NumJets0_pt_avg_hist;1	NumJets0_pt_avg_hist
+  KEY: TH1D	NumJets2_pt_avg_hist;1	NumJets2_pt_avg_hist
+  KEY: TH1D	NumJets4_pt_avg_hist;1	NumJets4_pt_avg_hist
+  KEY: TH1D	NumJets6_pt_avg_hist;1	NumJets6_pt_avg_hist
+  KEY: TH1D	Everything_VarN_hist;1	Everything_VarN_hist
+  KEY: TH1D	NumJets0_VarN_hist;1	NumJets0_VarN_hist
+  KEY: TH1D	NumJets2_VarN_hist;1	NumJets2_VarN_hist
+  KEY: TH1D	NumJets4_VarN_hist;1	NumJets4_VarN_hist
+  KEY: TH1D	NumJets6_VarN_hist;1	NumJets6_VarN_hist
+  KEY: TH1D	Everything_N_avg_hist;1	Everything_N_avg_hist
+  KEY: TH1D	NumJets0_N_avg_hist;1	NumJets0_N_avg_hist
+  KEY: TH1D	NumJets2_N_avg_hist;1	NumJets2_N_avg_hist
+  KEY: TH1D	NumJets4_N_avg_hist;1	NumJets4_N_avg_hist
+  KEY: TH1D	NumJets6_N_avg_hist;1	NumJets6_N_avg_hist
+  KEY: TH1D	Everything_Nsq_avg_hist;1	Everything_Nsq_avg_hist
+  KEY: TH1D	Everything_N_avg_sq_hist;1	Everything_N_avg_sq_hist
+  KEY: TH1D	NumJets0_Nsq_avg_hist;1	NumJets0_Nsq_avg_hist
+  KEY: TH1D	NumJets0_N_avg_sq_hist;1	NumJets0_N_avg_sq_hist
+  KEY: TH1D	NumJets2_Nsq_avg_hist;1	NumJets2_Nsq_avg_hist
+  KEY: TH1D	NumJets2_N_avg_sq_hist;1	NumJets2_N_avg_sq_hist
+  KEY: TH1D	NumJets4_Nsq_avg_hist;1	NumJets4_Nsq_avg_hist
+  KEY: TH1D	NumJets4_N_avg_sq_hist;1	NumJets4_N_avg_sq_hist
+  KEY: TH1D	NumJets6_Nsq_avg_hist;1	NumJets6_Nsq_avg_hist
+  KEY: TH1D	NumJets6_N_avg_sq_hist;1	NumJets6_N_avg_sq_hist
+  KEY: TH1D	Everything_ptAvgVarN_hist;1	Everything_ptAvgVarN_hist
+  KEY: TH1D	NumJets0_ptAvgVarN_hist;1	NumJets0_ptAvgVarN_hist
+  KEY: TH1D	NumJets2_ptAvgVarN_hist;1	NumJets2_ptAvgVarN_hist
+  KEY: TH1D	NumJets4_ptAvgVarN_hist;1	NumJets4_ptAvgVarN_hist
+  KEY: TH1D	NumJets6_ptAvgVarN_hist;1	NumJets6_ptAvgVarN_hist
+  KEY: TH1D	Everything_CovPtN_hist;1	Everything_CovPtN_hist
+  KEY: TH1D	NumJets0_CovPtN_hist;1	NumJets0_CovPtN_hist
+  KEY: TH1D	NumJets2_CovPtN_hist;1	NumJets2_CovPtN_hist
+  KEY: TH1D	NumJets4_CovPtN_hist;1	NumJets4_CovPtN_hist
+  KEY: TH1D	NumJets6_CovPtN_hist;1	NumJets6_CovPtN_hist
+  KEY: TH1D	Everything_D_hist;1	Everything_D_hist
+  KEY: TH1D	NumJets0_D_hist;1	NumJets0_D_hist
+  KEY: TH1D	NumJets2_D_hist;1	NumJets2_D_hist
+  KEY: TH1D	NumJets4_D_hist;1	NumJets4_D_hist
+  KEY: TH1D	NumJets6_D_hist;1	NumJets6_D_hist
+  KEY: TH1D	Everything_R_hist;1	Everything_R_hist
+  KEY: TH1D	NumJets0_R_hist;1	NumJets0_R_hist
+  KEY: TH1D	NumJets2_R_hist;1	NumJets2_R_hist
+  KEY: TH1D	NumJets4_R_hist;1	NumJets4_R_hist
+  KEY: TH1D	NumJets6_R_hist;1	NumJets6_R_hist
+
+
+End test for histograms.
+
+
+File /media/scratch/packard/db/R2pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root is opened, yaaaaay
+
+
+Performing test for histograms...
+TFile**		/media/scratch/packard/db/R2pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+ TFile*		/media/scratch/packard/db/R2pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+  KEY: TCanvas	cNev_Nch;1	cNev_Nch
+  KEY: TCanvas	cpt_Nch;1	cpt_Nch
+  KEY: TCanvas	cVarN_Nch;1	cVarN_Nch
+  KEY: TCanvas	cN_Nch;1	cN_Nch
+  KEY: TCanvas	cNsq_Nch;1	cNsq_Nch
+  KEY: TCanvas	cptVarN_Nch;1	cptVarN_Nch
+  KEY: TCanvas	cCovPtN_Nch;1	cCovPtN_Nch
+  KEY: TCanvas	cD_Nch;1	cD_Nch
+  KEY: TCanvas	cR_Nch;1	cR_Nch
+  KEY: TH1D	Everything_N_eve_hist;1	Everything_N_eve_hist
+  KEY: TH1D	NumJets0_N_eve_hist;1	NumJets0_N_eve_hist
+  KEY: TH1D	NumJets2_N_eve_hist;1	NumJets2_N_eve_hist
+  KEY: TH1D	NumJets4_N_eve_hist;1	NumJets4_N_eve_hist
+  KEY: TH1D	NumJets6_N_eve_hist;1	NumJets6_N_eve_hist
+  KEY: TH1D	Everything_pt_avg_hist;1	Everything_pt_avg_hist
+  KEY: TH1D	NumJets0_pt_avg_hist;1	NumJets0_pt_avg_hist
+  KEY: TH1D	NumJets2_pt_avg_hist;1	NumJets2_pt_avg_hist
+  KEY: TH1D	NumJets4_pt_avg_hist;1	NumJets4_pt_avg_hist
+  KEY: TH1D	NumJets6_pt_avg_hist;1	NumJets6_pt_avg_hist
+  KEY: TH1D	Everything_VarN_hist;1	Everything_VarN_hist
+  KEY: TH1D	NumJets0_VarN_hist;1	NumJets0_VarN_hist
+  KEY: TH1D	NumJets2_VarN_hist;1	NumJets2_VarN_hist
+  KEY: TH1D	NumJets4_VarN_hist;1	NumJets4_VarN_hist
+  KEY: TH1D	NumJets6_VarN_hist;1	NumJets6_VarN_hist
+  KEY: TH1D	Everything_N_avg_hist;1	Everything_N_avg_hist
+  KEY: TH1D	NumJets0_N_avg_hist;1	NumJets0_N_avg_hist
+  KEY: TH1D	NumJets2_N_avg_hist;1	NumJets2_N_avg_hist
+  KEY: TH1D	NumJets4_N_avg_hist;1	NumJets4_N_avg_hist
+  KEY: TH1D	NumJets6_N_avg_hist;1	NumJets6_N_avg_hist
+  KEY: TH1D	Everything_Nsq_avg_hist;1	Everything_Nsq_avg_hist
+  KEY: TH1D	Everything_N_avg_sq_hist;1	Everything_N_avg_sq_hist
+  KEY: TH1D	NumJets0_Nsq_avg_hist;1	NumJets0_Nsq_avg_hist
+  KEY: TH1D	NumJets0_N_avg_sq_hist;1	NumJets0_N_avg_sq_hist
+  KEY: TH1D	NumJets2_Nsq_avg_hist;1	NumJets2_Nsq_avg_hist
+  KEY: TH1D	NumJets2_N_avg_sq_hist;1	NumJets2_N_avg_sq_hist
+  KEY: TH1D	NumJets4_Nsq_avg_hist;1	NumJets4_Nsq_avg_hist
+  KEY: TH1D	NumJets4_N_avg_sq_hist;1	NumJets4_N_avg_sq_hist
+  KEY: TH1D	NumJets6_Nsq_avg_hist;1	NumJets6_Nsq_avg_hist
+  KEY: TH1D	NumJets6_N_avg_sq_hist;1	NumJets6_N_avg_sq_hist
+  KEY: TH1D	Everything_ptAvgVarN_hist;1	Everything_ptAvgVarN_hist
+  KEY: TH1D	NumJets0_ptAvgVarN_hist;1	NumJets0_ptAvgVarN_hist
+  KEY: TH1D	NumJets2_ptAvgVarN_hist;1	NumJets2_ptAvgVarN_hist
+  KEY: TH1D	NumJets4_ptAvgVarN_hist;1	NumJets4_ptAvgVarN_hist
+  KEY: TH1D	NumJets6_ptAvgVarN_hist;1	NumJets6_ptAvgVarN_hist
+  KEY: TH1D	Everything_CovPtN_hist;1	Everything_CovPtN_hist
+  KEY: TH1D	NumJets0_CovPtN_hist;1	NumJets0_CovPtN_hist
+  KEY: TH1D	NumJets2_CovPtN_hist;1	NumJets2_CovPtN_hist
+  KEY: TH1D	NumJets4_CovPtN_hist;1	NumJets4_CovPtN_hist
+  KEY: TH1D	NumJets6_CovPtN_hist;1	NumJets6_CovPtN_hist
+  KEY: TH1D	Everything_D_hist;1	Everything_D_hist
+  KEY: TH1D	NumJets0_D_hist;1	NumJets0_D_hist
+  KEY: TH1D	NumJets2_D_hist;1	NumJets2_D_hist
+  KEY: TH1D	NumJets4_D_hist;1	NumJets4_D_hist
+  KEY: TH1D	NumJets6_D_hist;1	NumJets6_D_hist
+  KEY: TH1D	Everything_R_hist;1	Everything_R_hist
+  KEY: TH1D	NumJets0_R_hist;1	NumJets0_R_hist
+  KEY: TH1D	NumJets2_R_hist;1	NumJets2_R_hist
+  KEY: TH1D	NumJets4_R_hist;1	NumJets4_R_hist
+  KEY: TH1D	NumJets6_R_hist;1	NumJets6_R_hist
+
+
+End test for histograms.
+
+
+File /media/scratch/packard/db/R3pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root is opened, yaaaaay
+
+
+Performing test for histograms...
+TFile**		/media/scratch/packard/db/R3pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+ TFile*		/media/scratch/packard/db/R3pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+  KEY: TCanvas	cNev_Nch;1	cNev_Nch
+  KEY: TCanvas	cpt_Nch;1	cpt_Nch
+  KEY: TCanvas	cVarN_Nch;1	cVarN_Nch
+  KEY: TCanvas	cN_Nch;1	cN_Nch
+  KEY: TCanvas	cNsq_Nch;1	cNsq_Nch
+  KEY: TCanvas	cptVarN_Nch;1	cptVarN_Nch
+  KEY: TCanvas	cCovPtN_Nch;1	cCovPtN_Nch
+  KEY: TCanvas	cD_Nch;1	cD_Nch
+  KEY: TCanvas	cR_Nch;1	cR_Nch
+  KEY: TH1D	Everything_N_eve_hist;1	Everything_N_eve_hist
+  KEY: TH1D	NumJets0_N_eve_hist;1	NumJets0_N_eve_hist
+  KEY: TH1D	NumJets2_N_eve_hist;1	NumJets2_N_eve_hist
+  KEY: TH1D	NumJets4_N_eve_hist;1	NumJets4_N_eve_hist
+  KEY: TH1D	NumJets6_N_eve_hist;1	NumJets6_N_eve_hist
+  KEY: TH1D	Everything_pt_avg_hist;1	Everything_pt_avg_hist
+  KEY: TH1D	NumJets0_pt_avg_hist;1	NumJets0_pt_avg_hist
+  KEY: TH1D	NumJets2_pt_avg_hist;1	NumJets2_pt_avg_hist
+  KEY: TH1D	NumJets4_pt_avg_hist;1	NumJets4_pt_avg_hist
+  KEY: TH1D	NumJets6_pt_avg_hist;1	NumJets6_pt_avg_hist
+  KEY: TH1D	Everything_VarN_hist;1	Everything_VarN_hist
+  KEY: TH1D	NumJets0_VarN_hist;1	NumJets0_VarN_hist
+  KEY: TH1D	NumJets2_VarN_hist;1	NumJets2_VarN_hist
+  KEY: TH1D	NumJets4_VarN_hist;1	NumJets4_VarN_hist
+  KEY: TH1D	NumJets6_VarN_hist;1	NumJets6_VarN_hist
+  KEY: TH1D	Everything_N_avg_hist;1	Everything_N_avg_hist
+  KEY: TH1D	NumJets0_N_avg_hist;1	NumJets0_N_avg_hist
+  KEY: TH1D	NumJets2_N_avg_hist;1	NumJets2_N_avg_hist
+  KEY: TH1D	NumJets4_N_avg_hist;1	NumJets4_N_avg_hist
+  KEY: TH1D	NumJets6_N_avg_hist;1	NumJets6_N_avg_hist
+  KEY: TH1D	Everything_Nsq_avg_hist;1	Everything_Nsq_avg_hist
+  KEY: TH1D	Everything_N_avg_sq_hist;1	Everything_N_avg_sq_hist
+  KEY: TH1D	NumJets0_Nsq_avg_hist;1	NumJets0_Nsq_avg_hist
+  KEY: TH1D	NumJets0_N_avg_sq_hist;1	NumJets0_N_avg_sq_hist
+  KEY: TH1D	NumJets2_Nsq_avg_hist;1	NumJets2_Nsq_avg_hist
+  KEY: TH1D	NumJets2_N_avg_sq_hist;1	NumJets2_N_avg_sq_hist
+  KEY: TH1D	NumJets4_Nsq_avg_hist;1	NumJets4_Nsq_avg_hist
+  KEY: TH1D	NumJets4_N_avg_sq_hist;1	NumJets4_N_avg_sq_hist
+  KEY: TH1D	NumJets6_Nsq_avg_hist;1	NumJets6_Nsq_avg_hist
+  KEY: TH1D	NumJets6_N_avg_sq_hist;1	NumJets6_N_avg_sq_hist
+  KEY: TH1D	Everything_ptAvgVarN_hist;1	Everything_ptAvgVarN_hist
+  KEY: TH1D	NumJets0_ptAvgVarN_hist;1	NumJets0_ptAvgVarN_hist
+  KEY: TH1D	NumJets2_ptAvgVarN_hist;1	NumJets2_ptAvgVarN_hist
+  KEY: TH1D	NumJets4_ptAvgVarN_hist;1	NumJets4_ptAvgVarN_hist
+  KEY: TH1D	NumJets6_ptAvgVarN_hist;1	NumJets6_ptAvgVarN_hist
+  KEY: TH1D	Everything_CovPtN_hist;1	Everything_CovPtN_hist
+  KEY: TH1D	NumJets0_CovPtN_hist;1	NumJets0_CovPtN_hist
+  KEY: TH1D	NumJets2_CovPtN_hist;1	NumJets2_CovPtN_hist
+  KEY: TH1D	NumJets4_CovPtN_hist;1	NumJets4_CovPtN_hist
+  KEY: TH1D	NumJets6_CovPtN_hist;1	NumJets6_CovPtN_hist
+  KEY: TH1D	Everything_D_hist;1	Everything_D_hist
+  KEY: TH1D	NumJets0_D_hist;1	NumJets0_D_hist
+  KEY: TH1D	NumJets2_D_hist;1	NumJets2_D_hist
+  KEY: TH1D	NumJets4_D_hist;1	NumJets4_D_hist
+  KEY: TH1D	NumJets6_D_hist;1	NumJets6_D_hist
+  KEY: TH1D	Everything_R_hist;1	Everything_R_hist
+  KEY: TH1D	NumJets0_R_hist;1	NumJets0_R_hist
+  KEY: TH1D	NumJets2_R_hist;1	NumJets2_R_hist
+  KEY: TH1D	NumJets4_R_hist;1	NumJets4_R_hist
+  KEY: TH1D	NumJets6_R_hist;1	NumJets6_R_hist
+
+
+End test for histograms.
+
+
+File /media/scratch/packard/db/R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root is opened, yaaaaay
+
+
+Performing test for histograms...
+TFile**		/media/scratch/packard/db/R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+ TFile*		/media/scratch/packard/db/R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+  KEY: TCanvas	cNev_Nch;1	cNev_Nch
+  KEY: TCanvas	cpt_Nch;1	cpt_Nch
+  KEY: TCanvas	cVarN_Nch;1	cVarN_Nch
+  KEY: TCanvas	cN_Nch;1	cN_Nch
+  KEY: TCanvas	cNsq_Nch;1	cNsq_Nch
+  KEY: TCanvas	cptVarN_Nch;1	cptVarN_Nch
+  KEY: TCanvas	cCovPtN_Nch;1	cCovPtN_Nch
+  KEY: TCanvas	cD_Nch;1	cD_Nch
+  KEY: TCanvas	cR_Nch;1	cR_Nch
+  KEY: TH1D	Everything_N_eve_hist;1	Everything_N_eve_hist
+  KEY: TH1D	NumJets0_N_eve_hist;1	NumJets0_N_eve_hist
+  KEY: TH1D	NumJets2_N_eve_hist;1	NumJets2_N_eve_hist
+  KEY: TH1D	NumJets4_N_eve_hist;1	NumJets4_N_eve_hist
+  KEY: TH1D	NumJets6_N_eve_hist;1	NumJets6_N_eve_hist
+  KEY: TH1D	Everything_pt_avg_hist;1	Everything_pt_avg_hist
+  KEY: TH1D	NumJets0_pt_avg_hist;1	NumJets0_pt_avg_hist
+  KEY: TH1D	NumJets2_pt_avg_hist;1	NumJets2_pt_avg_hist
+  KEY: TH1D	NumJets4_pt_avg_hist;1	NumJets4_pt_avg_hist
+  KEY: TH1D	NumJets6_pt_avg_hist;1	NumJets6_pt_avg_hist
+  KEY: TH1D	Everything_VarN_hist;1	Everything_VarN_hist
+  KEY: TH1D	NumJets0_VarN_hist;1	NumJets0_VarN_hist
+  KEY: TH1D	NumJets2_VarN_hist;1	NumJets2_VarN_hist
+  KEY: TH1D	NumJets4_VarN_hist;1	NumJets4_VarN_hist
+  KEY: TH1D	NumJets6_VarN_hist;1	NumJets6_VarN_hist
+  KEY: TH1D	Everything_N_avg_hist;1	Everything_N_avg_hist
+  KEY: TH1D	NumJets0_N_avg_hist;1	NumJets0_N_avg_hist
+  KEY: TH1D	NumJets2_N_avg_hist;1	NumJets2_N_avg_hist
+  KEY: TH1D	NumJets4_N_avg_hist;1	NumJets4_N_avg_hist
+  KEY: TH1D	NumJets6_N_avg_hist;1	NumJets6_N_avg_hist
+  KEY: TH1D	Everything_Nsq_avg_hist;1	Everything_Nsq_avg_hist
+  KEY: TH1D	Everything_N_avg_sq_hist;1	Everything_N_avg_sq_hist
+  KEY: TH1D	NumJets0_Nsq_avg_hist;1	NumJets0_Nsq_avg_hist
+  KEY: TH1D	NumJets0_N_avg_sq_hist;1	NumJets0_N_avg_sq_hist
+  KEY: TH1D	NumJets2_Nsq_avg_hist;1	NumJets2_Nsq_avg_hist
+  KEY: TH1D	NumJets2_N_avg_sq_hist;1	NumJets2_N_avg_sq_hist
+  KEY: TH1D	NumJets4_Nsq_avg_hist;1	NumJets4_Nsq_avg_hist
+  KEY: TH1D	NumJets4_N_avg_sq_hist;1	NumJets4_N_avg_sq_hist
+  KEY: TH1D	NumJets6_Nsq_avg_hist;1	NumJets6_Nsq_avg_hist
+  KEY: TH1D	NumJets6_N_avg_sq_hist;1	NumJets6_N_avg_sq_hist
+  KEY: TH1D	Everything_ptAvgVarN_hist;1	Everything_ptAvgVarN_hist
+  KEY: TH1D	NumJets0_ptAvgVarN_hist;1	NumJets0_ptAvgVarN_hist
+  KEY: TH1D	NumJets2_ptAvgVarN_hist;1	NumJets2_ptAvgVarN_hist
+  KEY: TH1D	NumJets4_ptAvgVarN_hist;1	NumJets4_ptAvgVarN_hist
+  KEY: TH1D	NumJets6_ptAvgVarN_hist;1	NumJets6_ptAvgVarN_hist
+  KEY: TH1D	Everything_CovPtN_hist;1	Everything_CovPtN_hist
+  KEY: TH1D	NumJets0_CovPtN_hist;1	NumJets0_CovPtN_hist
+  KEY: TH1D	NumJets2_CovPtN_hist;1	NumJets2_CovPtN_hist
+  KEY: TH1D	NumJets4_CovPtN_hist;1	NumJets4_CovPtN_hist
+  KEY: TH1D	NumJets6_CovPtN_hist;1	NumJets6_CovPtN_hist
+  KEY: TH1D	Everything_D_hist;1	Everything_D_hist
+  KEY: TH1D	NumJets0_D_hist;1	NumJets0_D_hist
+  KEY: TH1D	NumJets2_D_hist;1	NumJets2_D_hist
+  KEY: TH1D	NumJets4_D_hist;1	NumJets4_D_hist
+  KEY: TH1D	NumJets6_D_hist;1	NumJets6_D_hist
+  KEY: TH1D	Everything_R_hist;1	Everything_R_hist
+  KEY: TH1D	NumJets0_R_hist;1	NumJets0_R_hist
+  KEY: TH1D	NumJets2_R_hist;1	NumJets2_R_hist
+  KEY: TH1D	NumJets4_R_hist;1	NumJets4_R_hist
+  KEY: TH1D	NumJets6_R_hist;1	NumJets6_R_hist
+
+
+End test for histograms.
+
+
+File /media/scratch/packard/db/testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root is opened, yaaaaay
+
+
+Performing test for histograms...
+TFile**		/media/scratch/packard/db/testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+ TFile*		/media/scratch/packard/db/testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+  KEY: TCanvas	cNev_Nch;1	cNev_Nch
+  KEY: TCanvas	cpt_Nch;1	cpt_Nch
+  KEY: TCanvas	cVarN_Nch;1	cVarN_Nch
+  KEY: TCanvas	cN_Nch;1	cN_Nch
+  KEY: TCanvas	cNsq_Nch;1	cNsq_Nch
+  KEY: TCanvas	cptVarN_Nch;1	cptVarN_Nch
+  KEY: TCanvas	cCovPtN_Nch;1	cCovPtN_Nch
+  KEY: TCanvas	cD_Nch;1	cD_Nch
+  KEY: TCanvas	cR_Nch;1	cR_Nch
+  KEY: TH1D	Everything_N_eve_hist;1	Everything_N_eve_hist
+  KEY: TH1D	NumJets0_N_eve_hist;1	NumJets0_N_eve_hist
+  KEY: TH1D	NumJets2_N_eve_hist;1	NumJets2_N_eve_hist
+  KEY: TH1D	NumJets4_N_eve_hist;1	NumJets4_N_eve_hist
+  KEY: TH1D	NumJets6_N_eve_hist;1	NumJets6_N_eve_hist
+  KEY: TH1D	Everything_pt_avg_hist;1	Everything_pt_avg_hist
+  KEY: TH1D	NumJets0_pt_avg_hist;1	NumJets0_pt_avg_hist
+  KEY: TH1D	NumJets2_pt_avg_hist;1	NumJets2_pt_avg_hist
+  KEY: TH1D	NumJets4_pt_avg_hist;1	NumJets4_pt_avg_hist
+  KEY: TH1D	NumJets6_pt_avg_hist;1	NumJets6_pt_avg_hist
+  KEY: TH1D	Everything_VarN_hist;1	Everything_VarN_hist
+  KEY: TH1D	NumJets0_VarN_hist;1	NumJets0_VarN_hist
+  KEY: TH1D	NumJets2_VarN_hist;1	NumJets2_VarN_hist
+  KEY: TH1D	NumJets4_VarN_hist;1	NumJets4_VarN_hist
+  KEY: TH1D	NumJets6_VarN_hist;1	NumJets6_VarN_hist
+  KEY: TH1D	Everything_N_avg_hist;1	Everything_N_avg_hist
+  KEY: TH1D	NumJets0_N_avg_hist;1	NumJets0_N_avg_hist
+  KEY: TH1D	NumJets2_N_avg_hist;1	NumJets2_N_avg_hist
+  KEY: TH1D	NumJets4_N_avg_hist;1	NumJets4_N_avg_hist
+  KEY: TH1D	NumJets6_N_avg_hist;1	NumJets6_N_avg_hist
+  KEY: TH1D	Everything_Nsq_avg_hist;1	Everything_Nsq_avg_hist
+  KEY: TH1D	Everything_N_avg_sq_hist;1	Everything_N_avg_sq_hist
+  KEY: TH1D	NumJets0_Nsq_avg_hist;1	NumJets0_Nsq_avg_hist
+  KEY: TH1D	NumJets0_N_avg_sq_hist;1	NumJets0_N_avg_sq_hist
+  KEY: TH1D	NumJets2_Nsq_avg_hist;1	NumJets2_Nsq_avg_hist
+  KEY: TH1D	NumJets2_N_avg_sq_hist;1	NumJets2_N_avg_sq_hist
+  KEY: TH1D	NumJets4_Nsq_avg_hist;1	NumJets4_Nsq_avg_hist
+  KEY: TH1D	NumJets4_N_avg_sq_hist;1	NumJets4_N_avg_sq_hist
+  KEY: TH1D	NumJets6_Nsq_avg_hist;1	NumJets6_Nsq_avg_hist
+  KEY: TH1D	NumJets6_N_avg_sq_hist;1	NumJets6_N_avg_sq_hist
+  KEY: TH1D	Everything_ptAvgVarN_hist;1	Everything_ptAvgVarN_hist
+  KEY: TH1D	NumJets0_ptAvgVarN_hist;1	NumJets0_ptAvgVarN_hist
+  KEY: TH1D	NumJets2_ptAvgVarN_hist;1	NumJets2_ptAvgVarN_hist
+  KEY: TH1D	NumJets4_ptAvgVarN_hist;1	NumJets4_ptAvgVarN_hist
+  KEY: TH1D	NumJets6_ptAvgVarN_hist;1	NumJets6_ptAvgVarN_hist
+  KEY: TH1D	Everything_CovPtN_hist;1	Everything_CovPtN_hist
+  KEY: TH1D	NumJets0_CovPtN_hist;1	NumJets0_CovPtN_hist
+  KEY: TH1D	NumJets2_CovPtN_hist;1	NumJets2_CovPtN_hist
+  KEY: TH1D	NumJets4_CovPtN_hist;1	NumJets4_CovPtN_hist
+  KEY: TH1D	NumJets6_CovPtN_hist;1	NumJets6_CovPtN_hist
+  KEY: TH1D	Everything_D_hist;1	Everything_D_hist
+  KEY: TH1D	NumJets0_D_hist;1	NumJets0_D_hist
+  KEY: TH1D	NumJets2_D_hist;1	NumJets2_D_hist
+  KEY: TH1D	NumJets4_D_hist;1	NumJets4_D_hist
+  KEY: TH1D	NumJets6_D_hist;1	NumJets6_D_hist
+  KEY: TH1D	Everything_R_hist;1	Everything_R_hist
+  KEY: TH1D	NumJets0_R_hist;1	NumJets0_R_hist
+  KEY: TH1D	NumJets2_R_hist;1	NumJets2_R_hist
+  KEY: TH1D	NumJets4_R_hist;1	NumJets4_R_hist
+  KEY: TH1D	NumJets6_R_hist;1	NumJets6_R_hist
+
+
+End test for histograms.
+
+
+File /media/scratch/packard/db/testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root is opened, yaaaaay
+
+
+Performing test for histograms...
+TFile**		/media/scratch/packard/db/testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+ TFile*		/media/scratch/packard/db/testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED.root	
+  KEY: TCanvas	cNev_Nch;1	cNev_Nch
+  KEY: TCanvas	cpt_Nch;1	cpt_Nch
+  KEY: TCanvas	cVarN_Nch;1	cVarN_Nch
+  KEY: TCanvas	cN_Nch;1	cN_Nch
+  KEY: TCanvas	cNsq_Nch;1	cNsq_Nch
+  KEY: TCanvas	cptVarN_Nch;1	cptVarN_Nch
+  KEY: TCanvas	cCovPtN_Nch;1	cCovPtN_Nch
+  KEY: TCanvas	cD_Nch;1	cD_Nch
+  KEY: TCanvas	cR_Nch;1	cR_Nch
+  KEY: TH1D	Everything_N_eve_hist;1	Everything_N_eve_hist
+  KEY: TH1D	NumJets0_N_eve_hist;1	NumJets0_N_eve_hist
+  KEY: TH1D	NumJets2_N_eve_hist;1	NumJets2_N_eve_hist
+  KEY: TH1D	NumJets4_N_eve_hist;1	NumJets4_N_eve_hist
+  KEY: TH1D	NumJets6_N_eve_hist;1	NumJets6_N_eve_hist
+  KEY: TH1D	Everything_pt_avg_hist;1	Everything_pt_avg_hist
+  KEY: TH1D	NumJets0_pt_avg_hist;1	NumJets0_pt_avg_hist
+  KEY: TH1D	NumJets2_pt_avg_hist;1	NumJets2_pt_avg_hist
+  KEY: TH1D	NumJets4_pt_avg_hist;1	NumJets4_pt_avg_hist
+  KEY: TH1D	NumJets6_pt_avg_hist;1	NumJets6_pt_avg_hist
+  KEY: TH1D	Everything_VarN_hist;1	Everything_VarN_hist
+  KEY: TH1D	NumJets0_VarN_hist;1	NumJets0_VarN_hist
+  KEY: TH1D	NumJets2_VarN_hist;1	NumJets2_VarN_hist
+  KEY: TH1D	NumJets4_VarN_hist;1	NumJets4_VarN_hist
+  KEY: TH1D	NumJets6_VarN_hist;1	NumJets6_VarN_hist
+  KEY: TH1D	Everything_N_avg_hist;1	Everything_N_avg_hist
+  KEY: TH1D	NumJets0_N_avg_hist;1	NumJets0_N_avg_hist
+  KEY: TH1D	NumJets2_N_avg_hist;1	NumJets2_N_avg_hist
+  KEY: TH1D	NumJets4_N_avg_hist;1	NumJets4_N_avg_hist
+  KEY: TH1D	NumJets6_N_avg_hist;1	NumJets6_N_avg_hist
+  KEY: TH1D	Everything_Nsq_avg_hist;1	Everything_Nsq_avg_hist
+  KEY: TH1D	Everything_N_avg_sq_hist;1	Everything_N_avg_sq_hist
+  KEY: TH1D	NumJets0_Nsq_avg_hist;1	NumJets0_Nsq_avg_hist
+  KEY: TH1D	NumJets0_N_avg_sq_hist;1	NumJets0_N_avg_sq_hist
+  KEY: TH1D	NumJets2_Nsq_avg_hist;1	NumJets2_Nsq_avg_hist
+  KEY: TH1D	NumJets2_N_avg_sq_hist;1	NumJets2_N_avg_sq_hist
+  KEY: TH1D	NumJets4_Nsq_avg_hist;1	NumJets4_Nsq_avg_hist
+  KEY: TH1D	NumJets4_N_avg_sq_hist;1	NumJets4_N_avg_sq_hist
+  KEY: TH1D	NumJets6_Nsq_avg_hist;1	NumJets6_Nsq_avg_hist
+  KEY: TH1D	NumJets6_N_avg_sq_hist;1	NumJets6_N_avg_sq_hist
+  KEY: TH1D	Everything_ptAvgVarN_hist;1	Everything_ptAvgVarN_hist
+  KEY: TH1D	NumJets0_ptAvgVarN_hist;1	NumJets0_ptAvgVarN_hist
+  KEY: TH1D	NumJets2_ptAvgVarN_hist;1	NumJets2_ptAvgVarN_hist
+  KEY: TH1D	NumJets4_ptAvgVarN_hist;1	NumJets4_ptAvgVarN_hist
+  KEY: TH1D	NumJets6_ptAvgVarN_hist;1	NumJets6_ptAvgVarN_hist
+  KEY: TH1D	Everything_CovPtN_hist;1	Everything_CovPtN_hist
+  KEY: TH1D	NumJets0_CovPtN_hist;1	NumJets0_CovPtN_hist
+  KEY: TH1D	NumJets2_CovPtN_hist;1	NumJets2_CovPtN_hist
+  KEY: TH1D	NumJets4_CovPtN_hist;1	NumJets4_CovPtN_hist
+  KEY: TH1D	NumJets6_CovPtN_hist;1	NumJets6_CovPtN_hist
+  KEY: TH1D	Everything_D_hist;1	Everything_D_hist
+  KEY: TH1D	NumJets0_D_hist;1	NumJets0_D_hist
+  KEY: TH1D	NumJets2_D_hist;1	NumJets2_D_hist
+  KEY: TH1D	NumJets4_D_hist;1	NumJets4_D_hist
+  KEY: TH1D	NumJets6_D_hist;1	NumJets6_D_hist
+  KEY: TH1D	Everything_R_hist;1	Everything_R_hist
+  KEY: TH1D	NumJets0_R_hist;1	NumJets0_R_hist
+  KEY: TH1D	NumJets2_R_hist;1	NumJets2_R_hist
+  KEY: TH1D	NumJets4_R_hist;1	NumJets4_R_hist
+  KEY: TH1D	NumJets6_R_hist;1	NumJets6_R_hist
+
+
+End test for histograms.
+
+
+Passed initial hist fetch
+Current loop for adding hists to stack: 0
+Current loop for adding hists to stack: 1
+Current loop for adding hists to stack: 2
+Current loop for adding hists to stack: 3
+Current loop for adding hists to stack: 4
+
+
+Output file opening as: /media/scratch/packard/db/TESTING_FORK_R1_R4_R6_R8_Comparison.root
+Added total plots and legends
+Completed FILE plot decs
+Completed INDJET plot decs
+Finished with all_plots and all_leg
+Made it through hist prep
+Writing plots to file
+Writing total plots...
+Finished writing total plots.
+
+Writing file plots...
+Finished writing file plots.
+
+Writing indjet plots...
+Finished writing indjet plots.

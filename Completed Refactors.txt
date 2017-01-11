@@ -1,0 +1,8 @@
+Currently completed code refactors:
+PlotStuff (50% reduction)
+analysis_combine (re-documentation/general cleanup)
+
+To do:
+???
+Not 100% sure what else could use simplification
+Definitely need to remove analysis.cxx, as it's redundant.
