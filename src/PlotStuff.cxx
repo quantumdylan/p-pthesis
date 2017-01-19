@@ -44,8 +44,8 @@ using namespace std;
 
 int main(int argc, const char** argv) {
 	string prefixes[5] = { "Everything_", "NumJets0_", "NumJets2_", "NumJets4_", "NumJets6_" }; //useful for not having to constantly type things out
-	string hist_topic[3] = { "N_eve_hists", "pt_avg_hists", "D_hists" };
-	string y_axis_labels[3] = { "N_{ev}", "p_{T}", "D" };
+	string hist_topic[4] = { "N_eve_hists", "pt_avg_hists", "D_hists", "R_hists" };
+	string y_axis_labels[4] = { "N_{ev}", "p_{T}", "D", "R" };
 	
 	//-----------------------------------------------------------------------------
 	//	Take input arguments from the script
@@ -59,7 +59,6 @@ int main(int argc, const char** argv) {
 	//prefix for histograms that will be created later
 	string title = argv[3]; //for naming the hists
 	cout << "Title prefix: " + title << endl << endl;
-
 
 	int i = 4; //offset for the previous argvs
 	int total_files = 0; //counter for the total number of files
@@ -103,6 +102,14 @@ int main(int argc, const char** argv) {
 	vector<TH1D*> NumJets6_D_hists;
 
 	vector<vector<TH1D*>> D_hists;
+
+	vector<TH1D*> Everything_R_hists;
+	vector<TH1D*> NumJets0_R_hists;
+	vector<TH1D*> NumJets2_R_hists;
+	vector<TH1D*> NumJets4_R_hists;
+	vector<TH1D*> NumJets6_R_hists;
+
+	vector<vector<TH1D*>> R_hists;
 
 	vector<vector<vector<TH1D*>>> all_hists;
 
@@ -148,6 +155,13 @@ int main(int argc, const char** argv) {
 		TH1D *temp_NumJets4_D_hist = (TH1D*)files[i]->Get("NumJets4_D_hist");
 		TH1D *temp_NumJets6_D_hist = (TH1D*)files[i]->Get("NumJets6_D_hist");
 
+		TH1D *temp_Everything_R_hist = (TH1D*)files[i]->Get("Everything_R_hist");
+		TH1D *temp_NumJets0_R_hist = (TH1D*)files[i]->Get("NumJets0_R_hist");
+		TH1D *temp_NumJets2_R_hist = (TH1D*)files[i]->Get("NumJets2_R_hist");
+		TH1D *temp_NumJets4_R_hist = (TH1D*)files[i]->Get("NumJets4_R_hist");
+		TH1D *temp_NumJets6_R_hist = (TH1D*)files[i]->Get("NumJets6_R_hist");
+
+
 		//Add temp hists to the stack
 		Everything_N_eve_hists.push_back(temp_Everything_N_hist);
 		NumJets0_N_eve_hists.push_back(temp_NumJets0_N_hist);
@@ -166,16 +180,22 @@ int main(int argc, const char** argv) {
 		NumJets2_D_hists.push_back(temp_NumJets2_D_hist);
 		NumJets4_D_hists.push_back(temp_NumJets4_D_hist);
 		NumJets6_D_hists.push_back(temp_NumJets6_D_hist);
+
+		Everything_R_hists.push_back(temp_Everything_R_hist);
+		NumJets0_R_hists.push_back(temp_NumJets0_R_hist);
+		NumJets2_R_hists.push_back(temp_NumJets2_R_hist);
+		NumJets4_R_hists.push_back(temp_NumJets4_R_hist);
+		NumJets6_R_hists.push_back(temp_NumJets6_R_hist);
 	}
 
 	cout << "Passed initial hist fetch" << endl;
 	for (int i = 0; i < 5; i++) {
 		switch (i) {
-		case 0: N_eve_hists.push_back(Everything_N_eve_hists); pt_avg_hists.push_back(Everything_pt_avg_hists); D_hists.push_back(Everything_D_hists); break;
-		case 1: N_eve_hists.push_back(NumJets0_N_eve_hists); pt_avg_hists.push_back(NumJets0_pt_avg_hists); D_hists.push_back(NumJets0_D_hists); break;
-		case 2: N_eve_hists.push_back(NumJets2_N_eve_hists); pt_avg_hists.push_back(NumJets2_pt_avg_hists); D_hists.push_back(NumJets2_D_hists); break;
-		case 3: N_eve_hists.push_back(NumJets4_N_eve_hists); pt_avg_hists.push_back(NumJets4_pt_avg_hists); D_hists.push_back(NumJets4_D_hists); break;
-		case 4: N_eve_hists.push_back(NumJets6_N_eve_hists); pt_avg_hists.push_back(NumJets6_pt_avg_hists); D_hists.push_back(NumJets6_D_hists); break;
+		case 0: N_eve_hists.push_back(Everything_N_eve_hists); pt_avg_hists.push_back(Everything_pt_avg_hists); D_hists.push_back(Everything_D_hists); R_hists.push_back(Everything_R_hists); break;
+		case 1: N_eve_hists.push_back(NumJets0_N_eve_hists); pt_avg_hists.push_back(NumJets0_pt_avg_hists); D_hists.push_back(NumJets0_D_hists); R_hists.push_back(NumJets0_R_hists); break;
+		case 2: N_eve_hists.push_back(NumJets2_N_eve_hists); pt_avg_hists.push_back(NumJets2_pt_avg_hists); D_hists.push_back(NumJets2_D_hists); R_hists.push_back(NumJets2_R_hists); break;
+		case 3: N_eve_hists.push_back(NumJets4_N_eve_hists); pt_avg_hists.push_back(NumJets4_pt_avg_hists); D_hists.push_back(NumJets4_D_hists); R_hists.push_back(NumJets4_R_hists); break;
+		case 4: N_eve_hists.push_back(NumJets6_N_eve_hists); pt_avg_hists.push_back(NumJets6_pt_avg_hists); D_hists.push_back(NumJets6_D_hists); R_hists.push_back(NumJets6_R_hists); break;
 		default: cout << "Error creating congregate hist vector arrays";
 		}
 		cout << "Current loop for adding hists to stack: " << i << endl;
@@ -185,6 +205,7 @@ int main(int argc, const char** argv) {
 	all_hists.push_back(N_eve_hists);
 	all_hists.push_back(pt_avg_hists);
 	all_hists.push_back(D_hists);
+	all_hists.push_back(R_hists);
 	//histogram vectors are now in this format: temp_hist[x][y] where x is the jet content id and y is the file id
 	//all_hists contains all histograms in this format: all_hists[x][y][z] where x is the histogram type (N, pt, D, etc.) y is the jet content and z is the file id
 
@@ -206,10 +227,12 @@ int main(int argc, const char** argv) {
 	TCanvas *cNev_TOT_Nch = new TCanvas("cNev_TOT_Nch", "cNev_TOT_Nch", 0, 0, xpix, ypix);// create the N_eve canvas
 	TCanvas *cpt_TOT_Nch = new TCanvas("cpt_TOT_Nch", "cpt_TOT_Nch", 0, 0, xpix, ypix);// create the pt canvas
 	TCanvas *cD_TOT_Nch = new TCanvas("cD_TOT_Nch", "cD_TOT_Nch", 0, 0, xpix, ypix);// create the D canvas
+	TCanvas *cR_TOT_Nch = new TCanvas("cR_TOT_Nch", "cR_TOT_Nch", 0, 0, xpix, ypix);// create the R canvas
 
 	TLegend* leg_Nev_TOT = new TLegend(0.8, 0.8, 1.0, 1.0);
 	TLegend* leg_pt_TOT = new TLegend(0.8, 0.8, 1.0, 1.0);
 	TLegend* leg_D_TOT = new TLegend(0.8, 0.8, 1.0, 1.0);
+	TLegend* leg_R_TOT = new TLegend(0.8, 0.8, 1.0, 1.0);
 
 	vector<TCanvas*> total_plots;
 	vector<TLegend*> total_leg;
@@ -217,29 +240,35 @@ int main(int argc, const char** argv) {
 	total_plots.push_back(cNev_TOT_Nch);
 	total_plots.push_back(cpt_TOT_Nch);
 	total_plots.push_back(cD_TOT_Nch);
+	total_plots.push_back(cR_TOT_Nch);
 
 	total_leg.push_back(leg_Nev_TOT);
 	total_leg.push_back(leg_pt_TOT);
 	total_leg.push_back(leg_D_TOT);
+	total_leg.push_back(leg_R_TOT);
 	cout << "Added total plots and legends" << endl;
 
 	//next the vectors for the file dependent combination plots
 	vector<TCanvas*> cNev_FILE_Nch;
 	vector<TCanvas*> cpt_FILE_Nch;
 	vector<TCanvas*> cD_FILE_Nch;
+	vector<TCanvas*> cR_FILE_Nch;
 
 	vector<TLegend*> leg_Nev_FILE;
 	vector<TLegend*> leg_pt_FILE;
 	vector<TLegend*> leg_D_FILE;
+	vector<TLegend*> leg_R_FILE;
 
 	//and finally the jet content dependent combination plots
 	vector<TCanvas*> cNev_INDJET_Nch;
 	vector<TCanvas*> cpt_INDJET_Nch;
 	vector<TCanvas*> cD_INDJET_Nch;
+	vector<TCanvas*> cR_INDJET_Nch;
 
 	vector<TLegend*> leg_Nev_INDJET;
 	vector<TLegend*> leg_pt_INDJET;
 	vector<TLegend*> leg_D_INDJET;
+	vector<TLegend*> leg_R_INDJET;
 
 	//fill the combination plot/legend containers
 	for (int i = 0; i < file_locations.size(); i++) {
@@ -253,22 +282,27 @@ int main(int argc, const char** argv) {
 		string NevT = "cNev_FILE_" + filename + "_Nch";
 		string ptT = "cpt_FILE_" + filename + "_Nch";
 		string DT = "cD_FILE_" + filename + "_Nch";
+		string RT = "cR_FILE_" + filename + "_Nch";
 
 		TCanvas *NevTemp = new TCanvas(NevT.c_str(), NevT.c_str(), 0, 0, xpix, ypix);
 		TCanvas *ptTemp = new TCanvas(ptT.c_str(), ptT.c_str(), 0, 0, xpix, ypix);
 		TCanvas *DTemp = new TCanvas(DT.c_str(), DT.c_str(), 0, 0, xpix, ypix);
+		TCanvas *RTemp = new TCanvas(RT.c_str(), RT.c_str(), 0, 0, xpix, ypix);
 
 		TLegend* leg_Nev_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
 		TLegend* leg_pt_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
 		TLegend* leg_D_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
+		TLegend* leg_R_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
 
 		cNev_FILE_Nch.push_back(NevTemp);
 		cpt_FILE_Nch.push_back(ptTemp);
 		cD_FILE_Nch.push_back(DTemp);
+		cR_FILE_Nch.push_back(RTemp);
 
 		leg_Nev_FILE.push_back(leg_Nev_temp);
 		leg_pt_FILE.push_back(leg_pt_temp);
 		leg_D_FILE.push_back(leg_D_temp);
+		leg_R_FILE.push_back(leg_R_temp);
 	}
 	cout << "Completed FILE plot decs" << endl;
 	//0 - everything, 1 - 0-dijet, 2 - 1-dijet, 3 - 2-dijet, 4 - 3-dijet
@@ -286,22 +320,27 @@ int main(int argc, const char** argv) {
 		string NevT = "cNev_INDJET_" + title + "_Nch";
 		string ptT = "cpt_INDJET_" + title + "_Nch";
 		string DT = "cD_INDJET_" + title + "_Nch";
+		string RT = "cR_INDJET_" + title + "_Nch";
 
 		TCanvas *NevTemp = new TCanvas(NevT.c_str(), NevT.c_str(), 0, 0, xpix, ypix);
 		TCanvas *ptTemp = new TCanvas(ptT.c_str(), ptT.c_str(), 0, 0, xpix, ypix);
 		TCanvas *DTemp = new TCanvas(DT.c_str(), DT.c_str(), 0, 0, xpix, ypix);
+		TCanvas *RTemp = new TCanvas(RT.c_str(), RT.c_str(), 0, 0, xpix, ypix);
 
 		TLegend* leg_Nev_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
 		TLegend* leg_pt_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
 		TLegend* leg_D_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
+		TLegend* leg_R_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
 
 		cNev_INDJET_Nch.push_back(NevTemp);
 		cpt_INDJET_Nch.push_back(ptTemp);
 		cD_INDJET_Nch.push_back(DTemp);
+		cR_INDJET_Nch.push_back(RTemp);
 
 		leg_Nev_INDJET.push_back(leg_Nev_temp);
 		leg_pt_INDJET.push_back(leg_pt_temp);
 		leg_D_INDJET.push_back(leg_D_temp);
+		leg_R_INDJET.push_back(leg_R_temp);
 	}
 	cout << "Completed INDJET plot decs" << endl;
 	//combine plots for ease of automation
@@ -312,9 +351,11 @@ int main(int argc, const char** argv) {
 	file_plots.push_back(cNev_FILE_Nch);
 	file_plots.push_back(cpt_FILE_Nch);
 	file_plots.push_back(cD_FILE_Nch);
+	file_plots.push_back(cR_FILE_Nch);
 	indjet_plots.push_back(cNev_INDJET_Nch);
 	indjet_plots.push_back(cpt_INDJET_Nch);
 	indjet_plots.push_back(cD_INDJET_Nch);
+	indjet_plots.push_back(cR_INDJET_Nch);
 
 	all_plots.push_back(file_plots);
 	all_plots.push_back(indjet_plots);
@@ -326,9 +367,11 @@ int main(int argc, const char** argv) {
 	file_leg.push_back(leg_Nev_FILE);
 	file_leg.push_back(leg_pt_FILE);
 	file_leg.push_back(leg_D_FILE);
+	file_leg.push_back(leg_R_FILE);
 	indjet_leg.push_back(leg_Nev_INDJET);
 	indjet_leg.push_back(leg_pt_INDJET);
 	indjet_leg.push_back(leg_D_INDJET);
+	indjet_leg.push_back(leg_R_INDJET);
 
 	//all_leg[x][y]: x is file and indjet discrimination, y is plot type;
 	all_leg.push_back(file_leg);
@@ -353,9 +396,9 @@ int main(int argc, const char** argv) {
 
 			int MSZ = 1; //MARKER SIZE: constant of 1 for now
 
-			//cout << "This next part will probably fuck up" << endl;
+			//all_hists contains all histograms in this format: all_hists[x][y][z] where x is the histogram type (N, pt, D, etc.) y is the jet content and z is the file id
 			//setting histogram style settings for all plots
-			for (int h = 0; h < 3; h++) {
+			for (int h = 0; h < 4; h++) {
 				all_hists[h][j][i]->SetLineColor(LC);
 				all_hists[h][j][i]->SetLineColor(LC);
 				all_hists[h][j][i]->SetLineWidth(LW);
@@ -377,8 +420,8 @@ int main(int argc, const char** argv) {
 					}
 					else if (h == 1) //range for pt
 						all_hists[h][j][i]->GetYaxis()->SetRangeUser(0, 2.2);
-					else //range for D
-						all_hists[h][j][i]->GetYaxis()->SetRangeUser(-0.5, 0.5);
+					else //range for D and R
+						all_hists[h][j][i]->GetYaxis()->SetRangeUser(-0.25, 0.25);
 				}
 			}
 		}
@@ -396,7 +439,7 @@ int main(int argc, const char** argv) {
 	//p: TOT, FILE, INDJET
 	//h: Neve, pt, D
 	for (int p = 0; p < 3; p++) {
-		for (int h = 0; h < 3; h++) {
+		for (int h = 0; h < 4; h++) {
 			if (p == 0) { //total loop
 				//cout << "Entered total loop for " << h << " time" << endl;
 				total_plots[h]->cd(); //select the plot to do (dependent on only histogram type)
@@ -459,29 +502,35 @@ int main(int argc, const char** argv) {
 	//-----------------------------------------------------------------------------
 	cout << "Writing plots to file" << endl;
 	cout << "Writing total plots..." << endl;
-	for (int t = 0; t < 3; t++) {
+	for (int t = 0; t < 4; t++) {
 		total_plots[t]->cd();
 		total_leg[t]->Draw();
 		total_plots[t]->Write();
+		TString filepath(output + "TOTAL_PLOT_" + hist_topic[t] + ".pdf");
+		total_plots[t]->Print(filepath, "pdf");
 	}
 	cout << "Finished writing total plots." << endl << endl;
 
 	cout << "Writing file plots..." << endl;
 	for (int f = 0; f < file_locations.size(); f++) {
-		for (int h = 0; h < 3; h++) {
+		for (int h = 0; h < 4; h++) {
 			all_plots[0][h][f]->cd();
 			all_leg[0][h][f]->Draw();
 			all_plots[0][h][f]->Write();
+			TString filepath(output + "FILEid_" + TString(Form("%d", f)) + "_PLOT_" + hist_topic[h] + ".pdf");
+			all_plots[0][h][f]->Print(filepath, "pdf");
 		}
 	}
 	cout << "Finished writing file plots." << endl << endl;
 
 	cout << "Writing indjet plots..." << endl;
 	for (int j = 0; j < 5; j++) {
-		for (int h = 0; h < 3; h++) {
+		for (int h = 0; h < 4; h++) {
 			all_plots[1][h][j]->cd();
 			all_leg[1][h][j]->Draw();
 			all_plots[1][h][j]->Write();
+			TString filepath(output + "INDJET_" + prefixes[j] + "_PLOT_" + hist_topic[h] + ".pdf");
+			all_plots[1][h][j]->Print(filepath, "pdf");
 		}
 	}
 	cout << "Finished writing indjet plots." << endl;
@@ -489,6 +538,8 @@ int main(int argc, const char** argv) {
 	outRoot.Write();
 
 	outRoot.Close();
+
+	//to print to pdf: take canvas->Print(filepath+filename+".pdf", "pdf")
 
 	return 0;
 }

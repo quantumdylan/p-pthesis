@@ -161,7 +161,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			Nev_h[i] = (TH1D*)Everything_Res->N_eve_hist->Clone();
-			//Nev_h[i]->SetTitle("TEST");
+			/*
 			Nev_h[i]->SetLineColor(i + 1);
 			Nev_h[i]->SetLineStyle(1);
 			Nev_h[i]->SetMarkerColor(i + 1);
@@ -169,19 +169,24 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			Nev_h[i]->SetMarkerSize(1);
 			Nev_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			Nev_h[i]->GetYaxis()->SetTitle("N_{ev}");
+			*/
 			Nev_h[i]->GetYaxis()->SetRangeUser(1, 1e6);// adjust y-axis range
 			gPad->SetLogy();
+			
 			Nev_h[i]->Draw("LP");
+			
 
 			leg_Nev->AddEntry(Nev_h[i], Everything_Res->Get_Name(), "LP");
 		}
 		else {
 			Nev_h[i] = (TH1D*)JetResults[i - 1]->N_eve_hist->Clone();
+			/*
 			Nev_h[i]->SetLineColor(i + 1);
 			Nev_h[i]->SetLineStyle(1);
 			Nev_h[i]->SetMarkerColor(i + 1);
 			Nev_h[i]->SetMarkerStyle(20);
 			Nev_h[i]->SetMarkerSize(1);
+			*/
 			Nev_h[i]->Draw("LPsame");
 
 			leg_Nev->AddEntry(Nev_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
@@ -204,7 +209,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			avg_pt_h[i] = (TH1D*)Everything_Res->pt_avg_hist->Clone();
-			//avg_pt_h[i]->SetTitle("");
+			/*
+			avg_pt_h[i]->SetTitle("");
 			avg_pt_h[i]->SetLineColor(i + 1);
 			avg_pt_h[i]->SetLineStyle(1);
 			avg_pt_h[i]->SetMarkerColor(i + 1);
@@ -212,21 +218,26 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			avg_pt_h[i]->SetMarkerSize(1);
 			avg_pt_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			avg_pt_h[i]->GetYaxis()->SetTitle("<p_{T}>");
+			*/
 			avg_pt_h[i]->GetYaxis()->SetRangeUser(0, 2);// adjust y-axis range
-			avg_pt_h[i]->Draw("LP hist");
+			avg_pt_h[i]->Draw("LP");
+			
 
-			leg_pt->AddEntry(avg_pt_h[i], Everything_Res->Get_Name(), "LP hist");
+			leg_pt->AddEntry(avg_pt_h[i], Everything_Res->Get_Name(), "LP");
 		}
 		else {
 			avg_pt_h[i] = (TH1D*)JetResults[i - 1]->pt_avg_hist->Clone();
+			/*
 			avg_pt_h[i]->SetLineColor(i + 1);
 			avg_pt_h[i]->SetLineStyle(1);
 			avg_pt_h[i]->SetMarkerColor(i + 1);
 			avg_pt_h[i]->SetMarkerStyle(20);
 			avg_pt_h[i]->SetMarkerSize(1);
-			avg_pt_h[i]->Draw("LP hist same");
+			*/
+			avg_pt_h[i]->Draw("LPsame");
+			
 
-			leg_pt->AddEntry(avg_pt_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP hist");
+			leg_pt->AddEntry(avg_pt_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
 		}
 	}
 
@@ -245,7 +256,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			VarN_h[i] = (TH1D*)Everything_Res->VarN_hist->Clone();
-			//VarN_h[i]->SetTitle("");
+			/*
+			VarN_h[i]->SetTitle("");
 			VarN_h[i]->SetLineColor(i + 1);
 			VarN_h[i]->SetLineStyle(1);
 			VarN_h[i]->SetMarkerColor(i + 1);
@@ -253,6 +265,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			VarN_h[i]->SetMarkerSize(1);
 			VarN_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			VarN_h[i]->GetYaxis()->SetTitle("Var(N)");
+			*/
 			VarN_h[i]->GetYaxis()->SetRangeUser(0, 5);// adjust y-axis range
 			VarN_h[i]->Draw("LP");
 
@@ -260,11 +273,13 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 		}
 		else {
 			VarN_h[i] = (TH1D*)JetResults[i - 1]->VarN_hist->Clone();
+			/*
 			VarN_h[i]->SetLineColor(i + 1);
 			VarN_h[i]->SetLineStyle(1);
 			VarN_h[i]->SetMarkerColor(i + 1);
 			VarN_h[i]->SetMarkerStyle(20);
 			VarN_h[i]->SetMarkerSize(1);
+			*/
 			VarN_h[i]->Draw("LPsame");
 
 			leg_VarN->AddEntry(VarN_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
@@ -287,7 +302,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			avg_N_h[i] = (TH1D*)Everything_Res->N_avg_hist->Clone();
-			//avg_N_h[i]->SetTitle("");
+			/*
+			avg_N_h[i]->SetTitle("");
 			avg_N_h[i]->SetLineColor(i + 1);
 			avg_N_h[i]->SetLineStyle(1);
 			avg_N_h[i]->SetMarkerColor(i + 1);
@@ -295,6 +311,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			avg_N_h[i]->SetMarkerSize(1);
 			avg_N_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			avg_N_h[i]->GetYaxis()->SetTitle("<N>");
+			*/
 			avg_N_h[i]->GetYaxis()->SetRangeUser(0, Nmax);// adjust y-axis range
 			avg_N_h[i]->Draw("LP");
 
@@ -302,12 +319,14 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 		}
 		else {
 			avg_N_h[i] = (TH1D*)JetResults[i - 1]->N_avg_hist->Clone();
-			//avg_N_h[i]->SetTitle("");
+			/*a
+			vg_N_h[i]->SetTitle("");
 			avg_N_h[i]->SetLineColor(i + 1);
 			avg_N_h[i]->SetLineStyle(1);
 			avg_N_h[i]->SetMarkerColor(i + 1);
 			avg_N_h[i]->SetMarkerStyle(20);
 			avg_N_h[i]->SetMarkerSize(1);
+			*/
 			avg_N_h[i]->Draw("LPsame");
 
 			leg_avgN->AddEntry(avg_N_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
@@ -328,7 +347,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			avg_Nsq_h[i] = (TH1D*)Everything_Res->Nsq_avg_hist->Clone();
-			//avg_Nsq_h[i]->SetTitle("");
+			/*
+			avg_Nsq_h[i]->SetTitle("");
 			avg_Nsq_h[i]->SetLineColor(i + 1);
 			avg_Nsq_h[i]->SetLineStyle(1);
 			avg_Nsq_h[i]->SetMarkerColor(i + 1);
@@ -336,41 +356,48 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			avg_Nsq_h[i]->SetMarkerSize(1);
 			avg_Nsq_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			avg_Nsq_h[i]->GetYaxis()->SetTitle("<N^{2}> and <N>^{2}");
+			*/
 			avg_Nsq_h[i]->GetYaxis()->SetRangeUser(0, 4000);// adjust y-axis range
 			avg_Nsq_h[i]->Draw("LP");
 
 			leg_avgNsq->AddEntry(avg_Nsq_h[i], Everything_Res->Get_Name(), "LP");
 
 			N_avg_sq_h[i] = (TH1D*)Everything_Res->N_avg_sq_hist->Clone();
-			//N_avg_sq_h[i]->SetTitle("");
+			/*
+			N_avg_sq_h[i]->SetTitle("");
 			N_avg_sq_h[i]->SetLineColor(i + 1);
 			N_avg_sq_h[i]->SetLineStyle(7);
 			N_avg_sq_h[i]->SetLineWidth(2);
 			N_avg_sq_h[i]->SetMarkerColor(i + 1);
 			N_avg_sq_h[i]->SetMarkerStyle(24);
 			N_avg_sq_h[i]->SetMarkerSize(1);
+			*/
 			N_avg_sq_h[i]->Draw("LPsame");
 		}
 		else {
 			avg_Nsq_h[i] = (TH1D*)JetResults[i - 1]->Nsq_avg_hist->Clone();
-			//avg_Nsq_h[i]->SetTitle("");
+			/*
+			avg_Nsq_h[i]->SetTitle("");
 			avg_Nsq_h[i]->SetLineColor(i + 1);
 			avg_Nsq_h[i]->SetLineStyle(1);
 			avg_Nsq_h[i]->SetMarkerColor(i + 1);
 			avg_Nsq_h[i]->SetMarkerStyle(20);
 			avg_Nsq_h[i]->SetMarkerSize(1);
+			*/
 			avg_Nsq_h[i]->Draw("LPsame");
 
 			leg_avgNsq->AddEntry(avg_Nsq_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
 
 			N_avg_sq_h[i] = (TH1D*)JetResults[i - 1]->N_avg_sq_hist->Clone();
-			//N_avg_sq_h[i]->SetTitle("");
+			/*
+			N_avg_sq_h[i]->SetTitle("");
 			N_avg_sq_h[i]->SetLineColor(i + 1);
 			N_avg_sq_h[i]->SetLineStyle(7);
 			N_avg_sq_h[i]->SetLineWidth(2);
 			N_avg_sq_h[i]->SetMarkerColor(i + 1);
 			N_avg_sq_h[i]->SetMarkerStyle(24);
 			N_avg_sq_h[i]->SetMarkerSize(1);
+			*/
 			N_avg_sq_h[i]->Draw("LPsame");
 		}
 	}
@@ -390,7 +417,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			ptVarN_h[i] = (TH1D*)Everything_Res->ptAvgVarN_hist->Clone();
-			//ptVarN_h[i]->SetTitle("");
+			/*
+			ptVarN_h[i]->SetTitle("");
 			ptVarN_h[i]->SetLineColor(i + 1);
 			ptVarN_h[i]->SetLineStyle(1);
 			ptVarN_h[i]->SetMarkerColor(i + 1);
@@ -398,6 +426,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			ptVarN_h[i]->SetMarkerSize(1);
 			ptVarN_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			ptVarN_h[i]->GetYaxis()->SetTitle("<p_{T}>Var(N)");
+			*/
 			ptVarN_h[i]->GetYaxis()->SetRangeUser(0, 7);// adjust y-axis range
 			ptVarN_h[i]->Draw("LP");
 
@@ -405,11 +434,13 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 		}
 		else {
 			ptVarN_h[i] = (TH1D*)JetResults[i - 1]->ptAvgVarN_hist->Clone();
+			/*
 			ptVarN_h[i]->SetLineColor(i + 1);
 			ptVarN_h[i]->SetLineStyle(1);
 			ptVarN_h[i]->SetMarkerColor(i + 1);
 			ptVarN_h[i]->SetMarkerStyle(20);
 			ptVarN_h[i]->SetMarkerSize(1);
+			*/
 			ptVarN_h[i]->Draw("LPsame");
 
 			leg_cptVarN->AddEntry(ptVarN_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
@@ -432,7 +463,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			CovPtN_h[i] = (TH1D*)Everything_Res->CovPtN_hist->Clone();
-			//CovPtN_h[i]->SetTitle("");
+			/*
+			CovPtN_h[i]->SetTitle("");
 			CovPtN_h[i]->SetLineColor(i + 1);
 			CovPtN_h[i]->SetLineStyle(1);
 			CovPtN_h[i]->SetMarkerColor(i + 1);
@@ -440,6 +472,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			CovPtN_h[i]->SetMarkerSize(1);
 			CovPtN_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			CovPtN_h[i]->GetYaxis()->SetTitle("Cov(Pt,N)");
+			*/
 			CovPtN_h[i]->GetYaxis()->SetRangeUser(0, 6);// adjust y-axis range
 			CovPtN_h[i]->Draw("LP");
 
@@ -447,11 +480,13 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 		}
 		else {
 			CovPtN_h[i] = (TH1D*)JetResults[i - 1]->CovPtN_hist->Clone();
+			/*
 			CovPtN_h[i]->SetLineColor(i + 1);
 			CovPtN_h[i]->SetLineStyle(1);
 			CovPtN_h[i]->SetMarkerColor(i + 1);
 			CovPtN_h[i]->SetMarkerStyle(20);
 			CovPtN_h[i]->SetMarkerSize(1);
+			*/
 			CovPtN_h[i]->Draw("LPsame");
 
 			leg_CovPtN->AddEntry(CovPtN_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
@@ -473,7 +508,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			D_h[i] = (TH1D*)Everything_Res->D_hist->Clone();
-			//D_h[i]->SetTitle("");
+			/*
+			D_h[i]->SetTitle("");
 			D_h[i]->SetLineColor(i + 1);
 			D_h[i]->SetLineStyle(1);
 			D_h[i]->SetMarkerColor(i + 1);
@@ -481,6 +517,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			D_h[i]->SetMarkerSize(1);
 			D_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			D_h[i]->GetYaxis()->SetTitle("D");
+			*/
 			D_h[i]->GetYaxis()->SetRangeUser(-0.0015, 0.0085);// adjust y-axis range
 			D_h[i]->Draw("LP");
 
@@ -488,11 +525,13 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 		}
 		else {
 			D_h[i] = (TH1D*)JetResults[i - 1]->D_hist->Clone();
+			/*
 			D_h[i]->SetLineColor(i + 1);
 			D_h[i]->SetLineStyle(1);
 			D_h[i]->SetMarkerColor(i + 1);
 			D_h[i]->SetMarkerStyle(20);
 			D_h[i]->SetMarkerSize(1);
+			*/
 			D_h[i]->Draw("LPsame");
 
 			leg_D->AddEntry(D_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");
@@ -514,7 +553,8 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 	for (int i = 0; i < 5; i++) {
 		if (i == 0) {
 			R_h[i] = (TH1D*)Everything_Res->R_hist->Clone();
-			//R_h[i]->SetTitle("");
+			/*
+			R_h[i]->SetTitle("");
 			R_h[i]->SetLineColor(i + 1);
 			R_h[i]->SetLineStyle(1);
 			R_h[i]->SetLineWidth(2);
@@ -523,6 +563,7 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 			R_h[i]->SetMarkerSize(1);
 			R_h[i]->GetXaxis()->SetTitle("N_{ch}");
 			R_h[i]->GetYaxis()->SetTitle("R");
+			*/
 			R_h[i]->GetYaxis()->SetRangeUser(-0.05, 0.07);// adjust y-axis range
 			R_h[i]->Draw("LP");
 
@@ -530,11 +571,13 @@ void combine(TString inpath, TString prefix, TString filename, TString outpath, 
 		}
 		else {
 			R_h[i] = (TH1D*)JetResults[i - 1]->R_hist->Clone();
+			/*
 			R_h[i]->SetLineColor(i + 1);
 			R_h[i]->SetLineStyle(1);
 			R_h[i]->SetMarkerColor(i + 1);
 			R_h[i]->SetMarkerStyle(20);
 			R_h[i]->SetMarkerSize(1);
+			*/
 			R_h[i]->Draw("LPsame");
 
 			leg_R->AddEntry(R_h[i], TString(Form("%d", 2 * (i - 1))) + "Jets", "LP");

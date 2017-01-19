@@ -6,13 +6,15 @@
 #	
 #
 #location to place .root file with pythia events
-res_loc="/media/scratch/packard/db/"
+res_loc="/media/scratch/packard/db/TEST"
 #the build location for the RunPythia program
-pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/SemesterTwoFork/"
+pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/"
 #the location to copy output (default: NULL)
 out_loc="/media/scratch/packard/db/"
+#pdf location
+pdf_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/data/"
 #log location
-log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/SemesterTwoFork/logs/Combinations/"
+log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/Combinations/"
 #the name of the .root file that stores final events
 filename="TESTING_FORK_Combination_R1_To_R8"
 #prefix title for hists
@@ -25,5 +27,11 @@ file4="R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 file5="testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 file6="testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 
+cd $out_loc
+rm *.pdf
+
 cd $pgm_loc
-./bin/PlotStuff $res_loc $out_loc $title $file1 $file2 $file3 $file4 $file5 $file6 > $log_loc$title'_Comparison.log' &
+./bin/PlotStuff $res_loc $out_loc $title $file1 $file2 $file3 $file4 $file5 $file6 > $log_loc$title'_Comparison.log'
+
+cd $out_loc
+cp *.pdf $pdf_loc
