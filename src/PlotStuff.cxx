@@ -46,6 +46,7 @@ int main(int argc, const char** argv) {
 	string prefixes[5] = { "Everything_", "NumJets0_", "NumJets2_", "NumJets4_", "NumJets6_" }; //useful for not having to constantly type things out
 	string hist_topic[4] = { "N_eve_hists", "pt_avg_hists", "D_hists", "R_hists" };
 	string y_axis_labels[4] = { "N_{ev}", "p_{T}", "D", "R" };
+	string r_values[6] = { " R = 0.1", " R = 0.2", " R = 0.3", " R = 0.4", " R = 0.6", " R = 0.8" };
 	
 	//-----------------------------------------------------------------------------
 	//	Take input arguments from the script
@@ -110,6 +111,23 @@ int main(int argc, const char** argv) {
 	vector<TH1D*> NumJets6_R_hists;
 
 	vector<vector<TH1D*>> R_hists;
+
+	//NEED TO ADD THESE INTO THE LOOP
+	vector<TH1D*> Everything_CovPtN_hists;
+	vector<TH1D*> NumJets0_CovPtN_hists;
+	vector<TH1D*> NumJets2_CovPtN_hists;
+	vector<TH1D*> NumJets4_CovPtN_hists;
+	vector<TH1D*> NumJets6_CovPtN_hists;
+
+	vector<vector<TH1D*>> CovPtN_hists;
+
+	vector<TH1D*> Everything_Nsq_avg_hists;
+	vector<TH1D*> NumJets0_Nsq_avg_hists;
+	vector<TH1D*> NumJets2_Nsq_avg_hists;
+	vector<TH1D*> NumJets4_Nsq_avg_hists;
+	vector<TH1D*> NumJets6_Nsq_avg_hists;
+
+	vector<vector<TH1D*>> Nsq_avg_hists;
 
 	vector<vector<vector<TH1D*>>> all_hists;
 
@@ -270,6 +288,16 @@ int main(int argc, const char** argv) {
 	vector<TLegend*> leg_D_INDJET;
 	vector<TLegend*> leg_R_INDJET;
 
+	vector<TCanvas*> cNev_IND_Nch;
+	vector<TCanvas*> cpt_IND_Nch;
+	vector<TCanvas*> cD_IND_Nch;
+	vector<TCanvas*> cR_IND_Nch;
+
+	vector<TLegend*> leg_Nev_IND;
+	vector<TLegend*> leg_pt_IND;
+	vector<TLegend*> leg_D_IND;
+	vector<TLegend*> leg_R_IND;
+
 	//fill the combination plot/legend containers
 	for (int i = 0; i < file_locations.size(); i++) {
 		//clunky as fuck but it works
@@ -343,9 +371,60 @@ int main(int argc, const char** argv) {
 		leg_R_INDJET.push_back(leg_R_temp);
 	}
 	cout << "Completed INDJET plot decs" << endl;
+
+	//0 - everything, 1 - 0-dijet, 2 - 1-dijet, 3 - 2-dijet, 4 - 3-dijet
+	//and filenames
+	for (int i = 0; i < 5; i++) {
+		for (int j = 0; j < file_locations.size(); j++){
+			string title;
+			switch (i) {
+			case 0: title = "_Everything"; break;
+			case 1: title = "_0-Dijets"; break;
+			case 2: title = "_1-Dijet"; break;
+			case 3: title = "_2-Dijet"; break;
+			case 4: title = "_3-Dijet"; break;
+			default: title = "I FUCKED UP";
+			}
+
+			//clunky as fuck but it works
+			stringstream convert;
+			string filename;
+			convert << j + 1;
+			filename = convert.str();
+			convert.clear();
+
+			string NevT = "cNev_IND_" + title + "_FILE_" + filename + "_Nch";
+			string ptT = "cpt_IND_" + title + "_FILE_" + filename + "_Nch";
+			string DT = "cD_IND_" + title + "_FILE_" + filename + "_Nch";
+			string RT = "cR_IND_" + title + "_FILE_" + filename + "_Nch";
+
+			TCanvas *NevTemp = new TCanvas(NevT.c_str(), NevT.c_str(), 0, 0, xpix, ypix);
+			TCanvas *ptTemp = new TCanvas(ptT.c_str(), ptT.c_str(), 0, 0, xpix, ypix);
+			TCanvas *DTemp = new TCanvas(DT.c_str(), DT.c_str(), 0, 0, xpix, ypix);
+			TCanvas *RTemp = new TCanvas(RT.c_str(), RT.c_str(), 0, 0, xpix, ypix);
+
+			TLegend* leg_Nev_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
+			TLegend* leg_pt_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
+			TLegend* leg_D_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
+			TLegend* leg_R_temp = new TLegend(0.8, 0.8, 1.0, 1.0);
+
+			cNev_IND_Nch.push_back(NevTemp);
+			cpt_IND_Nch.push_back(ptTemp);
+			cD_IND_Nch.push_back(DTemp);
+			cR_IND_Nch.push_back(RTemp);
+
+			leg_Nev_IND.push_back(leg_Nev_temp);
+			leg_pt_IND.push_back(leg_pt_temp);
+			leg_D_IND.push_back(leg_D_temp);
+			leg_R_IND.push_back(leg_R_temp);
+		}
+	}
+	cout << "Completed IND plot decs" << endl;
+
 	//combine plots for ease of automation
 	vector<vector<TCanvas*>> file_plots;
 	vector<vector<TCanvas*>> indjet_plots;
+	vector<vector<TCanvas*>> ind_plots;
 	vector<vector<vector<TCanvas*>>> all_plots;
 
 	file_plots.push_back(cNev_FILE_Nch);
@@ -356,12 +435,18 @@ int main(int argc, const char** argv) {
 	indjet_plots.push_back(cpt_INDJET_Nch);
 	indjet_plots.push_back(cD_INDJET_Nch);
 	indjet_plots.push_back(cR_INDJET_Nch);
+	ind_plots.push_back(cNev_IND_Nch);
+	ind_plots.push_back(cpt_IND_Nch);
+	ind_plots.push_back(cD_IND_Nch);
+	ind_plots.push_back(cR_IND_Nch);
 
 	all_plots.push_back(file_plots);
 	all_plots.push_back(indjet_plots);
+	all_plots.push_back(ind_plots);
 
 	vector<vector<TLegend*>> file_leg;
 	vector<vector<TLegend*>> indjet_leg;
+	vector<vector<TLegend*>> ind_leg;
 	vector<vector<vector<TLegend*>>> all_leg;
 
 	file_leg.push_back(leg_Nev_FILE);
@@ -372,10 +457,15 @@ int main(int argc, const char** argv) {
 	indjet_leg.push_back(leg_pt_INDJET);
 	indjet_leg.push_back(leg_D_INDJET);
 	indjet_leg.push_back(leg_R_INDJET);
+	ind_leg.push_back(leg_Nev_IND);
+	ind_leg.push_back(leg_pt_IND);
+	ind_leg.push_back(leg_D_IND);
+	ind_leg.push_back(leg_R_IND);
 
 	//all_leg[x][y]: x is file and indjet discrimination, y is plot type;
 	all_leg.push_back(file_leg);
 	all_leg.push_back(indjet_leg);
+	all_leg.push_back(ind_leg);
 	cout << "Finished with all_plots and all_leg" << endl;
 
 	//-----------------------------------------------------------------------------
@@ -409,19 +499,18 @@ int main(int argc, const char** argv) {
 				//cout << "Made it through hist setting" << endl;
 				string title = prefixes[j];
 				title.append(hist_topic[h]);
+				title.append(r_values[i]);
 				all_hists[h][j][i]->SetTitle(title.c_str());
 
 				if (i == 0) { //initial conditions for plots
 					all_hists[h][j][i]->GetXaxis()->SetTitle("N_{ch}");
 					all_hists[h][j][i]->GetYaxis()->SetTitle(y_axis_labels[h].c_str());
-					if (h == 0) { //range for N_eve
+					if (h == 0) //range for N_eve
 						all_hists[h][j][i]->GetYaxis()->SetRangeUser(1, 1e8);
-						gPad->SetLogy();
-					}
-					else if (h == 1) //range for pt
+					if (h == 1) //range for pt
 						all_hists[h][j][i]->GetYaxis()->SetRangeUser(0, 2.2);
-					else //range for D and R
-						all_hists[h][j][i]->GetYaxis()->SetRangeUser(-0.25, 0.25);
+					if (h == 2 || h == 3)//range for D and R
+						all_hists[h][j][i]->GetYaxis()->SetRangeUser(-0.01, 0.005);
 				}
 			}
 		}
@@ -438,21 +527,22 @@ int main(int argc, const char** argv) {
 	//p is plot type, h is hist type
 	//p: TOT, FILE, INDJET
 	//h: Neve, pt, D
-	for (int p = 0; p < 3; p++) {
+	for (int p = 0; p < 4; p++) {
 		for (int h = 0; h < 4; h++) {
 			if (p == 0) { //total loop
-				//cout << "Entered total loop for " << h << " time" << endl;
 				total_plots[h]->cd(); //select the plot to do (dependent on only histogram type)
-
 				for (int f = 0; f < file_locations.size(); f++) {
 					for (int j = 0; j < 5; j++) { //loops through everything and plots everything to one plot
-						if (h == 0) //first loop initial draw (dependent on entire histogram)
-							all_hists[h][j][f]->Draw("LP");
+						if (h == 0){ //N_eve_hist log plot
+							gPad->SetLogy();
+							all_hists[h][j][f]->Draw("LP hist");
+						}
 						else
-							all_hists[h][j][f]->Draw("LPsame"); //draw all other hists in this plot with the same settings
+							all_hists[h][j][f]->Draw("LPsame hist");
 
 						string title = prefixes[j];
 						title.append(hist_topic[h]);
+						title.append(r_values[f]);
 						
 						total_leg[h]->AddEntry(all_hists[h][j][f], title.c_str(), "LP"); //add this legend entry
 					}
@@ -461,35 +551,58 @@ int main(int argc, const char** argv) {
 			}
 			else if (p == 1) { //file loop
 				for (int f = 0; f < file_locations.size(); f++) { //loops through jet content while file id is constant
-					//cout << "This next part will probably reaaaaally fuck up" << endl;
 					all_plots[p-1][h][f]->cd(); //select the plot (dependent on file id and histogram type)
 					for (int j = 0; j < 5; j++) {
+						if (h == 0) //N_eve_hist log plot
+							gPad->SetLogy();
+
 						if (j == 0) //first loop initial draw (dependent on jet content)
-							all_hists[h][j][f]->Draw("LP");
+							all_hists[h][j][f]->Draw("LP hist");
 						else
-							all_hists[h][j][f]->Draw("LPsame"); //draw all other hists in this plot with the same settings
+							all_hists[h][j][f]->Draw("LPsame hist"); //draw all other hists in this plot with the same settings
 
 						string title = prefixes[j]; //create a title for the legend
 						title.append(hist_topic[h]);
+						title.append(r_values[f]);
 						
-						all_leg[p-1][h][f]->AddEntry(all_hists[h][j][f], title.c_str(), "LP"); //add this legend entry
+						all_leg[p - 1][h][f]->AddEntry(all_hists[h][j][f], title.c_str(), "LP"); //add this legend entry
 					}
 				}
 			}
 			else if (p == 2) {  //indjet loop
 				for (int j = 0; j < 5; j++) { //loops through files while jet content is constant
-					//cout << "This next part will probably reaaaaally reaaaaaaaaaaaaaally fuck up" << endl;
 					all_plots[p - 1][h][j]->cd(); //select the plot (dependent on jet content and histogram type)
 					for (int f = 0; f < file_locations.size(); f++) {
+						if (h == 0) //N_eve_hist log plot
+							gPad->SetLogy();
+
 						if (f == 0) //first loop initial draw (dependent on file id)
-							all_hists[h][j][f]->Draw("LP");
+							all_hists[h][j][f]->Draw("LP hist");
 						else
-							all_hists[h][j][f]->Draw("LPsame"); //draw all other hists in this plot with the same settings
+							all_hists[h][j][f]->Draw("LPsame hist"); //draw all other hists in this plot with the same settings
 
 						string title = prefixes[j]; //create a title for the legend
 						title.append(hist_topic[h]);
+						title.append(r_values[f]);
 
 						all_leg[p - 1][h][j]->AddEntry(all_hists[h][j][f], title.c_str(), "LP"); //add this legend entry
+					}
+				}
+			}
+			else if (p == 3) {  //ind loop
+				for (int j = 0; j < 5; j++) { //loops through files while jet content is constant
+					for (int f = 0; f < file_locations.size(); f++) {
+						all_plots[p - 1][h][(j*file_locations.size()) + f]->cd(); //select the plot (dependent on jet content and histogram type)
+						if (h == 0) //N_eve_hist log plot
+							gPad->SetLogy();
+
+						all_hists[h][j][f]->Draw("LP hist");
+
+						string title = prefixes[j]; //create a title for the legend
+						title.append(hist_topic[h]);
+						title.append(r_values[f]);
+
+						all_leg[p - 1][h][(j*file_locations.size()) + f]->AddEntry(all_hists[h][j][f], title.c_str(), "LP"); //add this legend entry
 					}
 				}
 			}
@@ -531,6 +644,20 @@ int main(int argc, const char** argv) {
 			all_plots[1][h][j]->Write();
 			TString filepath(output + "INDJET_" + prefixes[j] + "_PLOT_" + hist_topic[h] + ".pdf");
 			all_plots[1][h][j]->Print(filepath, "pdf");
+		}
+	}
+	cout << "Finished writing indjet plots." << endl;
+
+	cout << "Writing ind plots..." << endl;
+	for (int j = 0; j < 5; j++) {
+		for (int f = 0; f < file_locations.size(); f++) {
+			for (int h = 0; h < 4; h++) {
+				all_plots[2][h][(j*file_locations.size()) + f]->cd();
+				all_leg[2][h][(j*file_locations.size()) + f]->Draw();
+				all_plots[2][h][(j*file_locations.size()) + f]->Write();
+				TString filepath(output + "IND_" + prefixes[j] + "_PLOT_" + hist_topic[h] + "_FILEID_" + TString(Form("%d", f)) + ".pdf");
+				all_plots[2][h][(j*file_locations.size()) + f]->Print(filepath, "pdf");
+			}
 		}
 	}
 	cout << "Finished writing indjet plots." << endl;

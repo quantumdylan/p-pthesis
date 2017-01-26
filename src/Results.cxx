@@ -61,15 +61,29 @@ void Results::Add(Results *r)
 	PtN_tot = PtN_tot + r->PtN_tot;
 
 	//Take this Results and add the histograms/values with another
+	N_eve_hist->Sumw2(); 
 	N_eve_hist->Add(r->N_eve_hist);
+	
+
+	N_avg_hist->Sumw2(); 
 	N_avg_hist->Add(r->N_avg_hist);
+	
+
+	Nsq_avg_hist->Sumw2(); 
 	Nsq_avg_hist->Add(r->Nsq_avg_hist);
+	
 	//VarN_hist->Add(r->VarN_hist);
 
+	Pt_tot_avg_hist->Sumw2(); 
 	Pt_tot_avg_hist->Add(r->Pt_tot_avg_hist);
+	
+
 	//PtAvg_NAvg_hist->Add(r->PtAvg_NAvg_hist);
 	//pt_avg_hist->Add(r->pt_avg_hist);
+
+	PtN_avg_hist->Sumw2(); 
 	PtN_avg_hist->Add(r->PtN_avg_hist);
+	
 
 	//CovPtN_hist->Add(r->CovPtN_hist);
 	//ptAvgVarN_hist->Add(r->ptAvgVarN_hist);
@@ -237,25 +251,55 @@ void Results::Calculate(int pass)
 			
 			// histograms
 			
+			
+			N_avg_hist->Sumw2(); 
 			N_avg_hist->Divide(N_eve_hist);
+			
+			N_avg_sq_hist->Sumw2(); 
 			N_avg_sq_hist->Multiply(N_avg_hist, N_avg_hist, 1.0, 1.0);
 			
+			
+			Nsq_avg_hist->Sumw2(); 
 			Nsq_avg_hist->Divide(N_eve_hist);
+			
+			VarN_hist->Sumw2(); 
 			VarN_hist->Add(Nsq_avg_hist, N_avg_sq_hist, 1.0, -1.0);
 			
+			
+			Pt_tot_avg_hist->Sumw2(); 
 			Pt_tot_avg_hist->Divide(N_eve_hist);
+			
+			pt_avg_hist->Sumw2(); 
 			pt_avg_hist->Divide(Pt_tot_avg_hist, N_avg_hist, 1.0, 1.0);
 			
+			
+			PtN_avg_hist->Sumw2(); 
 			PtN_avg_hist->Divide(N_eve_hist);
+			
+			
+			PtAvg_NAvg_hist->Sumw2(); 
 			PtAvg_NAvg_hist->Multiply(Pt_tot_avg_hist, N_avg_hist, 1.0, 1.0);
 			
+			
+			CovPtN_hist->Sumw2(); 
 			CovPtN_hist->Add(PtN_avg_hist, PtAvg_NAvg_hist, 1.0, -1.0);
+			
+			ptAvgVarN_hist->Sumw2(); 
 			ptAvgVarN_hist->Multiply(pt_avg_hist, VarN_hist, 1.0, 1.0);
 			
+			
+			
+			D_hist->Sumw2(); 
 			D_hist->Add(CovPtN_hist, ptAvgVarN_hist, 1.0, -1.0);
+			
+			D_hist->Sumw2(); 
 			D_hist->Divide(N_avg_sq_hist);
 			
+			
+			R_hist->Sumw2(); 
 			R_hist->Add(VarN_hist, N_avg_hist, 1.0, -1.0);
+			
+			R_hist->Sumw2();
 			R_hist->Divide(N_avg_sq_hist);
 		}
 	}// end first pass through events condidtion

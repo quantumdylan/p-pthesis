@@ -3,7 +3,7 @@
 #	run_analysis.sh
 #
 #       simple script to run RunPythia
-#	
+#
 #
 #location to place .root file with pythia events
 res_loc="/media/scratch/packard/db/TEST"
@@ -27,11 +27,12 @@ file4="R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 file5="testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 file6="testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 
-cd $out_loc
-rm *.pdf
-
 cd $pgm_loc
 ./bin/PlotStuff $res_loc $out_loc $title $file1 $file2 $file3 $file4 $file5 $file6 > $log_loc$title'_Comparison.log'
 
+cd $pdf_loc
+rm *.pdf
+
 cd $out_loc
 cp *.pdf $pdf_loc
+rm *.pdf

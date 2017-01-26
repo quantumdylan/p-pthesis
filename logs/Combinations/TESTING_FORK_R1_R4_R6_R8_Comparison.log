@@ -446,6 +446,7 @@ Output file opening as: /media/scratch/packard/db/TESTING_FORK_R1_R4_R6_R8_Compa
 Added total plots and legends
 Completed FILE plot decs
 Completed INDJET plot decs
+Completed IND plot decs
 Finished with all_plots and all_leg
 Made it through hist prep
 Writing plots to file
@@ -456,4 +457,6 @@ Writing file plots...
 Finished writing file plots.
 
 Writing indjet plots...
+Finished writing indjet plots.
+Writing ind plots...
 Finished writing indjet plots.
