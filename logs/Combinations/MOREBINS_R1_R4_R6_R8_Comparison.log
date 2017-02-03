@@ -1,6 +1,6 @@
 File path: /media/scratch/packard/db/TEST
-Output path: /media/scratch/packard/db/MOREBINS
-Title prefix: TESTING_FORK_R1_R4_R6_R8
+Output path: /media/scratch/packard/db/
+Title prefix: MOREBINS_R1_R4_R6_R8
 
 Index: 1   File: R4pp10mEv_7TeV_ptHatMin0GeV_COMBINED
 Total files: 1
@@ -87,7 +87,7 @@ Current loop for adding hists to stack: 3
 Current loop for adding hists to stack: 4
 
 
-Output file opening as: /media/scratch/packard/db/MOREBINSTESTING_FORK_R1_R4_R6_R8_Comparison.root
+Output file opening as: /media/scratch/packard/db/MOREBINS_R1_R4_R6_R8_Comparison.root
 Added total plots and legends
 Completed FILE plot decs
 Completed INDJET plot decs

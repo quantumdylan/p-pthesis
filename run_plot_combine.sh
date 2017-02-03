@@ -16,9 +16,9 @@ pdf_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/data/"
 #log location
 log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/Combinations/"
 #the name of the .root file that stores final events
-filename="TESTING_FORK_Combination_R1_To_R8"
+filename="MOREBINS_Combination_R4"
 #prefix title for hists
-title="TESTING_FORK_R1_R4_R6_R8"
+title="MOREBINS_R1_R4_R6_R8"
 #FILES (add more as needed):
 file1="R1pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 file2="R2pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
@@ -28,10 +28,10 @@ file5="testR6pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 file6="testR8pp10mEv_7TeV_ptHatMin0GeV_COMBINED"
 
 cd $pgm_loc
-./bin/PlotStuff $res_loc $out_loc $title $file1 $file2 $file3 $file4 $file5 $file6 > $log_loc$title'_Comparison.log'
+./bin/PlotStuff $res_loc $out_loc $title $file4 > $log_loc$title'_Comparison.log'
 
 cd $pdf_loc
-rm *.pdf
+#rm *.pdf
 
 cd $out_loc
 cp *.pdf $pdf_loc

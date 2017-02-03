@@ -95,7 +95,7 @@ int main ( int argc, const char** argv )
 	float pt_min = 0.5, pt_max = 900000.0;// [GeV] min and max transverse momentum range
 	
 	
-	int nbins = 10;
+	int nbins = 30;
 	int Nmax = 100;
 	
 	// results class objects

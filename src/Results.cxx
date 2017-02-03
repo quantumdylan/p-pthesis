@@ -301,6 +301,9 @@ void Results::Calculate(int pass)
 			
 			R_hist->Sumw2();
 			R_hist->Divide(N_avg_sq_hist);
+
+			VarN_hist->Divide(N_avg_sq_hist);
+			CovPtN_hist->Divide(N_avg_sq_hist);
 		}
 	}// end first pass through events condidtion
 	else if(pass == 1){// second pass through events
