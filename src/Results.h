@@ -25,8 +25,9 @@ private:
 	
 	int	nbins;		// number of bins for histograms
 	int	Nmax;		// max number of accepted particles for histogram range
-	int	NumJets;	// flag indicating the number of jets in this event class
+	int	NumJets;	// flag indicating the number of jets in this event class (no rapidity cuts)
 				// -1 = no jet selection
+	int AcceptedNumJets; // jet number from analysis (w/ rapidity cuts)
 	double	SqrtS;		// [GeV] center of mass collision energy
 
 	virtual void	CopyResults(Results *r);
@@ -37,6 +38,9 @@ public:
 	int	N_tot;		// total number of particles for all accepted events
 
 	long long int	Nsq_tot;	// sum over events of squares of particles per event
+
+
+	int numJetClasses;
 
 
 
@@ -81,6 +85,8 @@ public:
 	void	Set_NhistMax(int n)	{ Nmax		= n;	}
 	void	Set_NumJets(int n)	{ NumJets	= n;	}
 	void	Set_SqrtS(double x)	{ SqrtS		= x;	}
+	void	Set_AcceptedNumJets(int n)	{ AcceptedNumJets = n; }
+	void	Set_NumJetClasses(int n)	{ numJetClasses = n;   }
 	
 	
 	TString Get_Name()		{ return name;		}
@@ -90,6 +96,8 @@ public:
 	int	Get_Nevents()		{ return N_eve;		}
 	int	Get_N_tot()		{ return N_tot;		}
 	int	Get_Nsq_tot()		{ return Nsq_tot;	}
+	int Get_AcceptedNumJets()	{ return AcceptedNumJets; }
+	int Get_NumJetClasses()     { return numJetClasses;   }
 	double	Get_Pt_tot()		{ return Pt_tot;	}
 	double	Get_PtN_tot()		{ return PtN_tot;	}
 	double	Get_SqrtS()		{ return SqrtS;		}
@@ -111,6 +119,7 @@ public:
 	double	Get_D2P()		{ return D_2pass;	}
 	double	Get_R2P()		{ return R_2pass;	}
 	
+	/*
 	TH1D	*N_eve_hist;// Nev vs Nacc
 	
 	TH1D	*N_avg_hist; // <N> vs Nacc
@@ -129,6 +138,7 @@ public:
 	TH1D	*D_hist;// ( Cov(PtN) - <pt>Var(N) )/<N>^2
 	
 	TH1D	*R_hist;// (Var(N) - <N>)/<N>^2
+	*/
 
 	ClassDef(Results,2)
 };

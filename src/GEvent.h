@@ -30,6 +30,7 @@ private:
 	int		Nminus;		//negatively charge particle multiplicity
 	
 	int		nJets;		// the number of jets (not dijets) in the event
+	int		nAcceptedJets;	// the number of accepted (passes kinematic cuts) jets from analysis
 	
 	double		E_tot;		// total energy of particles
 	double		Ech_tot;	// total energy of charged particles
@@ -76,6 +77,7 @@ public:
 	void		SetFlag(unsigned int un)	{ Flag			= un;	}
 	void		SetNumJets(int n)		{ nJets			= n;	}
 	void		SetHardPartons(TClonesArray *hp){ HardPartons		= hp;	}
+	void		SetNAcceptedJets(int n)	{ nAcceptedJets = n; }
 
 	GParticle	*AddParticle(GParticle *p);
 	GParticle	*AddHardParton(GParticle *p);
@@ -89,6 +91,7 @@ public:
 	int		GetNch()			{ return Nch;			}
 	int		GetNplus()			{ return Nplus;			}
 	int		GetNminus()			{ return Nminus	;		}
+	int		GetNAcceptedJets()	{ return nAcceptedJets; }
 	double		GetE_tot()			{ return E_tot;			}
 	double		GetEch_tot()			{ return Ech_tot;		}
 	double		GetET_tot()			{ return ET_tot;		}

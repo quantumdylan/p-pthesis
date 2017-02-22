@@ -73,7 +73,8 @@ $(BDIR)/%  : $(ODIR)/%.o
 all    : $(BDIR)/RunPythia \
 	 $(BDIR)/RunFastJet	\
 	 $(BDIR)/analysis \
-	 $(BDIR)/PlotStuff
+	 $(BDIR)/PlotStuff \
+	 $(BDIR)/combine
 	 
 #$(ODIR)/GParticle.o 		: $(SDIR)/GParticle.cxx $(INCS)
 #$(ODIR)/GEvent.o 	 	: $(SDIR)/GEvent.cxx $(INCS) $(SDIR)/GEvent.h
@@ -83,6 +84,7 @@ $(BDIR)/RunPythia			: $(ODIR)/RunPythia.o $(SDIR)/GParticle_cxx.so $(SDIR)/GEven
 $(BDIR)/RunFastJet			: $(ODIR)/RunFastJet.o $(SDIR)/GParticle_cxx.so $(SDIR)/GEvent_cxx.so 
 $(BDIR)/analysis			: $(ODIR)/analysis.o $(SDIR)/GParticle_cxx.so $(SDIR)/GEvent_cxx.so $(SDIR)/Results_cxx.so 
 $(BDIR)/PlotStuff			: $(ODIR)/PlotStuff.o $(SDIR)/GParticle_cxx.so $(SDIR)/GEvent_cxx.so 
+$(BDIR)/combine				: $(ODIR)/combine.o $(SDIR)/GParticle_cxx.so $(SDIR)/GEvent_cxx.so $(SDIR)/Results_cxx.so 
 
 $(SDIR)/GParticle_cxx.so 	: $(SDIR)/GParticle.cxx $(INCS)
 	./myroothelper.sh src/GParticle.cxx

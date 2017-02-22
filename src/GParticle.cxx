@@ -53,6 +53,7 @@ void GParticle::CopyParticle(GParticle *p)
 	I3		= p->GetI3();
 	Charge		= p->GetCharge();
 	JetNumber	= p->GetJetNumber();
+	IsLeading = p->GetIsLeading();
 }
 
 //------------------------------------------------------------------------------------------
@@ -75,6 +76,7 @@ void GParticle::Reset()
 	I3		= 0;
 	Charge		= 0;
 	JetNumber	= 0;
+	IsLeading = false;
 }
 
 //-------------------------------------------------------------------------------------------

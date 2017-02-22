@@ -62,6 +62,7 @@ void GEvent::CopyEvent(GEvent *e)
 	b		= e->Getb();
 	
 	nJets		= e->GetNumJets();
+	nAcceptedJets = e->GetNAcceptedJets();
 	
 	Flag		= e->GetFlag();
 	Particles	= e->GetParticles();
@@ -96,7 +97,8 @@ void GEvent::Reset()
 	b		= 0.0;
 	Flag		= 0;
 	
-	nJets		= 0;
+	nJets		  = 0;
+	nAcceptedJets = 0;
 }
 
 //-------------------------------------------------------------------------------------------

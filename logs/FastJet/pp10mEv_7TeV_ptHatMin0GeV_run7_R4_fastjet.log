@@ -1,0 +1,65 @@
+Input path set as: /media/scratch/packard/db/.
+
+Filename set as: pp10mEv_7TeV_ptHatMin0GeV_run7.
+
+opening:   /media/scratch/packard/db/pp10mEv_7TeV_ptHatMin0GeV_run7.root
+
+
+External input: /media/external1/packard/db/RChange/R4 received for output path! Overriding default...
+
+Output path set as /media/external1/packard/db/RChange/R4. Will write contents to this directory!
+
+External input 0.4 received for R! Overriding default...
+
+External input 0.4 received for OpeningAngle! Overriding default...
+
+External input 5 received for jet_ptmin! Overriding default...
+
+External input 8 received for LeadPtMin! Overriding default...
+
+External input 5 received for SubLeadPtMin! Overriding default...
+
+External input 200 received for max_track_rap! Overriding default...
+
+External input 0 receieved for PtConsLo! Overriding default...
+
+External input 1 received for PtConsHi! Overriding default...
+
+R: 0.4
+
+OpeningAngle: 0.4
+
+jet_ptmin: 5
+
+LeadPtMin: 8
+
+SubLeadPtMin: 5
+
+max_track_rap: 200
+
+PtConsLo: 0
+
+PtConsHi: 1
+
+External input 1000 received for number of events! Overriding default...
+Event 0 / 1000
+#--------------------------------------------------------------------------
+#                         FastJet release 3.2.1
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the terms of the GNU GPLv2.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+Event 332 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 640 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 962 Number of Jets accepted = 2 Number of DiJets found = 1
+
+Found 3 events with jets.
+
+Time elapsed: Real time 0:00:32, CP time 15.950

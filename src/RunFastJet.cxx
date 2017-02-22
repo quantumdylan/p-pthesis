@@ -300,6 +300,7 @@ int main(int argc, const char** argv)
 								if(i == n || i == m)// make sure jet is one of the accepted jets
 								{
 									jet_counter++;
+									int leadingID = HiResult.at(i).constituents().at(0).user_index();
 									
 									for(int j=0; j< HiResult.at(i).constituents().size(); j++) // loop through constituents of jet candidate
 									{
@@ -329,7 +330,14 @@ int main(int argc, const char** argv)
 										
 										  event->GetParticle(index)->SetJetNumber(jet_counter);
 										  event->SetNumJets(jet_counter);// this will only be correct if csAllPart is sorted by jet pt
+
+										  if (event->GetParticle(index)->GetPt() >= event->GetParticle(leadingID)->GetPt()){
+											  leadingID = index;
+										  }
 									}// end loop through jet constituents
+
+									event->GetParticle(leadingID)->SetIsLeading(true);
+
 								}// end jet is accepted jet
 							}// end loop through jets
 						}// end repeated jet condition

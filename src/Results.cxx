@@ -61,6 +61,7 @@ void Results::Add(Results *r)
 	PtN_tot = PtN_tot + r->PtN_tot;
 
 	//Take this Results and add the histograms/values with another
+	/*
 	N_eve_hist->Sumw2(); 
 	N_eve_hist->Add(r->N_eve_hist);
 	
@@ -91,6 +92,7 @@ void Results::Add(Results *r)
 	//D_hist->Add(r->D_hist);
 
 	//R_hist->Add(r->R_hist);
+	*/
 }
 
 //-------------------------------------------------------------------------------------------
@@ -102,6 +104,8 @@ void Results::CopyResults(Results *r)
 	
 	SqrtS		= r->Get_SqrtS();
 	NumJets		= r->Get_NumJets();
+	AcceptedNumJets		= r->Get_AcceptedNumJets();
+	numJetClasses  = r->Get_NumJetClasses();
 	
 	nbins		= r->Get_nbins();
 	Nmax		= r->Get_NhistMax();
@@ -145,7 +149,9 @@ void Results::Reset()
 	Nmax = 100;
 	
 	NumJets = -1; 		// flag indicating the number of jets in this event class
+	AcceptedNumJets = -1; 		// flag indicating the number of jets in this event class
 	// -1 = no jet selection
+	numJetClasses = 0; 		// flag indicating the number of jets in this event class
 	
 	N_eve = 0;		// accepted number of events in this calculation
 	N_tot = 0;		// total number of particles for all accepted events
@@ -195,13 +201,14 @@ void Results::Update(int pass, int N, double PT)
 			PtN_tot += PT*N;
 			
 			// histograms
-			
+			/*
 			N_eve_hist->Fill(double(N));
 			N_avg_hist->Fill(double(N), double(N));
 			Nsq_avg_hist->Fill(double(N), double(N)*double(N));
 			
 			Pt_tot_avg_hist->Fill(double(N), PT);
 			PtN_avg_hist->Fill(double(N), PT*double(N));
+			*/
 
 			//cout << "N: " << N << endl;
 			//cout << "PT: " << PT << endl;
@@ -251,7 +258,7 @@ void Results::Calculate(int pass)
 			
 			// histograms
 			
-			
+			/*
 			N_avg_hist->Sumw2(); 
 			N_avg_hist->Divide(N_eve_hist);
 			
@@ -304,6 +311,7 @@ void Results::Calculate(int pass)
 
 			VarN_hist->Divide(N_avg_sq_hist);
 			CovPtN_hist->Divide(N_avg_sq_hist);
+			*/
 		}
 	}// end first pass through events condidtion
 	else if(pass == 1){// second pass through events
@@ -331,6 +339,7 @@ void Results::SetHistograms()
 {
 	TString title;
 	
+	/*
 	title = name + "N_eve_hist";
 	N_eve_hist = new TH1D(title,title, nbins, 0.0, Nmax);
 	
@@ -369,6 +378,7 @@ void Results::SetHistograms()
 	
 	title = name + "R_hist";
 	R_hist = new TH1D(title,title, nbins, 0.0, Nmax);
+	*/
 }
 
 //-------------------------------------------------------------------------------------------
@@ -377,6 +387,7 @@ void Results::SetHistograms()
 Results::~Results()
 {
 	// delete pointers
+	/*
 	delete N_eve_hist;
 	delete N_avg_hist;
 	delete N_avg_sq_hist;
@@ -390,4 +401,5 @@ Results::~Results()
 	delete ptAvgVarN_hist;
 	delete D_hist;
 	delete R_hist;
+	*/
 }

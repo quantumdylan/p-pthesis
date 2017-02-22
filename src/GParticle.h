@@ -33,6 +33,8 @@ class GParticle : public TObject
 	float	Mass;		//mass of particle in GeV
 	float	I3;		//2*I3: isospin z-projection (doubled)
 	float	Charge;		//charge of particle
+
+	bool	IsLeading;	//is the particle part of the leading jet or subleading jet
 	
 	int	JetNumber;	// index indicating which jet this particle belongs to
 				// if JetNumber == 0 this particle is not in a jet
@@ -60,6 +62,7 @@ class GParticle : public TObject
 	void	SetI3(int n)		{ I3		= n; }
 	void	SetCharge(int n)	{ Charge	= n; }
 	void	SetJetNumber(int n)	{ JetNumber	= n; }
+	void	SetIsLeading(bool b){ IsLeading = b; }
 	
 	void	Reset();
 	void	Clear(Option_t *option="");
@@ -79,6 +82,7 @@ class GParticle : public TObject
 	int	GetI3()			{ return I3;		}
 	int	GetCharge()		{ return Charge;	}
 	int	GetJetNumber()		{ return JetNumber;	}
+	bool GetIsLeading()		{ return IsLeading; }
 
 	float	CalcPhi();	// azimuthal momentum angle
 	float	CalcEta();	// pseudorapidity

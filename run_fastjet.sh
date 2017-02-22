@@ -8,13 +8,13 @@
 #location to place .root file with pythia events
 res_loc="/media/scratch/packard/db/"
 #the build location for the RunPythia program
-pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/24Sep2016/"
+pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/"
 #the root file output location
 out_loc="/media/external1/packard/db/RChange/"
 #prefix for output
-prefix="R8"
+prefix="R4"
 #log location
-log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/24Sep2016/logs/FastJet/"
+log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/FastJet/"
 #the name of the .root file that stores final events
 filename="pp10mEv_7TeV_ptHatMin0GeV_run"
 
@@ -23,7 +23,7 @@ filename="pp10mEv_7TeV_ptHatMin0GeV_run"
 #R=0.1
 #R=0.3
 #R=0.6
-R=0.8
+R=0.4
 #Opening Angle (0.4 default, comment out to default)
 OA=0.4
 #<pt> minimum cut for jet acceptance (5.0 default, comment out to default)
@@ -39,7 +39,7 @@ PL=0.0
 #Pt high (1.0 default, comment out to default)
 PH=1.0
 #Number of events (default from file, comment out to default)
-#NE=1000000000000
+NE=1000
 
 #number of computer cores to run RunPythia on
 nCores=9

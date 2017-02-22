@@ -14,7 +14,7 @@ res_loc="/media/external1/packard/db/RChange/"
 #the build location for the RunPythia program
 pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/"
 #the location to copy output (default: NULL)
-out_loc="/media/scratch/packard/db/RChange/BIN30"
+out_loc="/media/scratch/packard/db/RChange/"
 #final location from combiner
 final_loc="/media/scratch/packard/db/"
 #log location
@@ -23,7 +23,7 @@ log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/ROOT/
 filename="pp10mEv_7TeV_ptHatMin0GeV_run"
 #filename="test"
 #number of events (comment out to default)
-numevents=10000000
+numevents=1000
 #ipass limiter (Max number of passes)
 ipass=1
 

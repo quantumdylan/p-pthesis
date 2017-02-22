@@ -90,24 +90,27 @@ int main ( int argc, const char** argv )
 	
 	// kinematic cuts
 	float roots; // [GeV] center of mass collision energy
-	float eta_min = -2.5, eta_max = 2.5;// min and max pseudo rapidity range
-	float rap_min = -10, rap_max = 10;// min and max pseudo rapidity range
+	float eta_min = -25, eta_max = 25;// min and max pseudo rapidity range
+	float rap_min = -100, rap_max = 100;// min and max pseudo rapidity range
 	float pt_min = 0.5, pt_max = 900000.0;// [GeV] min and max transverse momentum range
 	
 	
 	int nbins = 30;
 	int Nmax = 100;
+
+	int numJetClasses = 7;
 	
 	// results class objects
 	Results *NoCuts_Res = new Results("NoCuts_", nbins, Nmax); // not cuts of any kind
 	// used cuts specified in particle loop
 	Results *Everything_Res = new Results("Everything_", nbins, Nmax); // no jet discrimination
-	Results *JetResults[4];// discriminates by jet content
-	for(int i = 0; i < 4; i++){ // initialize jet results classes
-		JetResults[i] = new Results("NumJets"+TString(Form("%d",2*i))+"_", nbins, Nmax);
-		JetResults[i]->Set_NumJets(2*i); // set jet content label
+	Results *JetResults[numJetClasses];// discriminates by jet content
+	for(int i = 0; i < numJetClasses; i++){ // initialize jet results classes
+		JetResults[i] = new Results("NumJets"+TString(Form("%d",i))+"_", nbins, Nmax);
+		JetResults[i]->Set_NumJets(i); // set jet content label
 	}
 	
+	Everything_Res->Set_NumJetClasses(numJetClasses);
 	
 	
 	TStopwatch timer;
@@ -138,7 +141,7 @@ int main ( int argc, const char** argv )
 			TObjArray *Particles; // partices are stored in the event object in an array TObjArray
 			Particles = (TObjArray *)event->GetParticles();// fill the array from the event object
 			int nentries = Particles->GetEntries();// get the number of particles in this event
-
+			int jetnum = 0;// counter for analyzed jets
 
 			//***********************************************************************
 			//	PARTICLE LOOP
@@ -153,7 +156,8 @@ int main ( int argc, const char** argv )
 				double y1 = particle1->GetRap(); // get rapidity
 				// if GetJetNumber() = 0 particle is not in a jet
 				// for GetJetNumber() = positve int the number represents which jet the particle is in
-				int jetnum = particle1->GetJetNumber();
+				// int jetnum = particle1->GetJetNumber();
+				bool leading = particle1->GetIsLeading();
 
 
 				N_nocut_event++;
@@ -166,7 +170,9 @@ int main ( int argc, const char** argv )
 					if (pt1 > pt_min && pt1 <= pt_max) { // make pt cut selection
 						if (eta1 > eta_min && eta1 <= eta_max) { // make pseudo rapidity cut selection
 							if (y1 > rap_min && y1 <= rap_max) { // make rapidity cut selection
-
+								if (leading){
+									jetnum++;
+								}
 
 								Nacc_event++;
 								pt_event += pt1;
@@ -177,14 +183,14 @@ int main ( int argc, const char** argv )
 				}// end charge condition
 
 			}// END PARTICLE LOOP
-
+			event->SetNAcceptedJets(jetnum); // set our rapidity-based jet number
 
 			// update Event ensemble results
 			NoCuts_Res->Update(ipass, N_nocut_event, pt_nocut_event); // always update
 			Everything_Res->Update(ipass, Nacc_event, pt_event); // always update
 			// only update if jet content condition is met
-			for (int i = 0; i < 4; i++)
-				if (event->GetNumJets() == (2 * i)) JetResults[i]->Update(ipass, Nacc_event, pt_event);
+			for (int i = 0; i < numJetClasses; i++)
+				if (jetnum == i) JetResults[i]->Update(ipass, Nacc_event, pt_event);
 
 
 
@@ -206,7 +212,7 @@ int main ( int argc, const char** argv )
 	// probably should set sqrt(s) somewhere
 	NoCuts_Res->Set_SqrtS(roots);
 	Everything_Res->Set_SqrtS(roots);
-	for (int i = 0; i < 4; i++) JetResults[i]->Set_SqrtS(roots);
+	for (int i = 0; i < numJetClasses; i++) JetResults[i]->Set_SqrtS(roots);
 
 	if (NoCuts_Res == NULL || Everything_Res == NULL) cout << "We are well and truly fucked" << endl;
 
@@ -230,8 +236,8 @@ int main ( int argc, const char** argv )
 
 	NoCuts_Res->Write("NoCuts");
 	Everything_Res->Write("Everything");
-	for (int i = 0; i < 4; i++) {
-		JetResults[i]->Write("NumJets" + TString(Form("%d", i * 2)));
+	for (int i = 0; i < numJetClasses; i++) {
+		JetResults[i]->Write("NumJets" + TString(Form("%d", i)));
 	}
 	
 	
