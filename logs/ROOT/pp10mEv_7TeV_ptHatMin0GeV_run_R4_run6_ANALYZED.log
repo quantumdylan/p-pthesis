@@ -1,15 +1,114 @@
 hi 6
 /media/external1/packard/db/RChange/R4pp10mEv_7TeV_ptHatMin0GeV_run6_FoundJets.root
 Input overriding default for NumEvents!
-There are 1000 events!
+There are 10000000 events!
 *********************** FIRST PASS ***********************
 0 events analysed.
-1000 events analysed.
+100000 events analysed.
+200000 events analysed.
+300000 events analysed.
+400000 events analysed.
+500000 events analysed.
+600000 events analysed.
+700000 events analysed.
+800000 events analysed.
+900000 events analysed.
+1000000 events analysed.
+1100000 events analysed.
+1200000 events analysed.
+1300000 events analysed.
+1400000 events analysed.
+1500000 events analysed.
+1600000 events analysed.
+1700000 events analysed.
+1800000 events analysed.
+1900000 events analysed.
+2000000 events analysed.
+2100000 events analysed.
+2200000 events analysed.
+2300000 events analysed.
+2400000 events analysed.
+2500000 events analysed.
+2600000 events analysed.
+2700000 events analysed.
+2800000 events analysed.
+2900000 events analysed.
+3000000 events analysed.
+3100000 events analysed.
+3200000 events analysed.
+3300000 events analysed.
+3400000 events analysed.
+3500000 events analysed.
+3600000 events analysed.
+3700000 events analysed.
+3800000 events analysed.
+3900000 events analysed.
+4000000 events analysed.
+4100000 events analysed.
+4200000 events analysed.
+4300000 events analysed.
+4400000 events analysed.
+4500000 events analysed.
+4600000 events analysed.
+4700000 events analysed.
+4800000 events analysed.
+4900000 events analysed.
+5000000 events analysed.
+5100000 events analysed.
+5200000 events analysed.
+5300000 events analysed.
+5400000 events analysed.
+5500000 events analysed.
+5600000 events analysed.
+5700000 events analysed.
+5800000 events analysed.
+5900000 events analysed.
+6000000 events analysed.
+6100000 events analysed.
+6200000 events analysed.
+6300000 events analysed.
+6400000 events analysed.
+6500000 events analysed.
+6600000 events analysed.
+6700000 events analysed.
+6800000 events analysed.
+6900000 events analysed.
+7000000 events analysed.
+7100000 events analysed.
+7200000 events analysed.
+7300000 events analysed.
+7400000 events analysed.
+7500000 events analysed.
+7600000 events analysed.
+7700000 events analysed.
+7800000 events analysed.
+7900000 events analysed.
+8000000 events analysed.
+8100000 events analysed.
+8200000 events analysed.
+8300000 events analysed.
+8400000 events analysed.
+8500000 events analysed.
+8600000 events analysed.
+8700000 events analysed.
+8800000 events analysed.
+8900000 events analysed.
+9000000 events analysed.
+9100000 events analysed.
+9200000 events analysed.
+9300000 events analysed.
+9400000 events analysed.
+9500000 events analysed.
+9600000 events analysed.
+9700000 events analysed.
+9800000 events analysed.
+9900000 events analysed.
+10000000 events analysed.
 
 External input /media/scratch/packard/db/RChange/R4 received for output path! Overriding default...
 
 Output path set as /media/scratch/packard/db/RChange/R4. Will write contents to this directory!
 
 Run Time: 
-Real time 0:00:01, CP time 0.260
+Real time 3:24:31, CP time 2146.480
 

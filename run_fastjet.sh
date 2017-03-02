@@ -39,7 +39,7 @@ PL=0.0
 #Pt high (1.0 default, comment out to default)
 PH=1.0
 #Number of events (default from file, comment out to default)
-NE=1000
+NE=10000000
 
 #number of computer cores to run RunPythia on
 nCores=9

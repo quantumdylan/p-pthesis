@@ -34,6 +34,8 @@
 #include "TRandom.h"
 #include "TApplication.h"
 #include "TStopwatch.h"
+#include "TArray.h"
+#include "TArrayD.h"
 
 #include <iostream>
 #include <vector>
@@ -55,13 +57,14 @@ int main(int argc, const char** argv) {
 	Results *NoCuts_Res;
 	Results *Everything_Res;
 
-	int numJetClasses = Everything_Res->Get_NumJetClasses();
-	//int numJetClasses = 7;
+	//int numJetClasses = Everything_Res->Get_NumJetClasses();
+	int numJetClasses = 7;
+	cout << "Hello?" << endl;
 	cout << numJetClasses << endl;
 
 	Results *JetResults[numJetClasses];
 
-	
+	cout << "What the fuck?" << endl;
 
 	//**CHANGES MADE FROM INITIAL CODE:
 	//**All commented code removed from this block, added more verbose documentation to save headaches
@@ -129,13 +132,13 @@ int main(int argc, const char** argv) {
 	float pt_min = 0.5, pt_max = 900000.0;// [GeV] min and max transverse momentum range
 
 
-	int nbins = 30;
-	int Nmax = 100;
+	//int nbins = 30;
+	//int Nmax = 100;
 
 	//-------------------------------------------------------------------------------------------------------
 	//	Open file for writing info
 	//-------------------------------------------------------------------------------------------------------
-	//TFile *outRoot = new TFile(outpath + prefix + filename + TString("_COMBINED.root"), "RECREATE");
+	TFile *outRoot = new TFile(outpath + prefix + filename + TString("_COMBINED.root"), "RECREATE");
 
 
 	//-------------------------------------------------------------------------------------------------------
@@ -190,8 +193,144 @@ int main(int argc, const char** argv) {
 
 	out.close();
 
+	cout << "Finished writing dat results" << endl;
+
+
+	vector<TArrayD*> content_array;
+
+	for (int i = 0; i < 10; i++){
+		TArrayD* temp = new TArrayD(numJetClasses + 1); // need one extra slot for the "everything" objects
+
+		content_array.push_back(temp); // add the generic array to the stack.
+	}
+
+	cout << "Generated empty arrays" << endl;
+
+	for (int j = 0; j < numJetClasses + 1; j++){
+		Results* current_results;
+
+		switch (j){
+		case 0: current_results = Everything_Res; break;
+		default: current_results = JetResults[j - 1]; // if it's not the Everything_Res special case then it's definitely JetResults
+		}
+
+		for (int i = 0; i < 10; i++){
+			double current_element;
+
+			switch (i){
+			case 0: 
+				current_element = current_results->Get_Nevents(); // this is the basic template, but change the Get() function for each to their respective things.
+				break;
+			case 1:
+				current_element = current_results->Get_AvgN();
+				break;
+			case 2:
+				current_element = current_results->Get_AvgNsq();
+				break;
+			case 3:
+				current_element = current_results->Get_VarN();
+				break;
+			case 4:
+				current_element = current_results->Get_AvgTotPt();
+				break;
+			case 5:
+				current_element = current_results->Get_AvgPt();
+				break;
+			case 6:
+				current_element = current_results->Get_PtN_tot();
+				break;
+			case 7:
+				current_element = current_results->Get_CovPtN();
+				break;
+			case 8:
+				current_element = current_results->Get_D();
+				break;
+			case 9:
+				current_element = current_results->Get_R();
+				break;
+			default: cout << "FUCK" << endl;
+			}
+
+			content_array.at(i)->SetAt(current_element, j); // set the element for the TArrayD
+		}
+	}
+
+	cout << "Got results from file" << endl;
+
+	int nbins = numJetClasses;
+	int xpix = 500, ypix = 500;
+	
+	vector<TH1D*> all_jet_hists;
+	vector<TCanvas*> all_jet_canvas;
+	vector<TLegend*> all_jet_leg;
+
+	// filling jet histograms
+	TString jet_titles[10] = { "N_eve_hist", "N_avg_hist", "N_avg_sq_hist", "Var_N_hist", "Pt_avg_hist", "pt_avg_hist", "PtN_tot_hist", "Cov_PtN_hist", "D_hist", "R_hist" };
+	TString can_titles[10] = { "cNev_JetC", "cNav_JetC", "cNsq_JetC", "cVarN_JetC", "cPt_JetC", "cpt_JetC", "cPtN_JetC", "cCov_PtN_JetC", "cD_JetC", "cR_JetC" };
+	TString y_axis_titles[10] = { "N_{ev}", "N_{avg}", "N_{avg}^2", "Var(N)", "P_{T}", "p_{T}", "P_{T}N", "Cov(P_{T}N)", "D", "R"};
+	TString x_axis_title = "Jet Content";
+
+	for (int i = 0; i < 10; i++){
+		TCanvas* current_canvas = new TCanvas(can_titles[i], can_titles[i], 0, 0, xpix, ypix); // create empty canvas with specified name
+		TLegend* current_leg = new TLegend(0.8, 0.8, 1.0, 1.0);
+		TH1D* current_jet_hist_vector = new TH1D(jet_titles[i], jet_titles[i], nbins, 0.0, nbins); // create an empty histogram with the specified name
+
+		for (int j = 1; j < numJetClasses + 1; j++){
+			current_jet_hist_vector->SetBinContent(j - 1, content_array.at(i)->GetAt(j)); // fill the histogram with information from our data
+		}
+
+		cout << "Set histogram content from array" << endl;
+
+		all_jet_hists.push_back(current_jet_hist_vector); // add the histogram group to the stack
+		all_jet_canvas.push_back(current_canvas);
+		all_jet_leg.push_back(current_leg);
+	}
+
+	cout << "Created canvases and legends" << endl;
+
+	for (int i = 0; i < 10; i++){
+		all_jet_canvas.at(i)->cd();
+
+		all_jet_hists.at(i)->SetLineColor(3);
+		all_jet_hists.at(i)->SetLineStyle(1);
+		all_jet_hists.at(i)->SetMarkerColor(3);
+		all_jet_hists.at(i)->SetMarkerStyle(20);
+		all_jet_hists.at(i)->SetMarkerSize(1);
+		all_jet_hists.at(i)->GetXaxis()->SetTitle(x_axis_title);
+		all_jet_hists.at(i)->GetYaxis()->SetTitle(y_axis_titles[i]);
+
+		if ((i >= 0) && (i < 3)){
+			all_jet_hists.at(i)->GetYaxis()->SetRangeUser(1, 1e8);
+			gPad->SetLogy();
+		}
+		else{
+			double range = 0;
+			switch (i){
+			case 3: range = 5; break;
+			case 4: range = 100; break;
+			case 5: range = 2; break;
+			case 6: range = 20; break;
+			case 7: range = 20; break;
+			case 8: range = 0.01; break;
+			case 9: range = 0.1; break;
+			default: cout << "motherfucker" << endl;
+			}
+
+			all_jet_hists.at(i)->GetYaxis()->SetRangeUser(1, range);
+		}
+
+		all_jet_hists.at(i)->Draw("LP hist");
+
+		all_jet_leg.at(i)->AddEntry(all_jet_hists.at(i), "Jet Content", "LP hist");
+		all_jet_leg.at(i)->Draw();
+
+		all_jet_canvas.at(i)->Write();
+	}
+
+	cout << "Set all histograms and drawn" << endl;
+
 
 	//close the file to prevent issues with file read/write
-	//outRoot->Close();
+	outRoot->Close();
 	return 0;
 }

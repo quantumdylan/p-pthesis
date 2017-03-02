@@ -8,7 +8,7 @@
 #location to place .root file with pythia events
 res_loc="/media/scratch/packard/db/"
 #the build location for the RunPythia program
-pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/24Sep2016/"
+pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/"
 #number of events
 nEv=10000000
 #center of mass collision energy in [GeV]

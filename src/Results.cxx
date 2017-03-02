@@ -38,7 +38,7 @@ Results::Results(TString str, int nbin, int N_max)
 	// default values for histogram parameters
 	nbins = nbin;
 	Nmax = N_max;
-	SetHistograms();
+	//SetHistograms();
 }
 
 //-------------------------------------------------------------------------------------------

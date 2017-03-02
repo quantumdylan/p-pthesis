@@ -23,7 +23,7 @@ log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/ROOT/
 filename="pp10mEv_7TeV_ptHatMin0GeV_run"
 #filename="test"
 #number of events (comment out to default)
-numevents=1000
+numevents=10000000
 #ipass limiter (Max number of passes)
 ipass=1
 
