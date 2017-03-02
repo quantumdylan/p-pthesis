@@ -1,0 +1,89 @@
+Input path set as: /media/scratch/packard/db/.
+
+Filename set as: pp10mEv_7TeV_ptHatMin0GeV_run0.
+
+opening:   /media/scratch/packard/db/pp10mEv_7TeV_ptHatMin0GeV_run0.root
+
+
+External input: /media/external1/packard/db/RChange/R4testing received for output path! Overriding default...
+
+Output path set as /media/external1/packard/db/RChange/R4testing. Will write contents to this directory!
+
+External input 0.4 received for R! Overriding default...
+
+External input 0.4 received for OpeningAngle! Overriding default...
+
+External input 5 received for jet_ptmin! Overriding default...
+
+External input 8 received for LeadPtMin! Overriding default...
+
+External input 5 received for SubLeadPtMin! Overriding default...
+
+External input 200 received for max_track_rap! Overriding default...
+
+External input 0 receieved for PtConsLo! Overriding default...
+
+External input 1 received for PtConsHi! Overriding default...
+
+R: 0.4
+
+OpeningAngle: 0.4
+
+jet_ptmin: 5
+
+LeadPtMin: 8
+
+SubLeadPtMin: 5
+
+max_track_rap: 200
+
+PtConsLo: 0
+
+PtConsHi: 1
+
+External input 1000 received for number of events! Overriding default...
+Event 0 / 1000
+#--------------------------------------------------------------------------
+#                         FastJet release 3.2.1
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the terms of the GNU GPLv2.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+Set jet 122 as leading in event 325!
+Jet 122 has eta: 1.17648 and rap: 1.1763
+Jet 122 has charge: -1 and pt: 6.66444
+Set jet 304 as leading in event 325!
+Jet 304 has eta: -4.90791 and rap: -4.90791
+Jet 304 has charge: 0 and pt: 4.66928
+Event 325 Number of Jets accepted = 2 Number of DiJets found = 1
+Set jet 7 as leading in event 743!
+Jet 7 has eta: 2.16443 and rap: 2.15786
+Jet 7 has charge: 1 and pt: 4.23376
+Set jet 34 as leading in event 743!
+Jet 34 has eta: -0.454049 and rap: -0.448553
+Jet 34 has charge: 0 and pt: 5.79088
+Event 743 Number of Jets accepted = 2 Number of DiJets found = 1
+Set jet 280 as leading in event 802!
+Jet 280 has eta: -1.0421 and rap: -1.0421
+Jet 280 has charge: 0 and pt: 6.67047
+Set jet 75 as leading in event 802!
+Jet 75 has eta: 0.308057 and rap: 0.30784
+Jet 75 has charge: -1 and pt: 3.65925
+Set jet 71 as leading in event 802!
+Jet 71 has eta: 0.609572 and rap: 0.599804
+Jet 71 has charge: -1 and pt: 4.89019
+Set jet 38 as leading in event 802!
+Jet 38 has eta: -1.72267 and rap: -1.71322
+Jet 38 has charge: 1 and pt: 3.45943
+Event 802 Number of Jets accepted = 4 Number of DiJets found = 2
+
+Found 3 events with jets.
+
+Time elapsed: Real time 0:00:12, CP time 12.540

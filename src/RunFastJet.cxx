@@ -338,6 +338,12 @@ int main(int argc, const char** argv)
 
 									event->GetParticle(leadingID)->SetIsLeading(true);
 
+									if (event->GetParticle(leadingID)->GetIsLeading()){
+										cout << "Set jet " << leadingID << " as leading in event " << ev << "!" << endl;
+										cout << "Jet " << leadingID << " has eta: " << event->GetParticle(leadingID)->GetEta() << " and rap: " << event->GetParticle(leadingID)->GetRap() << endl;
+										cout << "Jet " << leadingID << " has charge: " << event->GetParticle(leadingID)->GetCharge() << " and pt: " << event->GetParticle(leadingID)->GetPt() << endl;
+									}
+
 								}// end jet is accepted jet
 							}// end loop through jets
 						}// end repeated jet condition

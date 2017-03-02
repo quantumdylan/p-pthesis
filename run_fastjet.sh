@@ -12,7 +12,7 @@ pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/"
 #the root file output location
 out_loc="/media/external1/packard/db/RChange/"
 #prefix for output
-prefix="R4"
+prefix="R4testing"
 #log location
 log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/FastJet/"
 #the name of the .root file that stores final events
@@ -39,7 +39,7 @@ PL=0.0
 #Pt high (1.0 default, comment out to default)
 PH=1.0
 #Number of events (default from file, comment out to default)
-NE=10000000
+NE=1000
 
 #number of computer cores to run RunPythia on
 nCores=9

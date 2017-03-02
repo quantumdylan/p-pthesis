@@ -90,8 +90,8 @@ int main ( int argc, const char** argv )
 	
 	// kinematic cuts
 	float roots; // [GeV] center of mass collision energy
-	float eta_min = -25, eta_max = 25;// min and max pseudo rapidity range
-	float rap_min = -100, rap_max = 100;// min and max pseudo rapidity range
+	float eta_min = -10000, eta_max = 10000;// min and max pseudo rapidity range
+	float rap_min = -100000, rap_max = 100000;// min and max pseudo rapidity range
 	float pt_min = 0.5, pt_max = 900000.0;// [GeV] min and max transverse momentum range
 	
 	
@@ -166,12 +166,14 @@ int main ( int argc, const char** argv )
 				//
 				//	conditions for accepted particles
 				//
-				if (charge1 != 0) { // choose only charged particles
+				if (/*charge1 != 0*/true) { // choose only charged particles
 					if (pt1 > pt_min && pt1 <= pt_max) { // make pt cut selection
 						if (eta1 > eta_min && eta1 <= eta_max) { // make pseudo rapidity cut selection
 							if (y1 > rap_min && y1 <= rap_max) { // make rapidity cut selection
+								cout << "Particle num: " << ip << " in cut range for event num: " << iev << "!" << endl;
 								if (leading){
 									jetnum++;
+									cout << "Event num: " << iev << " Paricle num: " << ip << " Jet num: " << jetnum << endl;
 								}
 
 								Nacc_event++;
@@ -183,6 +185,8 @@ int main ( int argc, const char** argv )
 				}// end charge condition
 
 			}// END PARTICLE LOOP
+
+			cout << endl << endl;
 			event->SetNAcceptedJets(jetnum); // set our rapidity-based jet number
 
 			// update Event ensemble results
@@ -212,6 +216,7 @@ int main ( int argc, const char** argv )
 	// probably should set sqrt(s) somewhere
 	NoCuts_Res->Set_SqrtS(roots);
 	Everything_Res->Set_SqrtS(roots);
+	Everything_Res->Set_NumJetClasses(numJetClasses);
 	for (int i = 0; i < numJetClasses; i++) JetResults[i]->Set_SqrtS(roots);
 
 	if (NoCuts_Res == NULL || Everything_Res == NULL) cout << "We are well and truly fucked" << endl;

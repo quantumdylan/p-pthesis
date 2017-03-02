@@ -60,11 +60,9 @@ int main(int argc, const char** argv) {
 	//int numJetClasses = Everything_Res->Get_NumJetClasses();
 	int numJetClasses = 7;
 	cout << "Hello?" << endl;
-	cout << numJetClasses << endl;
+	cout << "Total number of jet classes from file: " << numJetClasses << endl;
 
 	Results *JetResults[numJetClasses];
-
-	cout << "What the fuck?" << endl;
 
 	//**CHANGES MADE FROM INITIAL CODE:
 	//**All commented code removed from this block, added more verbose documentation to save headaches
@@ -265,7 +263,7 @@ int main(int argc, const char** argv) {
 	vector<TLegend*> all_jet_leg;
 
 	// filling jet histograms
-	TString jet_titles[10] = { "N_eve_hist", "N_avg_hist", "N_avg_sq_hist", "Var_N_hist", "Pt_avg_hist", "pt_avg_hist", "PtN_tot_hist", "Cov_PtN_hist", "D_hist", "R_hist" };
+	TString jet_titles[10] = { "N_eve_hist", "N_avg_hist", "N_avg_sq_hist", "Var_N_hist", "Pt_tot_avg_hist", "pt_avg_hist", "PtN_tot_hist", "Cov_PtN_hist", "D_hist", "R_hist" };
 	TString can_titles[10] = { "cNev_JetC", "cNav_JetC", "cNsq_JetC", "cVarN_JetC", "cPt_JetC", "cpt_JetC", "cPtN_JetC", "cCov_PtN_JetC", "cD_JetC", "cR_JetC" };
 	TString y_axis_titles[10] = { "N_{ev}", "N_{avg}", "N_{avg}^2", "Var(N)", "P_{T}", "p_{T}", "P_{T}N", "Cov(P_{T}N)", "D", "R"};
 	TString x_axis_title = "Jet Content";
@@ -299,24 +297,27 @@ int main(int argc, const char** argv) {
 		all_jet_hists.at(i)->GetXaxis()->SetTitle(x_axis_title);
 		all_jet_hists.at(i)->GetYaxis()->SetTitle(y_axis_titles[i]);
 
+		//"N_eve_hist", "N_avg_hist", "N_avg_sq_hist", "Var_N_hist", "Pt_avg_hist", "pt_avg_hist", "PtN_tot_hist", "Cov_PtN_hist", "D_hist", "R_hist"
+
 		if ((i >= 0) && (i < 3)){
 			all_jet_hists.at(i)->GetYaxis()->SetRangeUser(1, 1e8);
 			gPad->SetLogy();
 		}
 		else{
-			double range = 0;
+			double range_max = 0;
+			double range_min = 0;
 			switch (i){
-			case 3: range = 5; break;
-			case 4: range = 100; break;
-			case 5: range = 2; break;
-			case 6: range = 20; break;
-			case 7: range = 20; break;
-			case 8: range = 0.01; break;
-			case 9: range = 0.1; break;
+			case 3: range_max = 900; range_min = 0; break;
+			case 4: range_max = 200; range_min = 0; break;
+			case 5: range_max = 2; range_min = 0; break;
+			case 6: range_max = 5e8; range_min = 0; break;
+			case 7: range_max = 1e3; range_min = 0; break;
+			case 8: range_max = 0.01; range_min = -0.02; break;
+			case 9: range_max = 0.15; range_min = 0; break;
 			default: cout << "motherfucker" << endl;
 			}
 
-			all_jet_hists.at(i)->GetYaxis()->SetRangeUser(1, range);
+			all_jet_hists.at(i)->GetYaxis()->SetRangeUser(range_min, range_max);
 		}
 
 		all_jet_hists.at(i)->Draw("LP hist");
@@ -324,7 +325,10 @@ int main(int argc, const char** argv) {
 		all_jet_leg.at(i)->AddEntry(all_jet_hists.at(i), "Jet Content", "LP hist");
 		all_jet_leg.at(i)->Draw();
 
+		TString pdfpath(outpath + jet_titles[i] + "_Cone_" + prefix + "_JetContent.pdf");
+
 		all_jet_canvas.at(i)->Write();
+		all_jet_canvas.at(i)->Print(pdfpath, "pdf");
 	}
 
 	cout << "Set all histograms and drawn" << endl;
