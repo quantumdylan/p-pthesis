@@ -8,7 +8,7 @@
 
 #
 #prefix
-prefix="R4testing"
+prefix="R6FINAL"
 #location to place .root file with pythia events
 res_loc="/media/external1/packard/db/RChange/"
 #the build location for the RunPythia program
@@ -23,7 +23,7 @@ log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/ROOT/
 filename="pp10mEv_7TeV_ptHatMin0GeV_run"
 #filename="test"
 #number of events (comment out to default)
-numevents=1000
+numevents=10000000
 #ipass limiter (Max number of passes)
 ipass=1
 

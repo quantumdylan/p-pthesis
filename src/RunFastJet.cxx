@@ -223,6 +223,10 @@ int main(int argc, const char** argv)
 		for ( int i=0; i < G_Particles->GetEntries() ; ++i )
 		{
 			part1 = (GParticle *) G_Particles->At(i);// get part1
+			//FastJet is keeping photons as neutral particles (PID 22)
+			//what the fuck
+			if (part1->GetPID_PDG() <= 100) continue; // skip photons and general 2-digit PIDs
+			if (part1->GetCharge() == 0) continue; // skip all neutral particles
 			PseudoJet tempjet(part1->GetPx(), part1->GetPy(), part1->GetPz(), part1->GetE());
 			tempjet.set_user_index(i);
 			particles.push_back(tempjet); // pseudojet with all particles including neutrals
@@ -337,12 +341,15 @@ int main(int argc, const char** argv)
 									}// end loop through jet constituents
 
 									event->GetParticle(leadingID)->SetIsLeading(true);
-
+									/*
+									//verbose logging for debugging purposes
 									if (event->GetParticle(leadingID)->GetIsLeading()){
 										cout << "Set jet " << leadingID << " as leading in event " << ev << "!" << endl;
 										cout << "Jet " << leadingID << " has eta: " << event->GetParticle(leadingID)->GetEta() << " and rap: " << event->GetParticle(leadingID)->GetRap() << endl;
 										cout << "Jet " << leadingID << " has charge: " << event->GetParticle(leadingID)->GetCharge() << " and pt: " << event->GetParticle(leadingID)->GetPt() << endl;
+										cout << "Jet " << leadingID << " has PID: " << event->GetParticle(leadingID)->GetPID_PDG() << endl;
 									}
+									*/
 
 								}// end jet is accepted jet
 							}// end loop through jets

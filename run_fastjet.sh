@@ -12,7 +12,7 @@ pgm_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/"
 #the root file output location
 out_loc="/media/external1/packard/db/RChange/"
 #prefix for output
-prefix="R4testing"
+prefix="R2FINAL"
 #log location
 log_loc="/home/packard/Dropbox/packard_SeniorProj/moschelli/p-pthesis/logs/FastJet/"
 #the name of the .root file that stores final events
@@ -23,7 +23,7 @@ filename="pp10mEv_7TeV_ptHatMin0GeV_run"
 #R=0.1
 #R=0.3
 #R=0.6
-R=0.4
+R=0.2
 #Opening Angle (0.4 default, comment out to default)
 OA=0.4
 #<pt> minimum cut for jet acceptance (5.0 default, comment out to default)
@@ -39,7 +39,7 @@ PL=0.0
 #Pt high (1.0 default, comment out to default)
 PH=1.0
 #Number of events (default from file, comment out to default)
-NE=1000
+#NE=10000000
 
 #number of computer cores to run RunPythia on
 nCores=9

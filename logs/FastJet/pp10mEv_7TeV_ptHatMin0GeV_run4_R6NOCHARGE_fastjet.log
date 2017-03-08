@@ -1,0 +1,3486 @@
+Input path set as: /media/scratch/packard/db/.
+
+Filename set as: pp10mEv_7TeV_ptHatMin0GeV_run4.
+
+opening:   /media/scratch/packard/db/pp10mEv_7TeV_ptHatMin0GeV_run4.root
+
+
+External input: /media/external1/packard/db/RChange/R6NOCHARGE received for output path! Overriding default...
+
+Output path set as /media/external1/packard/db/RChange/R6NOCHARGE. Will write contents to this directory!
+
+External input 0.6 received for R! Overriding default...
+
+External input 0.4 received for OpeningAngle! Overriding default...
+
+External input 5 received for jet_ptmin! Overriding default...
+
+External input 8 received for LeadPtMin! Overriding default...
+
+External input 5 received for SubLeadPtMin! Overriding default...
+
+External input 200 received for max_track_rap! Overriding default...
+
+External input 0 receieved for PtConsLo! Overriding default...
+
+External input 1 received for PtConsHi! Overriding default...
+
+R: 0.6
+
+OpeningAngle: 0.4
+
+jet_ptmin: 5
+
+LeadPtMin: 8
+
+SubLeadPtMin: 5
+
+max_track_rap: 200
+
+PtConsLo: 0
+
+PtConsHi: 1
+
+Number of events: 10000000.Event 0 / 10000000
+#--------------------------------------------------------------------------
+#                         FastJet release 3.2.1
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the terms of the GNU GPLv2.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+Event 2402 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9850 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 10000 / 10000000
+Event 17833 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 20000 / 10000000
+Event 20465 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 24334 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 27356 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 30000 / 10000000
+Event 39191 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 40000 / 10000000
+Event 40297 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 44157 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 48983 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 50000 / 10000000
+Event 53662 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 53728 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 54050 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 59563 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 60000 / 10000000
+Event 70000 / 10000000
+Event 79474 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 80000 / 10000000
+Event 80308 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 81336 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 81504 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 82106 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 85170 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 90000 / 10000000
+Event 90922 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 92375 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 94369 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 99018 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 100000 / 10000000
+Event 105386 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 110000 / 10000000
+Event 110250 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 110491 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 112618 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 116627 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 117709 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 120000 / 10000000
+Event 120919 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 120997 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 126761 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 127827 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 129333 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 130000 / 10000000
+Event 140000 / 10000000
+Event 144074 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 147701 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 150000 / 10000000
+Event 153292 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 160000 / 10000000
+Event 167455 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 170000 / 10000000
+Event 171654 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 180000 / 10000000
+Event 181306 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 182807 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 184494 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 187501 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 190000 / 10000000
+Event 194457 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 200000 / 10000000
+Event 206590 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 208718 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 209639 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 210000 / 10000000
+Event 220000 / 10000000
+Event 221058 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 222903 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 228988 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 230000 / 10000000
+Event 230027 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 232187 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 240000 / 10000000
+Event 244401 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 247158 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 250000 / 10000000
+Event 251096 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 259574 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 259845 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 260000 / 10000000
+Event 270000 / 10000000
+Event 271429 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 275199 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 276414 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 278627 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 280000 / 10000000
+Event 284207 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 290000 / 10000000
+Event 292008 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 294364 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 295871 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 298049 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 299814 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 300000 / 10000000
+Event 301217 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 310000 / 10000000
+Event 310369 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 311035 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 311131 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 312478 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 314494 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 315183 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 320000 / 10000000
+Event 325882 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 326689 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 330000 / 10000000
+Event 330093 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 333067 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 333919 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 340000 / 10000000
+Event 343355 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 350000 / 10000000
+Event 356787 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 357964 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 360000 / 10000000
+Event 361468 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 367413 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 368446 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 370000 / 10000000
+Event 375493 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 377576 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 379474 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 380000 / 10000000
+Event 382154 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 388399 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 390000 / 10000000
+Event 396611 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 398667 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 400000 / 10000000
+Event 404462 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 404796 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 405188 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 406928 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 407838 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 410000 / 10000000
+Event 411685 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 420000 / 10000000
+Event 426194 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 430000 / 10000000
+Event 430734 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 433083 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 440000 / 10000000
+Event 441072 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 450000 / 10000000
+Event 451026 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 454920 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 457157 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 459777 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 460000 / 10000000
+Event 464442 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 470000 / 10000000
+Event 477736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 478101 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 480000 / 10000000
+Event 489199 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 490000 / 10000000
+Event 490911 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 493002 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 494393 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 500000 / 10000000
+Event 504970 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 505756 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 510000 / 10000000
+Event 512681 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 518388 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 519456 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 520000 / 10000000
+Event 521426 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 530000 / 10000000
+Event 532550 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 535702 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 536677 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 540000 / 10000000
+Event 542577 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 545352 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 550000 / 10000000
+Event 556505 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 559256 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 559375 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 560000 / 10000000
+Event 565870 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 566340 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 567084 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 567290 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 569044 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 569361 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 570000 / 10000000
+Event 570161 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 574902 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 579054 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 580000 / 10000000
+Event 580340 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 584470 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 587763 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 589184 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 590000 / 10000000
+Event 593228 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 593426 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 594424 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 598397 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 600000 / 10000000
+Event 605004 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 605122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 610000 / 10000000
+Event 620000 / 10000000
+Event 622627 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 627236 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 630000 / 10000000
+Event 638161 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 640000 / 10000000
+Event 642137 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 647434 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 650000 / 10000000
+Event 651953 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 658164 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 659800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 660000 / 10000000
+Event 667392 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 669495 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 670000 / 10000000
+Event 672032 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 672754 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 678636 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 679880 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 680000 / 10000000
+Event 680798 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 683807 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 690000 / 10000000
+Event 695554 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 698151 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 700000 / 10000000
+Event 702651 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 705103 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 710000 / 10000000
+Event 710214 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 710807 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 712963 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 715411 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 720000 / 10000000
+Event 722238 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 724450 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 726939 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 728298 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 729924 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 730000 / 10000000
+Event 735388 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 738196 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 740000 / 10000000
+Event 742713 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 750000 / 10000000
+Event 751163 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 754229 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 760000 / 10000000
+Event 762763 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 766134 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 770000 / 10000000
+Event 771665 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 771750 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 780000 / 10000000
+Event 783962 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 784562 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 786545 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 789448 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 790000 / 10000000
+Event 791017 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 795943 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 798449 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 799491 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 800000 / 10000000
+Event 810000 / 10000000
+Event 815343 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 818936 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 820000 / 10000000
+Event 823137 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 824848 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 825688 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 825808 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 826339 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 828392 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 830000 / 10000000
+Event 831037 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 836836 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 840000 / 10000000
+Event 850000 / 10000000
+Event 851364 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 855728 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 856184 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 856638 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 860000 / 10000000
+Event 860622 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 866765 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 866881 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 868076 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 870000 / 10000000
+Event 875365 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 877190 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 880000 / 10000000
+Event 882744 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 890000 / 10000000
+Event 893728 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 900000 / 10000000
+Event 903678 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 905955 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 910000 / 10000000
+Event 914943 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 920000 / 10000000
+Event 922640 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 924609 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 928164 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 930000 / 10000000
+Event 930118 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 940000 / 10000000
+Event 947117 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 950000 / 10000000
+Event 957285 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 960000 / 10000000
+Event 963645 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 967602 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 967846 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 970000 / 10000000
+Event 979481 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 980000 / 10000000
+Event 987188 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 990000 / 10000000
+Event 991207 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 994414 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 994447 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1000000 / 10000000
+Event 1004652 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1004694 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1005479 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1008929 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1010000 / 10000000
+Event 1011932 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1011995 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1013779 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1014244 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1018000 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1020000 / 10000000
+Event 1023398 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1026903 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1030000 / 10000000
+Event 1040000 / 10000000
+Event 1041896 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1042539 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1042629 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1043904 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1045903 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1050000 / 10000000
+Event 1060000 / 10000000
+Event 1064531 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1066817 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1070000 / 10000000
+Event 1070765 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1074717 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1077487 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1077595 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1080000 / 10000000
+Event 1080041 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1085355 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1087167 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1089837 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1090000 / 10000000
+Event 1090530 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1092387 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1093989 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1096732 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1100000 / 10000000
+Event 1101174 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1102023 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1110000 / 10000000
+Event 1113824 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1114141 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1115448 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1120000 / 10000000
+Event 1121026 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1127191 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1130000 / 10000000
+Event 1132344 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1136488 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1140000 / 10000000
+Event 1146152 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1148948 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1149129 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1150000 / 10000000
+Event 1152946 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1160000 / 10000000
+Event 1167671 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1170000 / 10000000
+Event 1174126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1178627 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1179128 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1180000 / 10000000
+Event 1180367 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1185874 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1190000 / 10000000
+Event 1200000 / 10000000
+Event 1200538 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1201387 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1202277 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1202586 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1203266 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1204988 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1206136 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1210000 / 10000000
+Event 1218574 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1218746 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1220000 / 10000000
+Event 1220432 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1230000 / 10000000
+Event 1240000 / 10000000
+Event 1242124 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1243745 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1244961 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1248809 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1250000 / 10000000
+Event 1252437 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1260000 / 10000000
+Event 1260062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1270000 / 10000000
+Event 1271867 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1272792 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1280000 / 10000000
+Event 1286423 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1288225 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1290000 / 10000000
+Event 1293663 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1294816 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1300000 / 10000000
+Event 1310000 / 10000000
+Event 1315960 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1318515 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1320000 / 10000000
+Event 1322016 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1330000 / 10000000
+Event 1340000 / 10000000
+Event 1340447 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1348473 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1350000 / 10000000
+Event 1351603 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1358222 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1358471 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1360000 / 10000000
+Event 1363247 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1364374 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1370000 / 10000000
+Event 1374210 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1374389 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1380000 / 10000000
+Event 1386161 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1390000 / 10000000
+Event 1392078 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1393571 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1398191 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1400000 / 10000000
+Event 1403816 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1405410 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1410000 / 10000000
+Event 1410372 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1414980 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1416986 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1417842 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1420000 / 10000000
+Event 1423709 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1423985 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1429046 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1430000 / 10000000
+Event 1434283 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1438069 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1440000 / 10000000
+Event 1444712 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1447701 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1449601 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1450000 / 10000000
+Event 1450062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1450193 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1453023 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1453120 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1459416 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1460000 / 10000000
+Event 1460640 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1461316 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1462383 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1464556 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1469989 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1470000 / 10000000
+Event 1473359 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1480000 / 10000000
+Event 1484177 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1486515 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1490000 / 10000000
+Event 1492823 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1493960 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 1497613 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1497919 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1500000 / 10000000
+Event 1500574 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1510000 / 10000000
+Event 1512089 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1513486 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1513619 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1514736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1515327 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1517537 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1519452 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1520000 / 10000000
+Event 1520354 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1522688 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1530000 / 10000000
+Event 1532446 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1540000 / 10000000
+Event 1548898 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1550000 / 10000000
+Event 1554040 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1556655 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1558670 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1560000 / 10000000
+Event 1563532 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1570000 / 10000000
+Event 1570865 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1574656 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1576718 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1579260 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1580000 / 10000000
+Event 1586224 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1588235 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1588839 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1590000 / 10000000
+Event 1590810 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1591661 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1595056 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1600000 / 10000000
+Event 1601970 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1608127 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1610000 / 10000000
+Event 1615459 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1620000 / 10000000
+Event 1630000 / 10000000
+Event 1640000 / 10000000
+Event 1643589 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1644512 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1645349 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1650000 / 10000000
+Event 1650988 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1653953 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1660000 / 10000000
+Event 1665654 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1667856 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1669189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1670000 / 10000000
+Event 1674630 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1679821 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1680000 / 10000000
+Event 1688651 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1690000 / 10000000
+Event 1691367 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1692540 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1692594 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1694475 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1697809 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1700000 / 10000000
+Event 1705347 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1710000 / 10000000
+Event 1711670 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1712004 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1720000 / 10000000
+Event 1722238 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1728902 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1730000 / 10000000
+Event 1730477 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1737952 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1740000 / 10000000
+Event 1744300 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1749679 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1750000 / 10000000
+Event 1750096 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1760000 / 10000000
+Event 1761239 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1761987 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1764216 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1764623 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1768911 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1770000 / 10000000
+Event 1774974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1778000 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1779974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1780000 / 10000000
+Event 1783409 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1785057 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1788767 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1790000 / 10000000
+Event 1796680 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1800000 / 10000000
+Event 1807040 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1807445 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1807928 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1807994 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1810000 / 10000000
+Event 1813045 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1813173 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1813442 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1817372 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1820000 / 10000000
+Event 1825426 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1825806 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1830000 / 10000000
+Event 1831743 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1833566 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1836597 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1840000 / 10000000
+Event 1840616 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1846472 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1850000 / 10000000
+Event 1850656 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1860000 / 10000000
+Event 1861149 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1863426 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1868840 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1869066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1870000 / 10000000
+Event 1870333 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1880000 / 10000000
+Event 1881880 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1882533 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1886046 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1886403 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1888444 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1889489 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1890000 / 10000000
+Event 1897460 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1899458 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1900000 / 10000000
+Event 1905512 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1906779 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1910000 / 10000000
+Event 1911122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1912284 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1920000 / 10000000
+Event 1923048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1927039 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1930000 / 10000000
+Event 1931008 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1936468 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1940000 / 10000000
+Event 1940131 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1940610 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1942301 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1946937 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1949518 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1950000 / 10000000
+Event 1950967 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1952019 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1959256 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1959516 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1960000 / 10000000
+Event 1966122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1968425 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1968459 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1970000 / 10000000
+Event 1980000 / 10000000
+Event 1984361 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1985339 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1988007 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1990000 / 10000000
+Event 1996236 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1996686 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1996815 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 1997064 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2000000 / 10000000
+Event 2001819 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2005750 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2007164 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2010000 / 10000000
+Event 2013204 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2013727 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2017081 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2017110 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2017332 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2020000 / 10000000
+Event 2023113 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 2030000 / 10000000
+Event 2032104 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2034655 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2040000 / 10000000
+Event 2043291 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2050000 / 10000000
+Event 2054694 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2059659 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2060000 / 10000000
+Event 2060670 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2064539 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2070000 / 10000000
+Event 2080000 / 10000000
+Event 2082785 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2088533 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2090000 / 10000000
+Event 2090110 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2090232 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2090718 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2094834 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2100000 / 10000000
+Event 2100535 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2101180 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2110000 / 10000000
+Event 2114262 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2120000 / 10000000
+Event 2122018 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2122119 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2130000 / 10000000
+Event 2134389 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2135935 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2136926 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2140000 / 10000000
+Event 2145150 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2147963 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2148332 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2150000 / 10000000
+Event 2160000 / 10000000
+Event 2170000 / 10000000
+Event 2170138 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2173105 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2173670 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 2176505 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2179702 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2180000 / 10000000
+Event 2188839 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2190000 / 10000000
+Event 2190844 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2191147 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2200000 / 10000000
+Event 2203831 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2210000 / 10000000
+Event 2212652 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2212819 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2220000 / 10000000
+Event 2230000 / 10000000
+Event 2239269 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2240000 / 10000000
+Event 2240701 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2250000 / 10000000
+Event 2250372 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2257963 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2258078 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2260000 / 10000000
+Event 2270000 / 10000000
+Event 2270061 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2270814 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2273765 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2277039 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2277932 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2280000 / 10000000
+Event 2287194 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2289816 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2290000 / 10000000
+Event 2292240 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2300000 / 10000000
+Event 2308699 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2310000 / 10000000
+Event 2310740 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2314562 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2317217 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2320000 / 10000000
+Event 2324259 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2326784 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2328502 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2328693 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2330000 / 10000000
+Event 2336263 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2338528 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2340000 / 10000000
+Event 2342337 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2343212 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2347261 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2350000 / 10000000
+Event 2350895 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2352902 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2360000 / 10000000
+Event 2366055 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2367903 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2370000 / 10000000
+Event 2378294 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2379823 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2380000 / 10000000
+Event 2380317 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2388621 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2389577 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 2390000 / 10000000
+Event 2390324 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2391180 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2399664 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2400000 / 10000000
+Event 2405092 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2410000 / 10000000
+Event 2417545 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2418874 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2420000 / 10000000
+Event 2420367 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2420384 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2421545 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2430000 / 10000000
+Event 2430026 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2435889 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2438537 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2440000 / 10000000
+Event 2440064 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2446106 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2450000 / 10000000
+Event 2456262 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2460000 / 10000000
+Event 2463826 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2465719 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2470000 / 10000000
+Event 2475803 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2478123 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2480000 / 10000000
+Event 2490000 / 10000000
+Event 2498899 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2499364 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2499875 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2499924 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2500000 / 10000000
+Event 2503294 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2506568 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2510000 / 10000000
+Event 2511365 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2514334 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2516459 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2516932 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2518101 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2520000 / 10000000
+Event 2525424 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2525672 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2526339 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2530000 / 10000000
+Event 2540000 / 10000000
+Event 2543885 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2547007 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2550000 / 10000000
+Event 2554406 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2560000 / 10000000
+Event 2563510 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2570000 / 10000000
+Event 2570117 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2572098 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2580000 / 10000000
+Event 2590000 / 10000000
+Event 2594078 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2596025 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2597862 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2599906 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 2600000 / 10000000
+Event 2600092 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2602873 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2603553 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2603648 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2609867 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 2610000 / 10000000
+Event 2610558 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2620000 / 10000000
+Event 2623131 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2630000 / 10000000
+Event 2640000 / 10000000
+Event 2647990 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2650000 / 10000000
+Event 2660000 / 10000000
+Event 2660333 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2666856 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2667995 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2670000 / 10000000
+Event 2671021 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2675500 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2675994 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2677789 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2677839 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2680000 / 10000000
+Event 2682237 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2684118 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2684818 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2685304 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2690000 / 10000000
+Event 2691200 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2691731 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2691791 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2692628 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2696851 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2700000 / 10000000
+Event 2707156 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2707432 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2707588 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2710000 / 10000000
+Event 2712916 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2717701 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2717917 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2720000 / 10000000
+Event 2720937 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2722021 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2723840 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2727705 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2727729 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2730000 / 10000000
+Event 2730225 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2738126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2740000 / 10000000
+Event 2744423 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2746358 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2750000 / 10000000
+Event 2750370 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2752150 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2754973 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2760000 / 10000000
+Event 2761949 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2762006 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2764013 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2770000 / 10000000
+Event 2778230 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2780000 / 10000000
+Event 2781530 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2790000 / 10000000
+Event 2791083 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2800000 / 10000000
+Event 2804464 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2808004 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2808968 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2810000 / 10000000
+Event 2810452 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2811911 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2815628 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2816183 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2819237 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2820000 / 10000000
+Event 2827206 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2830000 / 10000000
+Event 2836227 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2840000 / 10000000
+Event 2841106 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2842271 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2843311 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2845765 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2846707 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2850000 / 10000000
+Event 2852271 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2853006 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2853748 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2858076 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2860000 / 10000000
+Event 2860793 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2864756 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2870000 / 10000000
+Event 2874897 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2875755 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2877366 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2877660 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2880000 / 10000000
+Event 2885378 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2890000 / 10000000
+Event 2894945 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2897015 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2898294 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2900000 / 10000000
+Event 2910000 / 10000000
+Event 2918543 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2920000 / 10000000
+Event 2926458 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2927477 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2930000 / 10000000
+Event 2931525 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2934740 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2940000 / 10000000
+Event 2943309 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2946138 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2947613 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2950000 / 10000000
+Event 2950645 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2955052 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2955527 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2956975 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2960000 / 10000000
+Event 2963482 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2964291 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2970000 / 10000000
+Event 2977166 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2980000 / 10000000
+Event 2982659 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2990000 / 10000000
+Event 2990918 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 2991725 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3000000 / 10000000
+Event 3002681 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3006796 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3007671 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 3007760 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3010000 / 10000000
+Event 3010291 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3014449 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3014800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3016134 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3019837 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3020000 / 10000000
+Event 3030000 / 10000000
+Event 3035813 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3038312 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3040000 / 10000000
+Event 3046925 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3049269 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3049526 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3050000 / 10000000
+Event 3051594 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3052339 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3059730 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3060000 / 10000000
+Event 3060228 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3063062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3064943 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3066495 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3068295 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3070000 / 10000000
+Event 3070259 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3071297 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3072681 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3075903 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3080000 / 10000000
+Event 3083787 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3085217 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3086068 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3087343 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3090000 / 10000000
+Event 3090336 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3094129 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3100000 / 10000000
+Event 3109573 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3110000 / 10000000
+Event 3114010 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3120000 / 10000000
+Event 3123113 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3130000 / 10000000
+Event 3132247 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3136308 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3139520 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3140000 / 10000000
+Event 3150000 / 10000000
+Event 3153429 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3155123 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3160000 / 10000000
+Event 3170000 / 10000000
+Event 3176483 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3177433 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3179355 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3180000 / 10000000
+Event 3180220 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3186693 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3190000 / 10000000
+Event 3190132 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3199770 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3200000 / 10000000
+Event 3200474 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3207907 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3208069 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3209603 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3210000 / 10000000
+Event 3211541 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3217309 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3220000 / 10000000
+Event 3225043 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3230000 / 10000000
+Event 3233777 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3240000 / 10000000
+Event 3245006 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3250000 / 10000000
+Event 3260000 / 10000000
+Event 3262126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3263870 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3266248 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3270000 / 10000000
+Event 3277488 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3279378 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3280000 / 10000000
+Event 3286885 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3287638 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3290000 / 10000000
+Event 3290634 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3291048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3294036 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3297560 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3298768 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3300000 / 10000000
+Event 3304181 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3304881 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3310000 / 10000000
+Event 3318362 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3320000 / 10000000
+Event 3320799 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3325039 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3330000 / 10000000
+Event 3338815 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3340000 / 10000000
+Event 3349047 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3350000 / 10000000
+Event 3350513 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3357133 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3360000 / 10000000
+Event 3361504 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3364966 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3365749 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3369467 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3370000 / 10000000
+Event 3372110 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3374443 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3378408 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3380000 / 10000000
+Event 3383056 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3390000 / 10000000
+Event 3391596 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3392812 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3393613 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3395115 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3399547 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3400000 / 10000000
+Event 3401654 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3408222 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3408734 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3410000 / 10000000
+Event 3414483 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3419241 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3420000 / 10000000
+Event 3420166 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3430000 / 10000000
+Event 3434628 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 3439427 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3440000 / 10000000
+Event 3443451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3444635 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3450000 / 10000000
+Event 3450144 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3452387 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3454612 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3455581 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3458557 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3460000 / 10000000
+Event 3462822 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3463790 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3466040 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3466649 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3470000 / 10000000
+Event 3472431 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 3478010 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3480000 / 10000000
+Event 3480521 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3482353 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3485063 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3490000 / 10000000
+Event 3490041 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3490899 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3497702 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3500000 / 10000000
+Event 3501774 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3503210 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3503467 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3510000 / 10000000
+Event 3512872 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3513182 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3516641 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3517583 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3518650 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3520000 / 10000000
+Event 3521640 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3521987 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3528923 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3529251 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3530000 / 10000000
+Event 3532588 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3533654 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3533753 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3537726 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3538338 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3540000 / 10000000
+Event 3541151 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3543189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3543492 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3550000 / 10000000
+Event 3555266 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3560000 / 10000000
+Event 3567467 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3569443 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3570000 / 10000000
+Event 3570161 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3570686 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3574511 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 3574638 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3575440 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3578508 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3580000 / 10000000
+Event 3580746 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3580982 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3590000 / 10000000
+Event 3590609 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3591196 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3600000 / 10000000
+Event 3601770 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3604408 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3608700 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3610000 / 10000000
+Event 3611378 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3620000 / 10000000
+Event 3622334 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3627989 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3630000 / 10000000
+Event 3633329 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3635904 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3638186 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3639426 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3639755 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3640000 / 10000000
+Event 3641126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3644348 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3645528 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3649025 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3650000 / 10000000
+Event 3656273 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3656402 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3660000 / 10000000
+Event 3662405 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3663865 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3668685 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3670000 / 10000000
+Event 3677477 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3677797 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3680000 / 10000000
+Event 3686424 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3690000 / 10000000
+Event 3694512 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3700000 / 10000000
+Event 3700698 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3702451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3707993 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3710000 / 10000000
+Event 3712921 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 3714308 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3720000 / 10000000
+Event 3724192 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3730000 / 10000000
+Event 3733633 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3738542 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3740000 / 10000000
+Event 3750000 / 10000000
+Event 3756178 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3759305 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3760000 / 10000000
+Event 3770000 / 10000000
+Event 3775613 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3776012 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3780000 / 10000000
+Event 3787356 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3790000 / 10000000
+Event 3798569 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3800000 / 10000000
+Event 3805504 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3806131 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3807490 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3808850 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3810000 / 10000000
+Event 3810895 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3811209 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3814336 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3816076 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3818123 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3818389 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3820000 / 10000000
+Event 3824713 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3825117 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3827482 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3828457 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3830000 / 10000000
+Event 3831832 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3832126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3832333 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3833401 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3835159 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3835287 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3840000 / 10000000
+Event 3840027 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3843267 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3850000 / 10000000
+Event 3852960 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3857501 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3860000 / 10000000
+Event 3860417 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3864947 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3866662 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3870000 / 10000000
+Event 3871276 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3871856 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3880000 / 10000000
+Event 3881537 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3883397 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3886484 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3890000 / 10000000
+Event 3890114 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3897753 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3898683 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3899949 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3899973 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3900000 / 10000000
+Event 3900031 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3909361 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3909432 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3910000 / 10000000
+Event 3910843 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3913473 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3914561 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3916587 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3919638 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3920000 / 10000000
+Event 3930000 / 10000000
+Event 3933528 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3935840 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3937088 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3939048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3940000 / 10000000
+Event 3941339 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3950000 / 10000000
+Event 3950812 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3951292 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3951546 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3960000 / 10000000
+Event 3961160 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3964310 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3970000 / 10000000
+Event 3974745 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3974892 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3979437 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3980000 / 10000000
+Event 3990000 / 10000000
+Event 3993436 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3997738 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 3999291 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4000000 / 10000000
+Event 4005903 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4006333 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4010000 / 10000000
+Event 4017105 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4020000 / 10000000
+Event 4023851 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4024271 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4024812 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4025767 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4026242 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4030000 / 10000000
+Event 4030983 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4032305 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4034620 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4038704 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4040000 / 10000000
+Event 4040255 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4050000 / 10000000
+Event 4050461 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4058341 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4060000 / 10000000
+Event 4061950 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4070000 / 10000000
+Event 4071432 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4080000 / 10000000
+Event 4090000 / 10000000
+Event 4090837 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4098579 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4100000 / 10000000
+Event 4110000 / 10000000
+Event 4112095 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4112874 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4116107 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4119721 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4119726 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4120000 / 10000000
+Event 4125358 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4126764 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4127003 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4130000 / 10000000
+Event 4136111 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4140000 / 10000000
+Event 4148744 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4150000 / 10000000
+Event 4151889 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4152607 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4157666 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4157813 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4159593 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4160000 / 10000000
+Event 4163731 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4170000 / 10000000
+Event 4174392 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4180000 / 10000000
+Event 4180818 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4181282 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4188129 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4190000 / 10000000
+Event 4191968 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4200000 / 10000000
+Event 4204737 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4205366 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4207345 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4210000 / 10000000
+Event 4212465 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4218486 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4220000 / 10000000
+Event 4226182 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4226680 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4227402 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4230000 / 10000000
+Event 4231273 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4235919 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4240000 / 10000000
+Event 4250000 / 10000000
+Event 4250023 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4250224 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4251581 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4253525 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4260000 / 10000000
+Event 4269101 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4270000 / 10000000
+Event 4270293 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4280000 / 10000000
+Event 4281491 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4290000 / 10000000
+Event 4300000 / 10000000
+Event 4300653 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4300659 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4305377 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4310000 / 10000000
+Event 4320000 / 10000000
+Event 4321124 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4326511 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4327643 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4330000 / 10000000
+Event 4332075 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4340000 / 10000000
+Event 4346577 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4348281 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4348969 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4350000 / 10000000
+Event 4356608 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4360000 / 10000000
+Event 4366398 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4369620 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4370000 / 10000000
+Event 4375543 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4378775 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4380000 / 10000000
+Event 4382945 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4388265 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4389183 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4390000 / 10000000
+Event 4390062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4390095 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4390860 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4395201 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4400000 / 10000000
+Event 4400502 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4402736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4405001 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4405025 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4407145 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4409566 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4410000 / 10000000
+Event 4412566 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4412719 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4413240 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4414924 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4415836 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4420000 / 10000000
+Event 4424911 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4428260 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4428402 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4429305 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4430000 / 10000000
+Event 4430329 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4435292 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4437213 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4440000 / 10000000
+Event 4440798 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4442109 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4447587 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4449126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4450000 / 10000000
+Event 4452380 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4452667 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4453208 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4454677 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4454930 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4457969 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4460000 / 10000000
+Event 4460227 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4465293 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4470000 / 10000000
+Event 4471048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4480000 / 10000000
+Event 4481773 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4482831 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4490000 / 10000000
+Event 4493319 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4495788 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4498998 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4499482 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4500000 / 10000000
+Event 4500287 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4503850 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4504811 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4509730 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4510000 / 10000000
+Event 4513360 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4513609 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4514199 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4520000 / 10000000
+Event 4525288 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4530000 / 10000000
+Event 4531858 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4532829 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4536745 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4540000 / 10000000
+Event 4541511 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4544048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4550000 / 10000000
+Event 4557376 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4560000 / 10000000
+Event 4560605 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4563451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4564479 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4570000 / 10000000
+Event 4570439 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4572915 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4573072 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4573892 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4574840 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4579564 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4580000 / 10000000
+Event 4585174 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4590000 / 10000000
+Event 4599800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4600000 / 10000000
+Event 4605232 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4607520 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4607832 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4610000 / 10000000
+Event 4614102 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4617048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4618275 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4618399 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4620000 / 10000000
+Event 4622743 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4625603 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4627912 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4629794 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4630000 / 10000000
+Event 4635188 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4635456 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4640000 / 10000000
+Event 4642736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4650000 / 10000000
+Event 4654628 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4658166 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4659357 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4660000 / 10000000
+Event 4660551 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4664792 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4665527 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4670000 / 10000000
+Event 4676362 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4677229 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4680000 / 10000000
+Event 4680596 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4680844 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4689005 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4690000 / 10000000
+Event 4698164 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4700000 / 10000000
+Event 4700804 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4702031 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4702539 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4702597 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4703992 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4704440 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4705193 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4709153 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4710000 / 10000000
+Event 4714827 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4714917 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4715685 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4718155 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4718724 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4720000 / 10000000
+Event 4722665 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4725149 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4730000 / 10000000
+Event 4731920 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4732684 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4733913 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4740000 / 10000000
+Event 4741454 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4743940 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4747306 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4750000 / 10000000
+Event 4752066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4755099 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4755406 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4760000 / 10000000
+Event 4761249 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4770000 / 10000000
+Event 4780000 / 10000000
+Event 4780356 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4781063 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4781163 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4781800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4787737 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4789272 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4789549 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4790000 / 10000000
+Event 4793348 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4794193 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4794391 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4795702 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4800000 / 10000000
+Event 4806121 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4810000 / 10000000
+Event 4811889 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4814066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4816071 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4820000 / 10000000
+Event 4822989 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4823066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4830000 / 10000000
+Event 4837684 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4839398 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4840000 / 10000000
+Event 4844941 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4847241 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4850000 / 10000000
+Event 4852573 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4855607 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4855681 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4860000 / 10000000
+Event 4866513 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4870000 / 10000000
+Event 4873312 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4875543 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4877949 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4880000 / 10000000
+Event 4884362 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4887689 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4890000 / 10000000
+Event 4892384 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4892487 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4893327 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4899151 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4900000 / 10000000
+Event 4900976 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4905640 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4908196 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4910000 / 10000000
+Event 4920000 / 10000000
+Event 4928875 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4930000 / 10000000
+Event 4931493 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 4936363 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4940000 / 10000000
+Event 4942667 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4942867 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4942974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4943700 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4946583 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4946679 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4948055 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4948824 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4950000 / 10000000
+Event 4955376 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4955563 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4959397 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4960000 / 10000000
+Event 4964425 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4965446 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4969585 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4970000 / 10000000
+Event 4972626 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4973872 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4975522 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4980000 / 10000000
+Event 4988003 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 4990000 / 10000000
+Event 5000000 / 10000000
+Event 5004467 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5005203 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5006208 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 5010000 / 10000000
+Event 5011573 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5014443 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5020000 / 10000000
+Event 5024013 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5024341 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5028630 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5030000 / 10000000
+Event 5035302 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5037057 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5040000 / 10000000
+Event 5041491 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5042443 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5043878 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5048827 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5050000 / 10000000
+Event 5050835 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5052801 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5057217 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5060000 / 10000000
+Event 5070000 / 10000000
+Event 5071088 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5073755 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5076176 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5079081 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5080000 / 10000000
+Event 5081747 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5090000 / 10000000
+Event 5097294 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5098279 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5100000 / 10000000
+Event 5103072 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5109303 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5110000 / 10000000
+Event 5113862 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5118421 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5120000 / 10000000
+Event 5120309 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5120777 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5123561 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5124008 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5127046 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5130000 / 10000000
+Event 5134772 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5140000 / 10000000
+Event 5140130 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5144517 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5146215 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5149179 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5150000 / 10000000
+Event 5152436 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5152497 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5160000 / 10000000
+Event 5160775 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5166009 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5169363 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5170000 / 10000000
+Event 5170339 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5172824 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5176161 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5177684 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5180000 / 10000000
+Event 5183905 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5183927 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5187974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5190000 / 10000000
+Event 5193697 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5200000 / 10000000
+Event 5203172 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5204535 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5208564 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5210000 / 10000000
+Event 5213216 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5220000 / 10000000
+Event 5222236 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5226746 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5228012 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5230000 / 10000000
+Event 5240000 / 10000000
+Event 5241348 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5241451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5243448 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5250000 / 10000000
+Event 5260000 / 10000000
+Event 5260762 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5263358 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5267791 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5270000 / 10000000
+Event 5271403 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5272804 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5273779 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5275503 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5277218 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5277282 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5279626 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5280000 / 10000000
+Event 5283120 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5283844 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5290000 / 10000000
+Event 5290123 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5298879 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5300000 / 10000000
+Event 5302506 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5307034 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5310000 / 10000000
+Event 5311242 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5320000 / 10000000
+Event 5321598 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5322696 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5325540 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5330000 / 10000000
+Event 5331898 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5332397 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5332730 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5332987 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5333553 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5336746 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5340000 / 10000000
+Event 5343230 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5348009 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5348383 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5350000 / 10000000
+Event 5358377 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5359395 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5360000 / 10000000
+Event 5360303 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5367046 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5368947 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5370000 / 10000000
+Event 5371408 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5376747 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5377029 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5380000 / 10000000
+Event 5388230 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5388756 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5389304 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5390000 / 10000000
+Event 5400000 / 10000000
+Event 5400036 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5404194 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5410000 / 10000000
+Event 5411912 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5411992 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5414734 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5418530 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5420000 / 10000000
+Event 5423105 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5423549 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5427751 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5430000 / 10000000
+Event 5431475 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5434324 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5440000 / 10000000
+Event 5441324 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5445122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5450000 / 10000000
+Event 5457222 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5460000 / 10000000
+Event 5461476 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5464281 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5470000 / 10000000
+Event 5480000 / 10000000
+Event 5484240 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5487562 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5490000 / 10000000
+Event 5500000 / 10000000
+Event 5501146 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5505848 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5510000 / 10000000
+Event 5515684 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5518718 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5520000 / 10000000
+Event 5524373 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5528319 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5530000 / 10000000
+Event 5532342 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5533288 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5534123 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5540000 / 10000000
+Event 5541692 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5543718 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5544199 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5548736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5549089 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5550000 / 10000000
+Event 5551440 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5552379 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5552416 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5560000 / 10000000
+Event 5565090 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5570000 / 10000000
+Event 5573436 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5580000 / 10000000
+Event 5584810 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5590000 / 10000000
+Event 5594286 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5595924 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5600000 / 10000000
+Event 5601907 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5604605 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5609070 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5610000 / 10000000
+Event 5616444 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5617088 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5620000 / 10000000
+Event 5623980 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5629147 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5629480 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5630000 / 10000000
+Event 5630889 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5636422 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5640000 / 10000000
+Event 5642247 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5645349 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5645772 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5650000 / 10000000
+Event 5653587 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5655776 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5660000 / 10000000
+Event 5662199 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5663596 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5670000 / 10000000
+Event 5670966 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5671697 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5673113 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5675124 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5678419 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5680000 / 10000000
+Event 5687794 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5687877 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5690000 / 10000000
+Event 5692462 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5695063 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5697124 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5700000 / 10000000
+Event 5700869 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5702259 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5704430 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5706195 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5708198 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5709957 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5710000 / 10000000
+Event 5710800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5716655 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5720000 / 10000000
+Event 5725755 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5726800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5730000 / 10000000
+Event 5733658 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5740000 / 10000000
+Event 5745814 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5750000 / 10000000
+Event 5755160 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5755994 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5760000 / 10000000
+Event 5767896 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5770000 / 10000000
+Event 5776864 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5778595 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5780000 / 10000000
+Event 5782462 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5782908 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5790000 / 10000000
+Event 5796191 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5796926 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5800000 / 10000000
+Event 5804132 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5809494 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5809528 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5810000 / 10000000
+Event 5811610 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5812991 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5820000 / 10000000
+Event 5826758 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5830000 / 10000000
+Event 5831357 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5832114 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5833860 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5835419 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5840000 / 10000000
+Event 5847496 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 5850000 / 10000000
+Event 5860000 / 10000000
+Event 5861310 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5870000 / 10000000
+Event 5872363 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5872514 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5875189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5879095 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5880000 / 10000000
+Event 5890000 / 10000000
+Event 5890015 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5891195 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5892175 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5898706 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5900000 / 10000000
+Event 5900404 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5906514 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5910000 / 10000000
+Event 5912558 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5920000 / 10000000
+Event 5923607 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5930000 / 10000000
+Event 5930691 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5940000 / 10000000
+Event 5948989 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5950000 / 10000000
+Event 5950784 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5960000 / 10000000
+Event 5966295 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5970000 / 10000000
+Event 5970815 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5974400 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5974904 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5977826 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5978634 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5980000 / 10000000
+Event 5980455 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5982376 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5983925 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5984464 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5987180 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5989777 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 5990000 / 10000000
+Event 5997422 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6000000 / 10000000
+Event 6003702 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6010000 / 10000000
+Event 6012718 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6017472 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6018090 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6020000 / 10000000
+Event 6024973 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6025410 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6028189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6030000 / 10000000
+Event 6030574 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6033053 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6033747 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6035936 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6038474 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6040000 / 10000000
+Event 6046550 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6050000 / 10000000
+Event 6054584 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6059502 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6060000 / 10000000
+Event 6062813 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6063073 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6070000 / 10000000
+Event 6075116 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6076161 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6076599 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6076792 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6077750 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6080000 / 10000000
+Event 6087057 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6090000 / 10000000
+Event 6092310 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6092416 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6092527 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6093170 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6096348 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6100000 / 10000000
+Event 6100186 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6101247 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6110000 / 10000000
+Event 6110595 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6110740 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6114299 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6120000 / 10000000
+Event 6120044 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6120893 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6122207 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6123744 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6126178 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6130000 / 10000000
+Event 6133559 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6137269 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6140000 / 10000000
+Event 6140304 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6140679 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6142533 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6145918 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6149406 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6149604 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6150000 / 10000000
+Event 6151241 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6151427 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6155869 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6156062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6160000 / 10000000
+Event 6165870 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6168393 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6168747 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6170000 / 10000000
+Event 6180000 / 10000000
+Event 6190000 / 10000000
+Event 6192721 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6200000 / 10000000
+Event 6200390 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6204268 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6206634 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6207376 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6208427 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6210000 / 10000000
+Event 6211623 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6213326 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6215062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6215125 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6220000 / 10000000
+Event 6227074 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6228412 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6229954 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6230000 / 10000000
+Event 6230826 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6233251 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6235146 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6236340 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6236417 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6238069 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6238477 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6240000 / 10000000
+Event 6245969 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6250000 / 10000000
+Event 6254150 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6258014 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6258027 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6259477 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6260000 / 10000000
+Event 6270000 / 10000000
+Event 6272604 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 6276278 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6277305 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6280000 / 10000000
+Event 6282337 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6282997 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6284176 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6284494 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6284592 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6290000 / 10000000
+Event 6300000 / 10000000
+Event 6302935 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6307077 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6309642 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6310000 / 10000000
+Event 6317325 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6320000 / 10000000
+Event 6321191 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6329277 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6330000 / 10000000
+Event 6330974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6340000 / 10000000
+Event 6344135 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6345316 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6350000 / 10000000
+Event 6356974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6360000 / 10000000
+Event 6360956 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6370000 / 10000000
+Event 6370255 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6372153 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6374157 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6376095 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6376709 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6377050 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6380000 / 10000000
+Event 6389220 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6390000 / 10000000
+Event 6394005 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6397251 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6400000 / 10000000
+Event 6400127 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6401197 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6401358 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6402393 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6403472 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6405685 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6406691 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6410000 / 10000000
+Event 6415323 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6416373 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6420000 / 10000000
+Event 6430000 / 10000000
+Event 6437702 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6440000 / 10000000
+Event 6441659 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6450000 / 10000000
+Event 6455736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6456675 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6460000 / 10000000
+Event 6461897 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6468591 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6470000 / 10000000
+Event 6476589 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6480000 / 10000000
+Event 6480821 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6484652 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6488392 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6489246 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6490000 / 10000000
+Event 6491105 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6491737 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6494066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6500000 / 10000000
+Event 6510000 / 10000000
+Event 6511779 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6520000 / 10000000
+Event 6522664 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6524181 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 6524407 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6530000 / 10000000
+Event 6530725 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6531568 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6534548 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6537855 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6540000 / 10000000
+Event 6550000 / 10000000
+Event 6556035 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6556292 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6559459 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6559881 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6560000 / 10000000
+Event 6565113 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6567905 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6570000 / 10000000
+Event 6575797 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6580000 / 10000000
+Event 6584377 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6585727 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6590000 / 10000000
+Event 6593451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6594874 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6598241 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6598390 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6600000 / 10000000
+Event 6600137 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6600171 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6600678 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6609876 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6610000 / 10000000
+Event 6616681 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6617257 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6620000 / 10000000
+Event 6630000 / 10000000
+Event 6633106 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6637354 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6637584 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6640000 / 10000000
+Event 6640122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6644721 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6650000 / 10000000
+Event 6650872 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6656404 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6660000 / 10000000
+Event 6664092 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6670000 / 10000000
+Event 6670349 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6680000 / 10000000
+Event 6680459 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6683301 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6689007 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6689222 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6690000 / 10000000
+Event 6697689 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6699775 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6700000 / 10000000
+Event 6704593 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6705242 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6709840 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6710000 / 10000000
+Event 6713752 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6714411 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6715618 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6720000 / 10000000
+Event 6725671 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6726347 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6730000 / 10000000
+Event 6740000 / 10000000
+Event 6742607 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6747451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6750000 / 10000000
+Event 6750323 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6752006 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6754710 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6760000 / 10000000
+Event 6760421 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6770000 / 10000000
+Event 6777242 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6780000 / 10000000
+Event 6784303 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6784421 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6788939 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6790000 / 10000000
+Event 6794458 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6800000 / 10000000
+Event 6803899 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6806428 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6808277 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6809456 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6810000 / 10000000
+Event 6814171 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6820000 / 10000000
+Event 6822236 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6826471 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6830000 / 10000000
+Event 6834353 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6837328 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6840000 / 10000000
+Event 6840344 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6844978 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6845185 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6845242 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6850000 / 10000000
+Event 6860000 / 10000000
+Event 6867203 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6870000 / 10000000
+Event 6871692 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6873451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6876894 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6878733 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6880000 / 10000000
+Event 6880895 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 6890000 / 10000000
+Event 6895791 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6900000 / 10000000
+Event 6905400 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6910000 / 10000000
+Event 6910007 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6914425 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6916265 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6919372 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6919997 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6920000 / 10000000
+Event 6920185 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6930000 / 10000000
+Event 6931546 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 6933326 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6940000 / 10000000
+Event 6950000 / 10000000
+Event 6953388 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6955416 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6960000 / 10000000
+Event 6961315 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6961554 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6965703 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6967771 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6968156 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6968568 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6970000 / 10000000
+Event 6971266 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6980000 / 10000000
+Event 6982790 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6985529 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6988600 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6990000 / 10000000
+Event 6995127 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 6995565 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7000000 / 10000000
+Event 7005363 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7010000 / 10000000
+Event 7020000 / 10000000
+Event 7021498 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7021828 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7023166 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7027487 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7030000 / 10000000
+Event 7030438 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7040000 / 10000000
+Event 7048286 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7049135 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7050000 / 10000000
+Event 7051291 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7052266 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7056417 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7057876 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7060000 / 10000000
+Event 7062588 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7065391 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7067938 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7068803 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7070000 / 10000000
+Event 7079163 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7080000 / 10000000
+Event 7081122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7085088 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7086585 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7087323 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7090000 / 10000000
+Event 7094831 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7097179 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7100000 / 10000000
+Event 7101217 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7103023 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7106369 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7108141 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7110000 / 10000000
+Event 7112199 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7120000 / 10000000
+Event 7126940 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7130000 / 10000000
+Event 7135832 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7140000 / 10000000
+Event 7143102 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7148070 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7150000 / 10000000
+Event 7154158 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7156132 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7157443 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7160000 / 10000000
+Event 7169230 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7170000 / 10000000
+Event 7173617 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7177152 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7180000 / 10000000
+Event 7185650 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 7190000 / 10000000
+Event 7191934 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7197693 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7200000 / 10000000
+Event 7200130 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7202341 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7210000 / 10000000
+Event 7210183 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7212073 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7213799 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7218371 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7220000 / 10000000
+Event 7221792 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7224994 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7225843 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7230000 / 10000000
+Event 7230613 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7232592 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7233838 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7233970 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7240000 / 10000000
+Event 7249254 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7250000 / 10000000
+Event 7260000 / 10000000
+Event 7260162 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7264456 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7266610 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7267892 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7270000 / 10000000
+Event 7273372 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7275598 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7280000 / 10000000
+Event 7281432 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7286189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7290000 / 10000000
+Event 7294409 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7299347 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7300000 / 10000000
+Event 7302300 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7304253 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7305932 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7307621 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7309478 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7310000 / 10000000
+Event 7311774 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7320000 / 10000000
+Event 7324371 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7326878 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7329406 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7329890 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7330000 / 10000000
+Event 7336036 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7336800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7340000 / 10000000
+Event 7348154 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7348916 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7350000 / 10000000
+Event 7355473 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7360000 / 10000000
+Event 7362679 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7363211 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7364113 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7370000 / 10000000
+Event 7378844 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7380000 / 10000000
+Event 7381463 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7381786 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7390000 / 10000000
+Event 7395533 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7400000 / 10000000
+Event 7401208 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7403287 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7410000 / 10000000
+Event 7410124 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7410470 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7415495 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7420000 / 10000000
+Event 7429800 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 7430000 / 10000000
+Event 7430387 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7430493 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7440000 / 10000000
+Event 7443087 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7449506 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7450000 / 10000000
+Event 7450157 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7451216 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7458975 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7460000 / 10000000
+Event 7467873 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7468390 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7470000 / 10000000
+Event 7471565 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7474420 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7477566 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 7480000 / 10000000
+Event 7486682 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7487067 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7490000 / 10000000
+Event 7492615 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7494369 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7495547 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7500000 / 10000000
+Event 7502856 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7504745 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7505265 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7505993 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7510000 / 10000000
+Event 7510738 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7512923 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7518669 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7520000 / 10000000
+Event 7521437 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7522019 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7525821 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7529860 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7530000 / 10000000
+Event 7536562 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7540000 / 10000000
+Event 7540257 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7543942 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7550000 / 10000000
+Event 7553441 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7560000 / 10000000
+Event 7560720 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7570000 / 10000000
+Event 7571479 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7572305 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7580000 / 10000000
+Event 7584565 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7588641 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7590000 / 10000000
+Event 7590450 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7597767 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7598784 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7600000 / 10000000
+Event 7600348 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7602013 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7602406 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7607010 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7610000 / 10000000
+Event 7610161 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7615680 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7616193 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7619244 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7620000 / 10000000
+Event 7621553 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7622446 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7622473 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7629909 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7630000 / 10000000
+Event 7632145 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7638411 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7640000 / 10000000
+Event 7640957 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7642748 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7650000 / 10000000
+Event 7652546 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7654806 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7656215 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7660000 / 10000000
+Event 7662046 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7663235 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7665604 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7666416 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7670000 / 10000000
+Event 7673143 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7673827 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7676476 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7680000 / 10000000
+Event 7680055 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7680428 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7683384 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7685048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7686860 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7690000 / 10000000
+Event 7690534 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7696708 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7698275 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7700000 / 10000000
+Event 7702411 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7705344 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7707590 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7708065 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7710000 / 10000000
+Event 7710541 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7714503 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7715315 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7720000 / 10000000
+Event 7722849 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7725076 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7726678 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7729218 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7730000 / 10000000
+Event 7734823 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7735180 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7737014 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7739838 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7740000 / 10000000
+Event 7745951 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7750000 / 10000000
+Event 7751609 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7760000 / 10000000
+Event 7761071 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7770000 / 10000000
+Event 7771209 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7772780 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7780000 / 10000000
+Event 7789272 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7789307 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7789704 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7789789 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7790000 / 10000000
+Event 7793018 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7794460 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7796386 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7799279 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7800000 / 10000000
+Event 7801472 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7802152 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7808605 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7810000 / 10000000
+Event 7811984 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7812134 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7812343 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7820000 / 10000000
+Event 7822568 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7824272 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7824784 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7825555 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7830000 / 10000000
+Event 7840000 / 10000000
+Event 7842098 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7849559 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7850000 / 10000000
+Event 7856469 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7857400 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7860000 / 10000000
+Event 7861744 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7863433 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7867296 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7869189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7870000 / 10000000
+Event 7870677 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7878640 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7880000 / 10000000
+Event 7884169 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7884551 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7885805 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7890000 / 10000000
+Event 7892112 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7894171 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7896091 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7900000 / 10000000
+Event 7904048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7905532 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7908695 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7910000 / 10000000
+Event 7914953 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 7918387 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7920000 / 10000000
+Event 7930000 / 10000000
+Event 7930438 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7933155 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7934393 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7936033 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7937864 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7938146 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7940000 / 10000000
+Event 7942402 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7947943 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7950000 / 10000000
+Event 7950508 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7951021 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7951487 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7959577 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7960000 / 10000000
+Event 7960780 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7961674 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 7966982 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7967080 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7970000 / 10000000
+Event 7973257 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7974616 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7974758 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7977525 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7977654 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7978661 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7980000 / 10000000
+Event 7980770 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7985501 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7990000 / 10000000
+Event 7995167 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7995551 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 7999287 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8000000 / 10000000
+Event 8000680 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8003189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8006190 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8006211 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8010000 / 10000000
+Event 8011640 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8013763 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8018340 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8020000 / 10000000
+Event 8022786 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8025390 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8027420 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8027919 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8028489 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8029298 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8029960 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8030000 / 10000000
+Event 8033108 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8035609 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8038741 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8040000 / 10000000
+Event 8043789 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8045347 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8050000 / 10000000
+Event 8055253 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8058711 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8060000 / 10000000
+Event 8064336 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8067674 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8070000 / 10000000
+Event 8080000 / 10000000
+Event 8080020 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8082737 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8086203 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8087687 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8090000 / 10000000
+Event 8094411 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8095058 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8095593 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8096745 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8096948 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8099666 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8100000 / 10000000
+Event 8105597 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8108293 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8110000 / 10000000
+Event 8120000 / 10000000
+Event 8124848 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8128430 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8129536 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8130000 / 10000000
+Event 8132905 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8137637 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8139503 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8140000 / 10000000
+Event 8140846 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8143136 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8145400 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8147841 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8150000 / 10000000
+Event 8150369 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8151136 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8153724 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8159849 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8160000 / 10000000
+Event 8160514 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8162107 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8170000 / 10000000
+Event 8173827 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8174656 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8174728 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8175734 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8180000 / 10000000
+Event 8182658 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8189663 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8190000 / 10000000
+Event 8195980 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8200000 / 10000000
+Event 8201534 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 8204419 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8205234 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8206006 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8210000 / 10000000
+Event 8211438 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8214753 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8216934 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8218670 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8220000 / 10000000
+Event 8221346 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8223081 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8228126 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8229176 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8230000 / 10000000
+Event 8230943 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8232913 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8233488 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8233781 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8239317 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8240000 / 10000000
+Event 8250000 / 10000000
+Event 8252217 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8254063 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8260000 / 10000000
+Event 8264415 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8266653 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8270000 / 10000000
+Event 8270960 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8272567 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8272626 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8274435 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8276137 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8280000 / 10000000
+Event 8289319 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8290000 / 10000000
+Event 8290066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8297394 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8299381 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8300000 / 10000000
+Event 8303823 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8304023 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8306437 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8306758 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8310000 / 10000000
+Event 8311663 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8312844 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8314342 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8314349 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8319185 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8320000 / 10000000
+Event 8320281 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8323316 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8325440 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8330000 / 10000000
+Event 8334917 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8340000 / 10000000
+Event 8340041 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8346564 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8350000 / 10000000
+Event 8351473 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8358259 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8360000 / 10000000
+Event 8361024 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8365710 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8367021 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8368574 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8370000 / 10000000
+Event 8373498 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8376147 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8380000 / 10000000
+Event 8384351 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8387868 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8390000 / 10000000
+Event 8392015 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8392088 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8396419 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8400000 / 10000000
+Event 8400586 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8407411 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8409805 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8410000 / 10000000
+Event 8413330 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8413542 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8413735 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8417673 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8420000 / 10000000
+Event 8421183 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8423093 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8423521 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8424485 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8424876 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8425260 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8428194 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8429543 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8430000 / 10000000
+Event 8430815 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8431216 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8432558 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8440000 / 10000000
+Event 8445383 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8445849 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8448010 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8448399 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8450000 / 10000000
+Event 8451852 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8452321 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8456936 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8459887 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8460000 / 10000000
+Event 8461768 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8465764 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8467144 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8469541 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8470000 / 10000000
+Event 8480000 / 10000000
+Event 8483281 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8483981 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8487310 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8490000 / 10000000
+Event 8491073 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8492316 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8500000 / 10000000
+Event 8502629 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8510000 / 10000000
+Event 8518448 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8520000 / 10000000
+Event 8521253 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8522462 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8522711 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8527839 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8530000 / 10000000
+Event 8534977 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8537082 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8539734 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8540000 / 10000000
+Event 8541181 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8541261 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8545736 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8547170 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8550000 / 10000000
+Event 8552389 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8554308 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8555669 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8560000 / 10000000
+Event 8560393 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8570000 / 10000000
+Event 8571483 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8572459 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8577717 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8578738 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8580000 / 10000000
+Event 8583053 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8584160 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8584939 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8585660 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8590000 / 10000000
+Event 8592209 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8593305 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8595048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8596373 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8600000 / 10000000
+Event 8601265 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8602633 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8607921 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8608804 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8610000 / 10000000
+Event 8611801 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8614780 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8615875 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8620000 / 10000000
+Event 8622345 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8623491 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8625849 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8627396 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8628056 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8630000 / 10000000
+Event 8640000 / 10000000
+Event 8641385 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8642811 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8650000 / 10000000
+Event 8650830 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8653476 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8657194 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8659400 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8660000 / 10000000
+Event 8660500 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8661435 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8668423 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8670000 / 10000000
+Event 8673383 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8677813 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8680000 / 10000000
+Event 8684394 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8690000 / 10000000
+Event 8694272 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8698875 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8699894 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8700000 / 10000000
+Event 8700244 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8701451 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8702309 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8704948 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8708747 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8710000 / 10000000
+Event 8710937 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8711095 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8716273 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8720000 / 10000000
+Event 8724952 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8726871 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8730000 / 10000000
+Event 8740000 / 10000000
+Event 8741397 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8746476 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8748959 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8749825 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8750000 / 10000000
+Event 8752191 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8758570 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8760000 / 10000000
+Event 8766350 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8769308 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8770000 / 10000000
+Event 8772706 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8778256 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8780000 / 10000000
+Event 8780601 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8785437 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8790000 / 10000000
+Event 8790843 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8799572 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8800000 / 10000000
+Event 8809172 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8810000 / 10000000
+Event 8814950 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8820000 / 10000000
+Event 8822693 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8827685 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8830000 / 10000000
+Event 8830407 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8831690 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8837483 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8840000 / 10000000
+Event 8841704 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8842587 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8844023 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8844389 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8850000 / 10000000
+Event 8860000 / 10000000
+Event 8862953 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8866617 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8870000 / 10000000
+Event 8876841 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8877791 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8878417 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8880000 / 10000000
+Event 8880505 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8882296 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8889172 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8890000 / 10000000
+Event 8890454 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8894680 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8899363 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8899587 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8900000 / 10000000
+Event 8902121 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8910000 / 10000000
+Event 8912256 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 8914856 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8914910 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8920000 / 10000000
+Event 8926717 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8930000 / 10000000
+Event 8932851 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8932876 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8940000 / 10000000
+Event 8941689 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8941731 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8950000 / 10000000
+Event 8950298 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8951275 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8958723 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8960000 / 10000000
+Event 8970000 / 10000000
+Event 8973137 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8975138 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8980000 / 10000000
+Event 8988253 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 8990000 / 10000000
+Event 8998853 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9000000 / 10000000
+Event 9000603 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9002060 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9003974 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9005352 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9010000 / 10000000
+Event 9014221 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9016709 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9020000 / 10000000
+Event 9029087 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9030000 / 10000000
+Event 9032782 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9038200 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 9039647 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9040000 / 10000000
+Event 9046613 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9047518 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9050000 / 10000000
+Event 9054569 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9056661 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9058058 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9060000 / 10000000
+Event 9060276 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9061257 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9070000 / 10000000
+Event 9071602 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9072184 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9073215 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9074375 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9076539 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9077146 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9077309 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9080000 / 10000000
+Event 9083602 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9090000 / 10000000
+Event 9092295 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9097726 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9099546 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9099806 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9100000 / 10000000
+Event 9106897 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9106962 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9107177 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9107345 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9110000 / 10000000
+Event 9117579 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9120000 / 10000000
+Event 9130000 / 10000000
+Event 9131058 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9140000 / 10000000
+Event 9140066 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9144773 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9150000 / 10000000
+Event 9154656 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9155365 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9159516 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9160000 / 10000000
+Event 9162829 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9164293 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9164897 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9170000 / 10000000
+Event 9175807 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9177670 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9180000 / 10000000
+Event 9184091 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9190000 / 10000000
+Event 9192250 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9194909 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9195887 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9197734 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9199952 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9200000 / 10000000
+Event 9200208 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9203512 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9204241 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9210000 / 10000000
+Event 9214094 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9220000 / 10000000
+Event 9227863 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9228744 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9230000 / 10000000
+Event 9240000 / 10000000
+Event 9241551 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 9244264 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9246453 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9246606 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9250000 / 10000000
+Event 9251984 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9254488 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9255678 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9257445 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9259036 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9260000 / 10000000
+Event 9262067 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9266999 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9269546 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9269687 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9270000 / 10000000
+Event 9270431 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9270448 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9271629 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9272310 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9275127 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9278254 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9280000 / 10000000
+Event 9285556 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9290000 / 10000000
+Event 9291669 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9292151 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9293275 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9297498 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 9299774 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9300000 / 10000000
+Event 9300059 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9305894 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9310000 / 10000000
+Event 9310763 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9311165 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9311331 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9312368 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9313139 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9319063 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9320000 / 10000000
+Event 9324020 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9329071 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9329942 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9330000 / 10000000
+Event 9332663 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9338575 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9339545 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9339985 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9340000 / 10000000
+Event 9342228 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9346248 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9346919 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9350000 / 10000000
+Event 9356547 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9356553 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9358058 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9360000 / 10000000
+Event 9360542 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9365122 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9370000 / 10000000
+Event 9371011 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9372728 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9375852 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9380000 / 10000000
+Event 9389028 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9390000 / 10000000
+Event 9391450 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9393429 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9397750 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9400000 / 10000000
+Event 9410000 / 10000000
+Event 9414432 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9417800 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9420000 / 10000000
+Event 9425088 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9426795 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9430000 / 10000000
+Event 9432271 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9434063 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9436085 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9440000 / 10000000
+Event 9443541 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9445121 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9447730 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9450000 / 10000000
+Event 9450468 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9453257 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9459582 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9460000 / 10000000
+Event 9461568 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9467646 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9468055 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9470000 / 10000000
+Event 9480000 / 10000000
+Event 9488323 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9490000 / 10000000
+Event 9491248 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9492028 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9492560 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9500000 / 10000000
+Event 9502408 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9502550 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9507154 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9509196 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9509226 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9510000 / 10000000
+Event 9513837 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9518477 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9520000 / 10000000
+Event 9530000 / 10000000
+Event 9530293 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9533555 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9539287 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9540000 / 10000000
+Event 9546080 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9547654 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9550000 / 10000000
+Event 9552151 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9554467 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9556242 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9559883 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9560000 / 10000000
+Event 9570000 / 10000000
+Event 9573674 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9574951 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9575549 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9580000 / 10000000
+Event 9580299 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9587259 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9590000 / 10000000
+Event 9599814 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9600000 / 10000000
+Event 9603549 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9608211 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9610000 / 10000000
+Event 9614611 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9614996 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9620000 / 10000000
+Event 9627410 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9630000 / 10000000
+Event 9640000 / 10000000
+Event 9650000 / 10000000
+Event 9657189 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9658048 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9660000 / 10000000
+Event 9667142 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9670000 / 10000000
+Event 9680000 / 10000000
+Event 9681912 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9683045 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9684898 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9688607 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9690000 / 10000000
+Event 9691649 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9692384 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 9692895 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9694587 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9699062 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9699392 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9700000 / 10000000
+Event 9700349 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9710000 / 10000000
+Event 9716020 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9717829 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9719393 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9720000 / 10000000
+Event 9721727 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9730000 / 10000000
+Event 9740000 / 10000000
+Event 9744775 Number of Jets accepted = 4 Number of DiJets found = 2
+Event 9747986 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9748221 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9750000 / 10000000
+Event 9753498 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9753537 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9758525 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9760000 / 10000000
+Event 9760156 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9761626 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9764733 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9770000 / 10000000
+Event 9773803 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9779046 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9780000 / 10000000
+Event 9784444 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9784853 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9790000 / 10000000
+Event 9793083 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9794025 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9798493 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9800000 / 10000000
+Event 9802689 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9804722 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9805040 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9808093 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9809355 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9809581 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9810000 / 10000000
+Event 9814672 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9819811 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9820000 / 10000000
+Event 9821703 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9823937 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9826342 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9830000 / 10000000
+Event 9830017 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9836002 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9836552 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9836936 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9840000 / 10000000
+Event 9842110 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9842625 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9846430 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9850000 / 10000000
+Event 9853518 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9855145 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9859710 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9860000 / 10000000
+Event 9860103 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9866263 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9870000 / 10000000
+Event 9877240 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9880000 / 10000000
+Event 9881726 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9888431 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9889135 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9890000 / 10000000
+Event 9892083 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9892230 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9900000 / 10000000
+Event 9901210 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9903776 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9904427 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9904688 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9910000 / 10000000
+Event 9910030 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9917580 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9920000 / 10000000
+Event 9930000 / 10000000
+Event 9930480 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9932686 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9934047 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9938475 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9940000 / 10000000
+Event 9940200 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9941624 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9944317 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9944809 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9946594 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9950000 / 10000000
+Event 9952657 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9953688 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9954849 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9955078 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9960000 / 10000000
+Event 9963633 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9968255 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9968904 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9970000 / 10000000
+Event 9973627 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9973946 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9980000 / 10000000
+Event 9988012 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9990000 / 10000000
+Event 9990166 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9993599 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9994016 Number of Jets accepted = 2 Number of DiJets found = 1
+Event 9996688 Number of Jets accepted = 2 Number of DiJets found = 1
+
+Found 2426 events with jets.
+
+Time elapsed: Real time 39:51:42, CP time 140846.380

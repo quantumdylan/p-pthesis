@@ -312,8 +312,8 @@ int main(int argc, const char** argv) {
 			case 5: range_max = 2; range_min = 0; break;
 			case 6: range_max = 5e8; range_min = 0; break;
 			case 7: range_max = 1e3; range_min = 0; break;
-			case 8: range_max = 0.01; range_min = -0.02; break;
-			case 9: range_max = 0.15; range_min = 0; break;
+			case 8: range_max = 0.04; range_min = -0.08; break;
+			case 9: range_max = 0.2; range_min = 0; break;
 			default: cout << "motherfucker" << endl;
 			}
 

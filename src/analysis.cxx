@@ -166,14 +166,15 @@ int main ( int argc, const char** argv )
 				//
 				//	conditions for accepted particles
 				//
-				if (/*charge1 != 0*/true) { // choose only charged particles
+				if (charge1 != 0) { // choose only charged particles
+//				if (true){
 					if (pt1 > pt_min && pt1 <= pt_max) { // make pt cut selection
 						if (eta1 > eta_min && eta1 <= eta_max) { // make pseudo rapidity cut selection
 							if (y1 > rap_min && y1 <= rap_max) { // make rapidity cut selection
-								cout << "Particle num: " << ip << " in cut range for event num: " << iev << "!" << endl;
+								//cout << "Particle num: " << ip << " in cut range for event num: " << iev << "!" << endl;
 								if (leading){
 									jetnum++;
-									cout << "Event num: " << iev << " Paricle num: " << ip << " Jet num: " << jetnum << endl;
+									//cout << "Event num: " << iev << " Paricle num: " << ip << " Jet num: " << jetnum << endl;
 								}
 
 								Nacc_event++;
@@ -186,7 +187,7 @@ int main ( int argc, const char** argv )
 
 			}// END PARTICLE LOOP
 
-			cout << endl << endl;
+			//cout << endl << endl;
 			event->SetNAcceptedJets(jetnum); // set our rapidity-based jet number
 
 			// update Event ensemble results
@@ -206,7 +207,8 @@ int main ( int argc, const char** argv )
 			//		delete Particles;
 
 			event->Clear();
-			if (iev % 100000 == 0) cout << iev << " events analysed." << endl;
+			if (iev % 10000 == 0) cout << iev << " events analysed." << endl;
+			if (iev % 1000000 == 0) cout << "Reached " << iev / 1000000 << " events!" << endl;
 
 		}// END EVENT LOOP
 		cout << NumEvents << " events analysed." << endl;

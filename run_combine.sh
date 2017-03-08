@@ -8,7 +8,7 @@
 
 #
 #prefix
-prefix="R4testing"
+prefix="R6NOCHARGE"
 #location to place .root file with pythia events
 res_loc="/media/scratch/packard/db/RChange/"
 #the build location for the RunPythia program
